@@ -1,0 +1,6 @@
+<div class="equipment-bar-item">
+  {{#each thumbs as |thumb|}}
+    {{equipment-item keyroute=thumb.keyroute name=thumb.name sprite=thumb.sprite}}
+  {{/each}}
+  {{links-buttons-item model=model cvSlots=cvSlots}}
+</div>

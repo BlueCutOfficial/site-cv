@@ -1,0 +1,59 @@
+{
+  "projects":[
+    {
+      "id":"energycat",
+      "type":"project-panel",
+      "name":"Energy Cat"
+    },
+    {
+      "id":"linkygame",
+      "type":"project-panel",
+      "name":"Linky Game"
+    },
+    {
+      "id":"dysd",
+      "type":"project-panel",
+      "name":"Do You Speak Digital ?"
+    },
+    {
+      "id":"srg",
+      "type":"project-panel",
+      "name":"Star Runner: Genesis"
+    },
+    {
+      "id":"eds",
+      "type":"project-panel",
+      "name":"AXA Esprit de service"
+    },
+    {
+      "id":"bewilderhouse",
+      "type":"project-panel",
+      "name":"Bewilder House"
+    },
+    {
+      "id":"imagana",
+      "type":"project-panel",
+      "name":"Imagana"
+    },
+    {
+      "id":"lepetitspirou",
+      "type":"project-panel",
+      "name":"Le Petit Sprirou : Le jeu"
+    },
+    {
+      "id":"reef",
+      "type":"project-panel",
+      "name":"Reef"
+    },
+    {
+      "id":"superkoala",
+      "type":"project-panel",
+      "name":"Super Koala Jetpack Revenge"
+    },
+    {
+      "id":"stupidhermitcrabb",
+      "type":"project-panel",
+      "name":"Stupid Hermit Crabb"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{{#link-to "home.projects.project" slotParams.projectId tagName="button" class="alignleft widthmax"}}
+  <div class="project-slot-info">
+    <img class="project-slot-img" src={{slotParams.sprite}}>
+    <p class="inline">{{slotParams.text}}</p>
+    <div>
+      {{#each slotParams.skills as |skill|}}
+        <span class="label">{{skill}}</span>
+      {{/each}}
+    </div>
+  </div>
+{{/link-to}}

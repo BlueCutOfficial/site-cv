@@ -1,0 +1,27 @@
+<!-- Header : titre de la catégorie -->
+<div class="category-container alignleft">
+  <img src="{{model.sprite}}" />
+  <div class="category-line">
+    <div class="title-container">
+      <div class="category-title">{{model.name}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <!-- Affichage des slots appartenant à la catégorie -->
+    <div class="category-slots alignleft scrollable {{colClassSlots}}">
+      {{#each model.slots as |slot|}}
+        {{component (concat "slots/" slot.slotType) slotParams=slot}}
+      {{/each}}
+    </div>
+
+    <!-- Affichage des badges appartenant à la catégorie -->
+    <div class="category-slots alignleft scrollable inline {{colClassBadge}}">
+      {{#each model.badges as |badge|}}
+        {{component "slots/badge-slot" slotParams=badge}}
+      {{/each}}
+    </div>
+  </div>
+</div>
