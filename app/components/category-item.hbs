@@ -1,0 +1,29 @@
+<div class="category-item custombox--large">
+  {{!-- Header : titre de la catégorie --}}
+  <div class="category-container alignleft">
+    <img src="{{this.model.sprite}}" alt="Category {{this.model.name}}" />
+    <div class="category-line">
+      <div class="title-container">
+        <div class="category-title">{{this.model.name}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      {{!-- Affichage des slots appartenant à la catégorie --}}
+      <div class="category-slots alignleft scrollable {{this.colClassSlots}}">
+        {{#each this.model.slots as |slot|}}
+          {{component (concat "slots/" slot.slotType) slotParams=slot}}
+        {{/each}}
+      </div>
+
+      {{!-- Affichage des badges appartenant à la catégorie --}}
+      <div class="category-slots alignleft scrollable inline {{this.colClassBadge}}">
+        {{#each this.model.badges as |badge|}}
+          <Slots::BadgeSlot @slotParams={{badge}} />
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
