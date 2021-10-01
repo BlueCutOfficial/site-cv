@@ -7,13 +7,7 @@ import { tracked } from '@glimmer/tracking';
 export default class CvController extends Controller {
   cvs = [
     {
-      id: 0,
-      text: 'Switch to English',
-      file: '/pdf/CV_Marine_Dunstetter.pdf',
-    },
-    {
       id: 1,
-      text: 'Passer en Français',
       file: '/pdf/CV_Marine_Dunstetter_en.pdf',
     },
   ];
@@ -25,8 +19,4 @@ export default class CvController extends Controller {
     return this.cvs[this.index];
   }
 
-  @action
-  onSwitch() {
-    this.index = this.index === 0 ? 1 : 0;
-  }
 }

@@ -1,12 +1,12 @@
-<div class="main-title custombox--large">
+<div class="main-title custombox--large" ...attributes>
   <div class="padding-side">
     <img
       height="70px"
       src="/img/logos/logosite_white.png"
-      alt="Marine Dunstetter" />
+      alt={{@model.name}} />
   </div>
   <div class="alignleft">
     <h1>{{@model.name}}</h1>
-    <h2 class="sub-h1">{{@model.title}}</h2>
+    <h2 class="sub-h1">{{t "title"}}</h2>
   </div>
 </div>

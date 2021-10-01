@@ -145,6 +145,16 @@ h2 {
   display: inline-flex;
 }
 
+.language-bar {
+  float: right;
+  display: inline-table;
+  button {
+    color: $color1;
+    background: none;
+    border: none;
+  }
+}
+
 // Equipment bar
 .equipment-bar-item {
   border-bottom-style:solid;
