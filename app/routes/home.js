@@ -19,7 +19,7 @@ export default class HomeRoute extends Route {
   }
 
   afterModel(_, transition) {
-    if (transition.targetName === 'home') {
+    if (transition.targetName === 'home.index') {
       this.transitionTo('home.cv');
     }
   }

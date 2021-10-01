@@ -1,4 +1,10 @@
 language:
   toFR: "Afficher le site en français"
   toEN: "Afficher le site en anglais"
+nav:
+  main: "Menu principal"
+  cv: "CV"
+  apps: "Apps"
+  games: "Jeux"
+  art: "Art"
 title: "Développeuse frontend - Applications Web, serious game"

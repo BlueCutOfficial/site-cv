@@ -4,18 +4,19 @@ export default class EquipmentBarItemComponent extends Component {
   thumbs = [
     {
       keyroute: 'home.cv',
-      name: 'CV',
-      sprite: '/img/icons/icon-synopsis.png',
+      name: 'nav.cv',
     },
     {
-      keyroute: 'home.projects',
-      name: 'Projets',
-      sprite: '/img/icons/icon-project.png',
+      keyroute: 'home.apps',
+      name: 'nav.apps',
     },
     {
-      keyroute: 'home.skills',
-      name: 'Compétences',
-      sprite: '/img/icons/icon-skill.png',
+      keyroute: 'home.games',
+      name: 'nav.games',
+    },
+    {
+      keyroute: 'home.art',
+      name: 'nav.art',
     },
   ];
 }

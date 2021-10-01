@@ -1,4 +1,10 @@
 language:
   toFR: "Switch the interface to French"
   toEN: "Switch the interface to English"
+nav:
+  main: "Main menu"
+  cv: "CV"
+  apps: "Apps"
+  games: "Games"
+  art: "Art"
 title: "Frontend developer - Web apps, serious game"

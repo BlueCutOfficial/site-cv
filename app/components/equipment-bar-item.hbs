@@ -1,5 +1,5 @@
-<div class="padding-side" ...attributes>
-  <div class="equipment-bar-item">
+<nav aria-label={{t "nav.main"}} class="padding-side" ...attributes>
+  <ul class="equipment-bar-item">
     {{#each this.thumbs as |thumb|}}
       <EquipmentItem
         @keyroute={{thumb.keyroute}}
@@ -8,5 +8,5 @@
       />
     {{/each}}
     <LinksButtonsItem @model={{@model}} @cvSlots={{@cvSlots}} />
-  </div>
-</div>
+  </ul>
+</nav>
