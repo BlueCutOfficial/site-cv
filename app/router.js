@@ -1,10 +1,10 @@
 import EmberRouter from '@ember/routing/router';
-import config from './config/environment';
+import config from 'site-cv/config/environment';
 
 const Router = EmberRouter.extend({
   location: config.locationType,
   rootURL: config.rootURL
-});
+})
 
 Router.map(function() {
   this.route('home', { path: '/' }, function() {
@@ -14,6 +14,6 @@ Router.map(function() {
     this.route('skills');
     this.route('cv');
   });
-});
+})
 
-export default Router;
+export default Router

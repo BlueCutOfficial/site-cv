@@ -3,19 +3,9 @@
     {
       "id":1,
       "keyroute":"skills",
-      "name": "Programmation",
+      "name": "Développement",
       "sprite": "/img/icons/icon-diploma.png",
       "slots":[
-        {
-          "slotType": "skill-slot",
-          "text": "Unity",
-          "type": "engine"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "BackboneJS",
-          "type": "framework"
-        },
         {
           "slotType": "skill-slot",
           "text": "Ember",
@@ -23,23 +13,8 @@
         },
         {
           "slotType": "skill-slot",
-          "text": "Django",
-          "type": "framework"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "XNA",
-          "type": "framework"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "X-Code",
-          "type": "framework"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "C#",
-          "type": "language"
+          "text": "Unity",
+          "type": "engine"
         },
         {
           "slotType": "skill-slot",
@@ -48,23 +23,33 @@
         },
         {
           "slotType": "skill-slot",
-          "text": "Objective-C",
+          "text": "C#",
           "type": "language"
         },
         {
           "slotType": "skill-slot",
-          "text": "Python",
-          "type": "language"
+          "text": "JSON",
+          "type": "markup"
         },
         {
           "slotType": "skill-slot",
-          "text": "AS3",
-          "type": "language"
+          "text": "HTML",
+          "type": "markup"
         },
         {
           "slotType": "skill-slot",
-          "text": "Java",
-          "type": "language"
+          "text": "CSS",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Saas",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Markdown",
+          "type": "markup"
         },
         {
           "slotType": "skill-slot",
@@ -73,18 +58,18 @@
         },
         {
           "slotType": "skill-slot",
-          "text": "Jenkins",
+          "text": "Git",
           "type": "tool"
         },
         {
           "slotType": "skill-slot",
-          "text": "Git",
-          "type": "versioning"
+          "text": "Trello",
+          "type": "tool"
         },
         {
           "slotType": "skill-slot",
-          "text": "SVN",
-          "type": "versioning"
+          "text": "Jira",
+          "type": "tool"
         }
       ],
       "badges": [
@@ -110,28 +95,23 @@
       "slots":[
         {
           "slotType": "skill-slot",
+          "text": "Krita",
+          "type": "soft2d"
+        },
+        {
+          "slotType": "skill-slot",
           "text": "Photoshop",
+          "type": "soft2d"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Inkscape",
           "type": "soft2d"
         },
         {
           "slotType": "skill-slot",
           "text": "Illustrator",
           "type": "soft2d"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Gimp",
-          "type": "soft2d"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Flash",
-          "type": "anim"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "3DS Max",
-          "type": "soft3d"
         }
       ],
       "badges":[
@@ -304,12 +284,22 @@
     {
       "id":6,
       "keyroute":"skills",
-      "name": "Divers",
+      "name": "Centres d'intérêt",
       "sprite": "/img/icons/icon-diploma.png",
       "slots":[
         {
           "slotType": "skill-slot",
           "text": "Ecriture",
+          "type": "loisir"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Jardinage",
+          "type": "loisir"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Jeux vidéo",
           "type": "loisir"
         },
         {
@@ -351,16 +341,7 @@
         },
         {
           "key":"cat-lover"
-        }
-      ]
-    },
-    {
-      "id":7,
-      "keyroute":"skills",
-      "name": "Game Design",
-      "sprite": "/img/icons/icon-diploma.png",
-      "slots":[],
-      "badges":[
+        },
         {
           "key":"thinker"
         },

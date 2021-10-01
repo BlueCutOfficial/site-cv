@@ -1,0 +1,12 @@
+<div class="padding-side">
+  <div class="equipment-bar-item">
+    {{#each this.thumbs as |thumb|}}
+      <EquipmentItem
+        @keyroute={{thumb.keyroute}}
+        @name={{thumb.name}}
+        @sprite={{thumb.sprite}}
+      />
+    {{/each}}
+    <LinksButtonsItem @model={{@model}} @cvSlots={{@cvSlots}} />
+  </div>
+</div>

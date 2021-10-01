@@ -94,6 +94,7 @@ h2 {
 }
 .inline {
   display: inline-block;
+  margin: 0;
 }
 .padding-side {
   padding-left:$padding-box;
@@ -123,6 +124,7 @@ h2 {
 
 .roundedbox {
   border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 .widthmax {
@@ -148,9 +150,6 @@ h2 {
   border-bottom-style:solid;
   border-bottom-width:$border-width;
   border-bottom-color:$item-color2;
-  p {
-    padding-top: 10px;
-  }
 }
 
 .equipment-item {
@@ -373,13 +372,13 @@ a.active .equipment-item  {
       &.framework, &.anim {
         background-color: #2087af;
       }
-      &.language, &.soft3d {
+      &.markup, &.soft3d {
         background-color: #1dab3c;
       }
       &.tool, &.sport {
-        background-color: #e2913c;
+        background-color: #cc6c07;
       }
-      &.versioning, &.culture {
+      &.language, &.culture {
         background-color: #e23c3c;
       }
     }
@@ -396,12 +395,12 @@ a.active .equipment-item  {
   padding: $padding-box;
 
   h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: $padding-box;
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-bottom: $small-padding;
     margin-top: 0;
   }
