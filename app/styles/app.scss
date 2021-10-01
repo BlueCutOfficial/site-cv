@@ -196,6 +196,10 @@ h2 {
   }
 }
 
+.category-slots {
+  padding-left: 0px;
+}
+
 .equipment-item:hover, .equipment-item:focus {
   background-color: $item-color2;
 }
@@ -344,6 +348,10 @@ a.active .equipment-item  {
   }
 
   .project-slot {
+
+    &:hover {
+      background: $item-color2;
+    }
 
     button {
       padding: $small-padding*1.5;

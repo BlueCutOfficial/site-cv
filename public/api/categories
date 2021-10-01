@@ -215,16 +215,24 @@
       ]
     },
     {
-      "id":4,
-      "keyroute":"projects",
-      "name": "Bibliothèque",
+      "id": "library",
+      "keyroute": "art",
+      "name": "category.library",
       "sprite": "/img/icons/icon-library.png",
       "slots":[
         {
+          "id": "renard",
           "slotType": "book-slot",
-          "title":"Suzuha",
+          "title":"category.slot.renard",
           "sprite": "/img/miniatures/suzuha.jpg",
           "link": "http://academie-des-renards.dunstetter.fr/"
+        },
+        {
+          "id": "travel",
+          "slotType": "book-slot",
+          "title":"category.slot.travel",
+          "sprite": "/img/miniatures/suzuha.jpg",
+          "link": "https://panodyssey.com/fr/creative/room/l17-la-salle-de-langue-e65ncc9kc74q"
         }
       ]
     },

@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row">
     <div class="col-md-5">
-      {{#each model as |category|}}
-        {{category-item model=category}}
+      {{#each this.model as |category|}}
+        <CategoryItem @model={{category}} />
       {{/each}}
     </div>
     <div class="col-md-7">

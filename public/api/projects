@@ -36,6 +36,11 @@
       "name":"Imagana"
     },
     {
+      "id":"travel",
+      "type":"project-panel",
+      "name":"Carnets de voyage : Japon"
+    },
+    {
       "id":"lepetitspirou",
       "type":"project-panel",
       "name":"Le Petit Sprirou : Le jeu"
@@ -44,6 +49,11 @@
       "id":"reef",
       "type":"project-panel",
       "name":"Reef"
+    },
+    {
+      "id":"renard",
+      "type":"project-panel",
+      "name":"L'Académie des Renards"
     },
     {
       "id":"superkoala",

@@ -1,4 +1,12 @@
-<a href="{{slotParams.link}}" target="_blank">
-  <img class="shadowbox" src={{slotParams.sprite}} />
-</a>
-<p>{{slotParams.title}}</p>
+<li class="inline widthmax">
+  <LinkTo
+    class="alignleft widthmax"
+    @route="home.art.collection"
+    @model={{@slotParams.id}}>
+    <div class="project-slot custombox">
+      <div class="project-slot-info">
+        <p>{{t (concat @slotParams.title ".label")}}</p>
+      </div>
+    </div>
+  </LinkTo>
+</li>

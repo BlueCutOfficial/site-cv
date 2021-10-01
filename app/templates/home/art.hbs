@@ -1,3 +1,12 @@
-{{#each model as |category|}}
-  {{category-item model=category}}
-{{/each}}
+<div class="container">
+  <div class="row">
+    <div class="col-md-5">
+      {{#each this.model as |category|}}
+        <CategoryItem @model={{category}} />
+      {{/each}}
+    </div>
+    <div class="col-md-7">
+      {{outlet}}
+    </div>
+  </div>
+</div>

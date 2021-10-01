@@ -1,22 +1,22 @@
 <div class="category-item custombox--large">
   {{!-- Header : titre de la catégorie --}}
   <div class="category-container alignleft">
-    <img src="{{this.model.sprite}}" alt="Category {{this.model.name}}" />
+    <img src="{{this.model.sprite}}" alt="Category {{t this.model.name}}" />
     <div class="category-line">
       <div class="title-container">
-        <div class="category-title">{{this.model.name}}</div>
+        <div class="category-title">{{t this.model.name}}</div>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row">
+    <nav aria-label="Category" class="row">
       {{!-- Affichage des slots appartenant à la catégorie --}}
-      <div class="category-slots alignleft scrollable {{this.colClassSlots}}">
+      <ul class="category-slots alignleft scrollable {{this.colClassSlots}}">
         {{#each this.model.slots as |slot|}}
           {{component (concat "slots/" slot.slotType) slotParams=slot}}
         {{/each}}
-      </div>
+      </ul>
 
       {{!-- Affichage des badges appartenant à la catégorie --}}
       <div class="category-slots alignleft scrollable inline {{this.colClassBadge}}">
@@ -24,6 +24,6 @@
           <Slots::BadgeSlot @slotParams={{badge}} />
         {{/each}}
       </div>
-    </div>
+    </nav>
   </div>
 </div>

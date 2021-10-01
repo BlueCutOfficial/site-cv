@@ -1,3 +1,12 @@
+category:
+  library: "Library"
+  slot:
+    renard:
+      label: "L'Académie des Renards"
+      intro: ""
+    travel:
+      label: "Travel notes"
+      intro: ""
 language:
   toFR: "Switch the interface to French"
   toEN: "Switch the interface to English"
@@ -8,3 +17,4 @@ nav:
   games: "Games"
   art: "Art"
 title: "Frontend developer - Web apps, serious game"
+visit: "&#8594; Visit website"

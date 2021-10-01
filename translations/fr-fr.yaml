@@ -1,3 +1,12 @@
+category:
+  library: "Bibliothèque"
+  slot:
+    renard:
+      label: "L'Académie des Renards"
+      intro: ""
+    travel:
+      label: "Carnets de voyage"
+      intro: ""
 language:
   toFR: "Afficher le site en français"
   toEN: "Afficher le site en anglais"
@@ -8,3 +17,4 @@ nav:
   games: "Jeux"
   art: "Art"
 title: "Développeuse frontend - Applications Web, serious game"
+visit: "&#8594; Visiter le site"

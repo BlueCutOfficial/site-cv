@@ -12,7 +12,9 @@ Router.map(function() {
     this.route('games', function() {
       this.route('game', { path: ':id' });
     });
-    this.route('art');
+    this.route('art', function() {
+      this.route('collection', { path: ':id' });
+    });
     this.route('cv');
   });
 })
