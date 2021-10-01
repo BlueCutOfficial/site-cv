@@ -1,4 +1,4 @@
-<div class="main-title custombox--large">
+<div class="main-title custombox--large" ...attributes>
   <div class="padding-side">
     <img
       height="70px"
@@ -9,4 +9,19 @@
     <h1>{{@model.name}}</h1>
     <h2 class="sub-h1">{{@model.title}}</h2>
   </div>
+  <span class="language-bar">
+    <button type="button"
+      aria-label={{t "language.toFR"}}
+      {{on "click" (fn this.updateLanguage "fr-fr")}}
+    >
+      FR
+    </button>
+    <span>|</span>
+    <button type="button"
+      aria-label={{t "language.toEN"}}
+      {{on "click" (fn this.updateLanguage "en-us")}}
+    >
+      EN
+    </button>
+  </span>
 </div>
