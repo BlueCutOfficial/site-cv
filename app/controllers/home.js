@@ -1,8 +1,16 @@
 import Controller from '@ember/controller';
-import { computed } from '@ember/object';
+import { action } from '@ember/object';
+import { inject as service } from '@ember/service';
 
-export default Controller.extend({
-  cvSlots: computed(function() {
-    return this.get('store').peekRecord('category', 1).get('slots');
-  })
-});
+export default class HomeController extends Controller {
+  @service intl;
+
+  get cvSlots() {
+    return this.store.peekRecord('category', 1).get('slots');
+  }
+
+  @action
+  updateLanguage(language) {
+    this.intl.setLocale([language]);
+  }
+}

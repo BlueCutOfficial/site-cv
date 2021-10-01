@@ -1,3 +1,18 @@
+<span class="language-bar">
+  <button type="button"
+    aria-label={{t "language.toFR"}}
+    {{on "click" (fn this.updateLanguage "fr-fr")}}
+  >
+    FR
+  </button>
+  <span>|</span>
+  <button type="button"
+    aria-label={{t "language.toEN"}}
+    {{on "click" (fn this.updateLanguage "en-us")}}
+  >
+    EN
+  </button>
+</span>
 <ProfileHeaderItem class="profile-header" @model={{this.model}} @cvSlots={{this.cvSlots}} />
 <EquipmentBarItem class="equipment-bar" @model={{this.model}} @cvSlots={{this.cvSlots}} />
 {{outlet}}
