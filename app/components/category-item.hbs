@@ -1,7 +1,9 @@
-<div class="category-item custombox--large">
+<div class="category-item">
   {{!-- Header : titre de la catégorie --}}
   <div class="category-container alignleft">
-    <img src="{{this.model.sprite}}" alt="Category {{t this.model.name}}" />
+    <img src="{{this.model.sprite}}"
+      alt="{{t "nav.category"}} {{t this.model.name}}"
+    />
     <div class="category-line">
       <div class="title-container">
         <div class="category-title">{{t this.model.name}}</div>
@@ -10,7 +12,7 @@
   </div>
 
   <div class="container">
-    <nav aria-label="Category" class="row">
+    <nav aria-label="{{t "nav.secondary"}} {{t this.model.name}}" class="row">
       {{!-- Affichage des slots appartenant à la catégorie --}}
       <ul class="category-slots alignleft scrollable {{this.colClassSlots}}">
         {{#each this.model.slots as |slot|}}

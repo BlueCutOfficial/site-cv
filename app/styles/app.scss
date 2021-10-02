@@ -225,6 +225,7 @@ a.active .equipment-item  {
 
 //Category header
 .category-container {
+  width: 100%;
   display: inline-flex;
 
   img {
@@ -232,18 +233,22 @@ a.active .equipment-item  {
   }
 
   .category-line {
+    width: 100%;
     display: inline-flex;
     margin-left: 15px;
-  }
 
-  .category-title {
-    background-color:white;
-    color:$item-color1;
-    font-weight: bold;
-    padding: 4px;
-    padding-left: 20px;
-    min-width: 200px;
-    margin-top: 10px;
+    .title-container {
+      width: 100%;
+
+      .category-title {
+        background-color:white;
+        color:$item-color1;
+        font-weight: bold;
+        padding: 4px;
+        padding-left: 20px;
+        margin-top: 10px;
+      }
+    }
   }
 
   .fa {
@@ -270,16 +275,19 @@ a.active .equipment-item  {
 //Category slots
 .category-slots {
 
-  button {
+  li {
     background-color: $item-color1;
 
     &:hover {
       background-color: $item-color2;
+      border-color: $color2;
     }
 
-    &:focus, &.active {
-      background-color: $item-color2;
-      border-color: $color2;
+    a:focus, a.active {
+      .project-slot {
+        background-color: $item-color2;
+        border-color: $color2;
+      }
     }
   }
 
@@ -351,6 +359,10 @@ a.active .equipment-item  {
 
     &:hover {
       background: $item-color2;
+    }
+
+    p {
+      margin: 0px;
     }
 
     button {
