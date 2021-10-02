@@ -21,6 +21,11 @@
       "name":"Star Runner: Genesis"
     },
     {
+      "id":"homeplay",
+      "type":"project-panel",
+      "name":"Homeplay"
+    },
+    {
       "id":"eds",
       "type":"project-panel",
       "name":"AXA Esprit de service"

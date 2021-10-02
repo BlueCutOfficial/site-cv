@@ -131,13 +131,17 @@ h2 {
   width: 100%;
 }
 
+.badge {
+  float: right;
+  font-weight: 500;
+}
+
 .label {
   background-color:$color2;
   border-radius:6px;
   padding:3px;
   margin-right: 3px;
   margin-bottom: 3px;
-  font-size: 80%;
 }
 
 // Specific

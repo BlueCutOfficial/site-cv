@@ -1,6 +1,12 @@
 category:
+  gallery: "Galerie"
+  games: "Jeux classiques"
+  homeAutomation: "Domotique"
   library: "Bibliothèque"
+  serious: "Jeux sérieux"
   slot:
+    homeplay:
+      label: "Homeplay"
     renard:
       label: "L'Académie des Renards"
       intro: "L'Académie des Renards est ma collection de romans fantasy young adult. Découvrez l'ensemble de l'univers sur mon site d'auteure."

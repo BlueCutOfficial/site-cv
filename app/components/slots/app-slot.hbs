@@ -1,16 +1,13 @@
 <li class="inline widthmax">
   <LinkTo
     class="alignleft widthmax"
-    @route="home.games.game"
-    @model={{@slotParams.projectId}}>
+    @route="home.apps.app"
+    @model={{@slotParams.id}}>
     <div class="project-slot custombox">
       <div class="project-slot-info">
-        <img class="project-slot-img"
-          alt={{@slotParams.projectId}}
-          src={{@slotParams.sprite}}
-          width="30px"
-        >
-        <p class="inline">{{@slotParams.text}}</p>
+        <p class="inline">
+          {{t (concat "category.slot." @slotParams.id ".label")}}
+        </p>
         {{#each @slotParams.skills as |skill|}}
           <span class="badge label">{{skill}}</span>
         {{/each}}

@@ -1,6 +1,6 @@
 /* eslint-disable ember/no-computed-properties-in-native-classes */
 import Controller from '@ember/controller';
-import { action, computed } from '@ember/object';
+import { computed } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 
 // Contrôleur de home.cv, gère l'action de switch entre le cv Français et Anglais
@@ -18,5 +18,4 @@ export default class CvController extends Controller {
   get selected() {
     return this.cvs[this.index];
   }
-
 }

@@ -130,80 +130,108 @@
       ]
     },
     {
-      "id":3,
-      "keyroute":"projects",
-      "name": "Ludothèque",
+      "id": "homeAutomation",
+      "keyroute": "apps",
+      "name": "category.homeAutomation",
+      "sprite": "/img/icons/icon-gamelibrary.png",
+      "slots": [
+        {
+          "slotType": "app-slot",
+          "skills": ["ObjectiveC","Xcode"],
+          "id": "homeplay"
+        }
+      ]
+    },
+    {
+      "id": "serious",
+      "keyroute": "games",
+      "name": "category.serious",
       "sprite": "/img/icons/icon-gamelibrary.png",
       "slots":[
         {
           "slotType": "project-slot",
+          "text": "Eco Smart",
+          "sprite": "/img/icons/icon-gamelibrary.png",
+          "skills": ["Unity","C#"],
+          "projectId": "ecosmart"
+        },
+        {
+          "slotType": "project-slot",
           "text": "Energy Cat",
           "sprite": "/img/projects/energycat.png",
-          "skills":["Unity","C#","Game Design","Management"],
+          "skills": ["Unity","C#"],
           "projectId": "energycat"
         },
         {
           "slotType": "project-slot",
           "text": "Linky Game",
           "sprite": "/img/icons/icon-gamelibrary.png",
-          "skills":["Unity","C#","Management"],
+          "skills": ["Unity","C#"],
           "projectId": "linkygame"
         },
         {
           "slotType": "project-slot",
           "text": "Do You Speak Digital ?",
           "sprite": "/img/icons/icon-gamelibrary.png",
-          "skills":["BackboneJS","Handlebars","Less"],
+          "skills": ["Backbone","Hbs"],
           "projectId": "dysd"
         },
         {
           "slotType": "project-slot",
-          "text": "Star Runner: Genesis",
-          "sprite": "/img/projects/srg.png",
-          "skills":["AS3","Scénarisation","Game Design"],
-          "projectId": "srg"
+          "text": "AXA Esprit de service",
+          "sprite": "/img/icons/icon-gamelibrary.png",
+          "skills": ["JS","JQuery"],
+          "projectId": "eds"
         },
         {
           "slotType": "project-slot",
-          "text": "AXA Esprit de service",
-          "sprite": "/img/projects/eds.png",
-          "skills":["Javascript","JQuery","HTML","CSS"],
-          "projectId": "eds"
+          "text": "Reef",
+          "sprite": "/img/projects/reef.png",
+          "skills": ["XNA","C#"],
+          "projectId": "reef"
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "keyroute": "games",
+      "name": "category.games",
+      "sprite": "/img/icons/icon-gamelibrary.png",
+      "slots":[
+        {
+          "slotType": "project-slot",
+          "text": "Star Runner: Genesis",
+          "sprite": "/img/projects/srg.png",
+          "skills": ["AS3","Scenar"],
+          "projectId": "srg"
         },
         {
           "slotType": "project-slot",
           "text": "Bewilder House",
           "sprite": "/img/projects/bewilderhouse.png",
-          "skills":["Unity","3DS Max","Photoshop","Scénarisation"],
+          "skills": ["Unity","Art","Scenar"],
           "projectId": "bewilderhouse"
         },
         {
           "slotType": "project-slot",
           "text": "Imagana",
           "sprite": "/img/projects/imagana.png",
-          "skills":["Unity","C#","Game Design"],
+          "skills":["Unity","C#","GD"],
           "projectId": "imagana"
         },
         {
           "slotType": "project-slot",
           "text": "Stupid Hermit Crabb",
           "sprite": "/img/projects/stupidhermitcrab.png",
-          "skills":["Flash"],
+          "skills": ["Flash"],
           "projectId": "stupidhermitcrabb"
         },
         {
           "slotType": "project-slot",
           "text": "Le Petit Sprirou : Le jeu",
           "sprite": "/img/icons/icon-gamelibrary.png",
-          "skills":["Flash"],
+          "skills": ["Flash"],
           "projectId": "lepetitspirou"
-        },
-        {
-          "slotType": "project-slot",
-          "text": "Reef",
-          "sprite": "/img/projects/reef.png",
-          "skills":["XNA","C#"],
-          "projectId": "reef"
         },
         {
           "slotType": "project-slot",
@@ -237,9 +265,9 @@
       ]
     },
     {
-      "id":5,
-      "keyroute":"projects",
-      "name": "Galerie",
+      "id": "gallery",
+      "keyroute": "art",
+      "name": "category.gallery",
       "sprite": "/img/icons/icon-gallery.png",
       "slots":[
         {
