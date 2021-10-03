@@ -1,12 +1,7 @@
-import DS from 'ember-data';
+import Model, { attr } from '@ember-data/model';
 
-const {
-  Model,
-  attr
-} = DS;
-
-export default Model.extend({
-  type: attr('string'),
-  name: attr('string'),
-  param: attr()
-});
+export default class ProjectModel extends Model {
+  @attr('string') type;
+  @attr('string') name;
+  @attr('string') param;
+}

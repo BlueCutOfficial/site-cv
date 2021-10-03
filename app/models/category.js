@@ -1,14 +1,9 @@
-import DS from 'ember-data';
+import Model, { attr } from '@ember-data/model';
 
-const {
-  Model,
-  attr
-} = DS;
-
-export default Model.extend({
-  keyroute: attr('string'),
-  name: attr('string'),
-  sprite: attr('string'),
-  slots: attr(),
-  badges: attr()
-});
+export default class CategoryModel extends Model {
+  @attr('string') keyroute;
+  @attr('string') name;
+  @attr('string') sprite;
+  @attr slots;
+  @attr badges;
+}
