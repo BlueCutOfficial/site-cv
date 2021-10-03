@@ -3,7 +3,7 @@
 /vendor/
 
 # compiled output
-/dist/
+/marine/
 /tmp/
 
 # dependencies

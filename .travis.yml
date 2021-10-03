@@ -28,5 +28,5 @@ script:
   - yarn test
 
 after_success:
-  - yarn build --output-path=test-marine
-  - find test-marine/ -type f -exec curl --ftp-create-dirs -T {} ftp://${FTP_USER}:${FTP_PASSWORD}@greatwizard.fr/{} --ftp-ssl -k \;
+  - yarn build --output-path=marine
+  - find marine/ -type f -exec curl --ftp-create-dirs -T {} ftp://${FTP_USER}:${FTP_PASSWORD}@greatwizard.fr/{} --ftp-ssl -k \;
