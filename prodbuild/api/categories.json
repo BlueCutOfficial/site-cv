@@ -4,7 +4,7 @@
       "id":1,
       "keyroute":"skills",
       "name": "Développement",
-      "sprite": "/img/icons/icon-diploma.png",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
       "slots":[
         {
           "slotType": "skill-slot",
@@ -91,7 +91,7 @@
       "id":2,
       "keyroute":"skills",
       "name": "Graphisme",
-      "sprite": "/img/icons/icon-diploma.png",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
       "slots":[
         {
           "slotType": "skill-slot",
@@ -133,7 +133,7 @@
       "id": "homeAutomation",
       "keyroute": "apps",
       "name": "category.homeAutomation",
-      "sprite": "/img/icons/icon-gamelibrary.png",
+      "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
       "slots": [
         {
           "slotType": "app-slot",
@@ -146,47 +146,47 @@
       "id": "serious",
       "keyroute": "games",
       "name": "category.serious",
-      "sprite": "/img/icons/icon-diploma.png",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
       "slots":[
         {
           "slotType": "project-slot",
           "text": "Eco Smart",
-          "sprite": "/img/icons/icon-gamelibrary.png",
+          "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
           "skills": ["Unity","C#"],
           "projectId": "ecosmart"
         },
         {
           "slotType": "project-slot",
           "text": "Energy Cat",
-          "sprite": "/img/icons/projects/energycat.png",
+          "sprite": "/img/icons/projects/energycat-2d21379fa7d6c2627017b8c6be87e893.png",
           "skills": ["Unity","C#"],
           "projectId": "energycat"
         },
         {
           "slotType": "project-slot",
           "text": "Linky Game",
-          "sprite": "/img/icons/icon-gamelibrary.png",
+          "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
           "skills": ["Unity","C#"],
           "projectId": "linkygame"
         },
         {
           "slotType": "project-slot",
           "text": "Do You Speak Digital ?",
-          "sprite": "/img/icons/icon-gamelibrary.png",
+          "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
           "skills": ["Backbone","Hbs"],
           "projectId": "dysd"
         },
         {
           "slotType": "project-slot",
           "text": "AXA Esprit de service",
-          "sprite": "/img/icons/icon-gamelibrary.png",
+          "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
           "skills": ["JS","JQuery"],
           "projectId": "eds"
         },
         {
           "slotType": "project-slot",
           "text": "Reef",
-          "sprite": "/img/icons/projects/reef.png",
+          "sprite": "/img/icons/projects/reef-5742dd764ebbf2f6089f866cab390a2c.png",
           "skills": ["XNA","C#"],
           "projectId": "reef"
         }
@@ -196,47 +196,47 @@
       "id": "games",
       "keyroute": "games",
       "name": "category.games",
-      "sprite": "/img/icons/icon-gamelibrary.png",
+      "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
       "slots":[
         {
           "slotType": "project-slot",
           "text": "Star Runner: Genesis",
-          "sprite": "/img/icons/projects/srg.png",
+          "sprite": "/img/icons/projects/srg-df3f23568d292070ba1adb7de459a6e8.png",
           "skills": ["AS3","Scenar"],
           "projectId": "srg"
         },
         {
           "slotType": "project-slot",
           "text": "Bewilder House",
-          "sprite": "/img/icons/projects/bewilderhouse.png",
+          "sprite": "/img/icons/projects/bewilderhouse-cfd35a4f58c8ad53465de44d85fd7bdb.png",
           "skills": ["Unity","Art","Scenar"],
           "projectId": "bewilderhouse"
         },
         {
           "slotType": "project-slot",
           "text": "Imagana",
-          "sprite": "/img/icons/projects/imagana.png",
+          "sprite": "/img/icons/projects/imagana-b8016903f61c6f8997c7c1308639b7e6.png",
           "skills":["Unity","C#","GD"],
           "projectId": "imagana"
         },
         {
           "slotType": "project-slot",
           "text": "Stupid Hermit Crabb",
-          "sprite": "/img/icons/projects/stupidhermitcrab.png",
+          "sprite": "/img/icons/projects/stupidhermitcrab-c3d6d75ae2b218712f38dbc9717e41ac.png",
           "skills": ["Flash"],
           "projectId": "stupidhermitcrabb"
         },
         {
           "slotType": "project-slot",
           "text": "Le Petit Sprirou : Le jeu",
-          "sprite": "/img/icons/icon-gamelibrary.png",
+          "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
           "skills": ["Flash"],
           "projectId": "lepetitspirou"
         },
         {
           "slotType": "project-slot",
           "text": "Super Koala Jetpack Revenge",
-          "sprite": "/img/icons/projects/skjr.png",
+          "sprite": "/img/icons/projects/skjr-027205a272a245bca34a4961836aec82.png",
           "skills":["Flash"],
           "projectId": "superkoala"
         }
@@ -246,7 +246,7 @@
       "id": "library",
       "keyroute": "art",
       "name": "category.library",
-      "sprite": "/img/icons/icon-library.png",
+      "sprite": "/img/icons/icon-library-83950862a9217f2501beef5371991897.png",
       "slots":[
         {
           "id": "renard",
@@ -268,29 +268,29 @@
       "id": "gallery-",
       "keyroute": "art-",
       "name": "category.gallery",
-      "sprite": "/img/icons/icon-gallery.png",
+      "sprite": "/img/icons/icon-gallery-991bca5c05f90351d9b14ea86d12558d.png",
       "slots":[]
     },
     {
       "id": "gallery-",
       "keyroute": "art-",
       "name": "category.gallery",
-      "sprite": "/img/icons/icon-gallery.png",
+      "sprite": "/img/icons/icon-gallery-991bca5c05f90351d9b14ea86d12558d.png",
       "slots":[
         {
           "slotType": "picture-slot",
           "text": "compagnon",
-          "sprite": "/img/miniatures/compagnon.png"
+          "sprite": "/img/miniatures/compagnon-1472380af8cba6cb4836d04357770f42.png"
         },
         {
           "slotType": "picture-slot",
           "text": "chwgum-keyposes",
-          "sprite": "/img/miniatures/chwgum-keyposes.jpg"
+          "sprite": "/img/miniatures/chwgum-keyposes-7579201693641d8b5e9cc803a898759b.jpg"
         },
         {
           "slotType": "picture-slot",
           "text": "bewilder-stand",
-          "sprite": "/img/miniatures/bewilder-stand.png"
+          "sprite": "/img/miniatures/bewilder-stand-abd608bcce8d46678a49401609b75c62.png"
         },
         {
           "slotType": "picture-slot",
@@ -305,22 +305,22 @@
         {
           "slotType": "picture-slot",
           "text": "dragon-tigre",
-          "sprite": "/img/miniatures/dragon-tigre.png"
+          "sprite": "/img/miniatures/dragon-tigre-631ed5d8eceb0a426918aee973e9979c.png"
         },
         {
           "slotType": "picture-slot",
           "text": "logoGW1",
-          "sprite": "/img/miniatures/blue.png"
+          "sprite": "/img/miniatures/blue-4c3660cc6a973dac418ad2a88347dd67.png"
         },
         {
           "slotType": "picture-slot",
           "text": "logoGW2",
-          "sprite": "/img/miniatures/blue-second.png"
+          "sprite": "/img/miniatures/blue-second-340d451b136e10068152fe55fd60b1dd.png"
         },
         {
           "slotType": "picture-slot",
           "text": "rayman",
-          "sprite": "/img/miniatures/rayman.png"
+          "sprite": "/img/miniatures/rayman-97d03b9aafdb3aeb2fb0c8cab8c5eb07.png"
         }
       ]
     },
@@ -328,7 +328,7 @@
       "id":6,
       "keyroute":"skills",
       "name": "Centres d'intérêt",
-      "sprite": "/img/icons/icon-diploma.png",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
       "slots":[
         {
           "slotType": "skill-slot",

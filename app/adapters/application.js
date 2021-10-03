@@ -1,11 +1,10 @@
-import DS from 'ember-data';
+import RESTAdapter from '@ember-data/adapter/rest';
 
-const {
-  RESTAdapter
-} = DS;
+export default class ApplicationAdapter extends RESTAdapter {
+  namespace = '/api';
 
-export default RESTAdapter.extend({
-
-  namespace: '/api'
-
-});
+  buildURL() {
+    let url = super.buildURL(...arguments);
+    return `${url}.json`;
+  }
+}
