@@ -12,10 +12,13 @@ category:
       intro: "L'Académie des Renards is my collection of young adult fantasy novels (French only). Discover the universe on my author web site."
       site: "Visit the dedicated web site"
       drawings: "New extracts and art works are posted every week on my Instagram account."
-      instragram: "Check out the Instagram account"
+      checkInstragram: "Check out the Instagram account"
+      iconInstragram: "Instagram logo"
     travel:
       label: "Travel notes"
-      intro: "When I am traveling, I like to write all my adventures in a small notebook I bring everywheres."
+      intro: "When I am traveling, I like to write all my adventures in a small notebook I bring everywhere."
+      japanIntro: "In 2017, I had the chance to spend 16 days in Japan. The first part of my notebook is available online."
+      japanNotes: "Discover my travel notes on Panodyssey"
 language:
   toFR: "Switch the interface to French"
   toEN: "Switch the interface to English"

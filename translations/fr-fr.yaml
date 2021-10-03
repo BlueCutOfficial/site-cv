@@ -12,10 +12,13 @@ category:
       intro: "L'Académie des Renards est ma collection de romans fantasy young adult. Découvrez l'ensemble de l'univers sur mon site d'auteure."
       site: "Visiter le site de l'Académie des Renard"
       drawings: "De nouveaux extraits et visuels de l'univers sont publiés chaque semaine sur mon compte Instagram."
-      instragram: "Voir le compte Instagram"
+      checkInstragram: "Voir le compte Instagram"
+      iconInstragram: "Logo Instagram"
     travel:
       label: "Carnets de voyage"
       intro: "Quand je voyage, j'aime consigner toutes mes aventures dans un petit carnet que je promène partout avec moi."
+      japanIntro: "En 2017, j'ai eu la chance de passer 16 jours au Japon. Une partie de mon carnet de voyage est disponible en ligne."
+      japanNotes: "Découvrez mes notes de voyage sur Panosyssey"
 language:
   toFR: "Afficher le site en français"
   toEN: "Afficher le site en anglais"

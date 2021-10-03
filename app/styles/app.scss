@@ -439,6 +439,14 @@ a.active .equipment-item  {
     margin-top: 0;
   }
 
+  img {
+    width: 100%;
+    &.logo {
+      width: 60px;
+      text-align: center;
+    }
+  }
+
   .project-part {
     padding: $padding-box;
 
