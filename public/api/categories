@@ -146,7 +146,7 @@
       "id": "serious",
       "keyroute": "games",
       "name": "category.serious",
-      "sprite": "/img/icons/icon-gamelibrary.png",
+      "sprite": "/img/icons/icon-diploma.png",
       "slots":[
         {
           "slotType": "project-slot",
@@ -158,7 +158,7 @@
         {
           "slotType": "project-slot",
           "text": "Energy Cat",
-          "sprite": "/img/projects/energycat.png",
+          "sprite": "/img/icons/projects/energycat.png",
           "skills": ["Unity","C#"],
           "projectId": "energycat"
         },
@@ -186,7 +186,7 @@
         {
           "slotType": "project-slot",
           "text": "Reef",
-          "sprite": "/img/projects/reef.png",
+          "sprite": "/img/icons/projects/reef.png",
           "skills": ["XNA","C#"],
           "projectId": "reef"
         }
@@ -201,28 +201,28 @@
         {
           "slotType": "project-slot",
           "text": "Star Runner: Genesis",
-          "sprite": "/img/projects/srg.png",
+          "sprite": "/img/icons/projects/srg.png",
           "skills": ["AS3","Scenar"],
           "projectId": "srg"
         },
         {
           "slotType": "project-slot",
           "text": "Bewilder House",
-          "sprite": "/img/projects/bewilderhouse.png",
+          "sprite": "/img/icons/projects/bewilderhouse.png",
           "skills": ["Unity","Art","Scenar"],
           "projectId": "bewilderhouse"
         },
         {
           "slotType": "project-slot",
           "text": "Imagana",
-          "sprite": "/img/projects/imagana.png",
+          "sprite": "/img/icons/projects/imagana.png",
           "skills":["Unity","C#","GD"],
           "projectId": "imagana"
         },
         {
           "slotType": "project-slot",
           "text": "Stupid Hermit Crabb",
-          "sprite": "/img/projects/stupidhermitcrab.png",
+          "sprite": "/img/icons/projects/stupidhermitcrab.png",
           "skills": ["Flash"],
           "projectId": "stupidhermitcrabb"
         },
@@ -236,7 +236,7 @@
         {
           "slotType": "project-slot",
           "text": "Super Koala Jetpack Revenge",
-          "sprite": "/img/projects/skjr.png",
+          "sprite": "/img/icons/projects/skjr.png",
           "skills":["Flash"],
           "projectId": "superkoala"
         }
