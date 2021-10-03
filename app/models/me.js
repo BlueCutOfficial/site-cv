@@ -4,6 +4,5 @@ export default class MeModel extends Model {
   @attr('string') name;
   @attr('string') title;
   @attr('string') mail;
-  @attr('string') linkLinkedin;
-  @attr('string') linkGithub;
+  @attr networks;
 }

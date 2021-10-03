@@ -174,27 +174,27 @@ h2 {
 }
 
 .links-buttons {
-  border-left-style:solid;
-  border-left-width:$border-width;
-  border-left-color:$item-color2;
+  float: right;
 
-  .line {
-
-    .category-slots {
-      margin-left: 0;
-      margin-bottom: 0;
-      display: inline-block;
-
-      button {
-        margin-bottom:0;
-      }
-    }
+  .custombox {
+    padding-top: $small-padding;
 
     a {
       cursor: pointer;
       img {
         width:40px;
-        height: 40px;
+        padding-left: $small-padding;
+      }
+    }
+  }
+
+  .line {
+    .category-slots {
+      margin-left: 0;
+      margin-bottom: 0;
+      display: inline-block;
+      button {
+        margin-bottom:0;
       }
     }
   }

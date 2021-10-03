@@ -1,0 +1,13 @@
+<div class="inline links-buttons pull-right">
+  <div class="custombox">
+    {{#each @model.networks as |network|}}
+      <a target="_blank"
+        rel="noopener noreferrer"
+        href={{network.link}}>
+        <img alt={{t (concat "me.network." network.id)}}
+          src={{network.logo}}
+        />
+      </a>
+    {{/each}}
+  </div>
+</div>

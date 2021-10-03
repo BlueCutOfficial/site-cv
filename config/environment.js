@@ -18,8 +18,8 @@ module.exports = function (environment) {
     },
 
     APP: {
-      // Here you can pass flags/options to your application instance
-      // when it is created
+      heberger:
+        'PulseHeberg - 55 avenue des champs Pierreux - 92012 Nanterre Cedex - +33 (0) 1 79 73 62 22',
     },
   };
 

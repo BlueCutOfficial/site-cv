@@ -27,5 +27,11 @@ nav:
   apps: "Apps"
   games: "Jeux"
   art: "Art"
-title: "Lead développeuse frontend - Applications Web, serious game"
+me:
+  network:
+    github: "Visiter mon Github"
+    linkedin: "Visiter mon Linkedin"
+    panodyssey: "Lire mes articles sur Panodyssey"
+    twitter: "Visiter mon Twitter"
+  title: "Lead développeuse frontend - Applications Web, serious game"
 visit: "&#8594; Visiter le site"
