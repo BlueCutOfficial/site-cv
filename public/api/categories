@@ -265,8 +265,15 @@
       ]
     },
     {
-      "id": "gallery",
-      "keyroute": "art",
+      "id": "gallery-",
+      "keyroute": "art-",
+      "name": "category.gallery",
+      "sprite": "/img/icons/icon-gallery.png",
+      "slots":[]
+    },
+    {
+      "id": "gallery-",
+      "keyroute": "art-",
       "name": "category.gallery",
       "sprite": "/img/icons/icon-gallery.png",
       "slots":[
