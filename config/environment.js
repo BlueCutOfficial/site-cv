@@ -18,7 +18,7 @@ module.exports = function (environment) {
     },
 
     APP: {
-      heberger:
+      hoster:
         'PulseHeberg - 55 avenue des champs Pierreux - 92012 Nanterre Cedex - +33 (0) 1 79 73 62 22',
     },
   };

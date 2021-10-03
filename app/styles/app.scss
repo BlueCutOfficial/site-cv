@@ -61,6 +61,12 @@ body {
   font-size: 1.2em;
 }
 
+footer {
+  padding: $small-padding;
+  color: $color2;
+  font-size: 0.8em;
+}
+
 a, a:hover, a:focus {
   text-decoration: none;
   color: $color1;
@@ -145,6 +151,7 @@ h2 {
 }
 
 // Specific
+
 .main-title {
   display: inline-flex;
 }
