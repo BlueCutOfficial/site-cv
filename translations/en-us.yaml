@@ -6,6 +6,16 @@ category:
   library: "Library"
   serious: "Serious games"
   slot:
+    bewilderhouse:
+      label: "Bewilder House"
+    dysd:
+      label: "Do You Speak Digital ?"
+    ecosmart:
+      label: "Eco smart"
+    eds:
+      label: "AXA Esprit de service"
+    energycat:
+      label: "Energy Cat"
     formidable:
       label: "Formidable"
     homeplay:
@@ -14,8 +24,16 @@ category:
       apis: "The application targetted iOS and was developed with Objective-C. The interface consisted in a uniq remote controller allowing to configure different type of devices. On the technical side, different APIs had to work in parallel in order to register and control each device. For instance, the application consumed Parrot's public API (to indicate house plants needs), Netatmo's API (whose sensor communicate the temperature or the quality of the air), and integrated Philips Hue' SDK (to create colored atmospheres with a couple of Hue lamps.)"
       limitations: "Homeplay' specifications went with constraints, making the application itself a simple proof of concept. First, it was about checking how far it could go without using an external server. This constraint quickly reached limitations, as it was impossible to preprogram actions (for example at work, before going home). Indeed, the iPhone had to receive house's wi-fi to control devices. Besides, the diversity of providers APIs and SDKs implied case by case integration, and some devices as Parrot connected sprinkler required a specific communication like a given type of Bluetooth. A user interested in what Homeplay offers would not necessarily see any interest in purchasing new devices."
       context: "The project was initiated by Ecometering company, who charged FremenCorp to implement it."
+    imagana:
+      label: "Imagana"
+    lepetitspirou:
+      label: "Le Petit Sprirou : Le jeu"
+    linkygame:
+      label: "Linky Game"
     mypeopledoc:
       label: "MyPeopleDoc"
+    reef:
+      label: "Reef"
     renard:
       label: "L'Académie des Renards"
       intro: "L'Académie des Renards is my collection of young adult fantasy novels (French only). Discover the universe on my author web site."
@@ -23,6 +41,12 @@ category:
       drawings: "New extracts and art works are posted every week on my Instagram account."
       checkInstragram: "Check out the Instagram account"
       iconInstragram: "Instagram logo"
+    srg:
+      label: "Star Runner: Genesis"
+    stupidhermitcrabb:
+      label: "Stupid Hermit Crabb"
+    superkoala:
+      label: "Super Koala Jetpack Revenge"
     travel:
       label: "Travel notes"
       intro: "When I am traveling, I like to write all my adventures in a small notebook I bring everywhere."

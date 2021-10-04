@@ -10,10 +10,10 @@ export default class EquipmentBarItemComponent extends Component {
       keyroute: 'home.apps',
       name: 'nav.apps',
     },
-    // {
-    //   keyroute: 'home.games',
-    //   name: 'nav.games',
-    // },
+    {
+      keyroute: 'home.games',
+      name: 'nav.games',
+    },
     {
       keyroute: 'home.art',
       name: 'nav.art',

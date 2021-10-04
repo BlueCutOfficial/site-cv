@@ -164,37 +164,27 @@
       "sprite": "/img/icons/icon-diploma.png",
       "slots":[
         {
-          "text": "Eco Smart",
-          "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Unity","C#"],
           "id": "ecosmart"
         },
         {
-          "text": "Energy Cat",
           "sprite": "/img/icons/projects/energycat.png",
           "skills": ["Unity","C#"],
           "id": "energycat"
         },
         {
-          "text": "Linky Game",
-          "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Unity","C#"],
           "id": "linkygame"
         },
         {
-          "text": "Do You Speak Digital ?",
-          "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Backbone","Hbs"],
           "id": "dysd"
         },
         {
-          "text": "AXA Esprit de service",
-          "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["JS","JQuery"],
           "id": "eds"
         },
         {
-          "text": "Reef",
           "sprite": "/img/icons/projects/reef.png",
           "skills": ["XNA","C#"],
           "id": "reef"
@@ -208,37 +198,30 @@
       "sprite": "/img/icons/icon-gamelibrary.png",
       "slots":[
         {
-          "text": "Star Runner: Genesis",
           "sprite": "/img/icons/projects/srg.png",
           "skills": ["AS3","Scenar"],
           "id": "srg"
         },
         {
-          "text": "Bewilder House",
           "sprite": "/img/icons/projects/bewilderhouse.png",
           "skills": ["Unity","Art","Scenar"],
           "id": "bewilderhouse"
         },
         {
-          "text": "Imagana",
           "sprite": "/img/icons/projects/imagana.png",
           "skills":["Unity","C#","GD"],
           "id": "imagana"
         },
         {
-          "text": "Stupid Hermit Crabb",
           "sprite": "/img/icons/projects/stupidhermitcrab.png",
           "skills": ["Flash"],
           "id": "stupidhermitcrabb"
         },
         {
-          "text": "Le Petit Sprirou : Le jeu",
-          "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Flash"],
           "id": "lepetitspirou"
         },
         {
-          "text": "Super Koala Jetpack Revenge",
           "sprite": "/img/icons/projects/skjr.png",
           "skills":["Flash"],
           "id": "superkoala"
