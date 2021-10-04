@@ -41,6 +41,7 @@ nav:
   apps: "Apps"
   games: "Jeux"
   art: "Art"
+noPanel: "Je n'ai pas encore écrit la présentation de ce projet. Elle devrait venir un de ces jours 😄"
 me:
   network:
     github: "Visiter mon Github"
