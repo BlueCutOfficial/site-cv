@@ -130,13 +130,28 @@
       ]
     },
     {
+      "id": "hr",
+      "keyroute": "apps",
+      "slotRoute": "home.apps.app",
+      "sprite": "/img/icons/icon-cv.png",
+      "slots": [
+        {
+          "skills": ["Ember","BS3"],
+          "id": "mypeopledoc"
+        },
+        {
+          "skills": ["Ember","Custom Design System"],
+          "id": "formidable"
+        }
+      ]
+    },
+    {
       "id": "homeAutomation",
       "keyroute": "apps",
-      "name": "category.homeAutomation",
+      "slotRoute": "home.apps.app",
       "sprite": "/img/icons/icon-gamelibrary.png",
       "slots": [
         {
-          "slotType": "app-slot",
           "skills": ["ObjectiveC","Xcode"],
           "id": "homeplay"
         }
@@ -145,121 +160,103 @@
     {
       "id": "serious",
       "keyroute": "games",
-      "name": "category.serious",
+      "slotRoute": "home.games.game",
       "sprite": "/img/icons/icon-diploma.png",
       "slots":[
         {
-          "slotType": "project-slot",
           "text": "Eco Smart",
           "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Unity","C#"],
-          "projectId": "ecosmart"
+          "id": "ecosmart"
         },
         {
-          "slotType": "project-slot",
           "text": "Energy Cat",
           "sprite": "/img/icons/projects/energycat.png",
           "skills": ["Unity","C#"],
-          "projectId": "energycat"
+          "id": "energycat"
         },
         {
-          "slotType": "project-slot",
           "text": "Linky Game",
           "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Unity","C#"],
-          "projectId": "linkygame"
+          "id": "linkygame"
         },
         {
-          "slotType": "project-slot",
           "text": "Do You Speak Digital ?",
           "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Backbone","Hbs"],
-          "projectId": "dysd"
+          "id": "dysd"
         },
         {
-          "slotType": "project-slot",
           "text": "AXA Esprit de service",
           "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["JS","JQuery"],
-          "projectId": "eds"
+          "id": "eds"
         },
         {
-          "slotType": "project-slot",
           "text": "Reef",
           "sprite": "/img/icons/projects/reef.png",
           "skills": ["XNA","C#"],
-          "projectId": "reef"
+          "id": "reef"
         }
       ]
     },
     {
       "id": "games",
       "keyroute": "games",
-      "name": "category.games",
+      "slotRoute": "home.games.game",
       "sprite": "/img/icons/icon-gamelibrary.png",
       "slots":[
         {
-          "slotType": "project-slot",
           "text": "Star Runner: Genesis",
           "sprite": "/img/icons/projects/srg.png",
           "skills": ["AS3","Scenar"],
-          "projectId": "srg"
+          "id": "srg"
         },
         {
-          "slotType": "project-slot",
           "text": "Bewilder House",
           "sprite": "/img/icons/projects/bewilderhouse.png",
           "skills": ["Unity","Art","Scenar"],
-          "projectId": "bewilderhouse"
+          "id": "bewilderhouse"
         },
         {
-          "slotType": "project-slot",
           "text": "Imagana",
           "sprite": "/img/icons/projects/imagana.png",
           "skills":["Unity","C#","GD"],
-          "projectId": "imagana"
+          "id": "imagana"
         },
         {
-          "slotType": "project-slot",
           "text": "Stupid Hermit Crabb",
           "sprite": "/img/icons/projects/stupidhermitcrab.png",
           "skills": ["Flash"],
-          "projectId": "stupidhermitcrabb"
+          "id": "stupidhermitcrabb"
         },
         {
-          "slotType": "project-slot",
           "text": "Le Petit Sprirou : Le jeu",
           "sprite": "/img/icons/icon-gamelibrary.png",
           "skills": ["Flash"],
-          "projectId": "lepetitspirou"
+          "id": "lepetitspirou"
         },
         {
-          "slotType": "project-slot",
           "text": "Super Koala Jetpack Revenge",
           "sprite": "/img/icons/projects/skjr.png",
           "skills":["Flash"],
-          "projectId": "superkoala"
+          "id": "superkoala"
         }
       ]
     },
     {
       "id": "library",
       "keyroute": "art",
-      "name": "category.library",
+      "slotRoute": "home.art.collection",
       "sprite": "/img/icons/icon-library.png",
       "slots":[
         {
           "id": "renard",
-          "slotType": "book-slot",
-          "title":"category.slot.renard",
-          "sprite": "/img/miniatures/suzuha.jpg",
           "link": "http://academie-des-renards.dunstetter.fr/"
         },
         {
           "id": "travel",
-          "slotType": "book-slot",
-          "title":"category.slot.travel",
-          "sprite": "/img/miniatures/suzuha.jpg",
           "link": "https://panodyssey.com/fr/creative/room/l17-la-salle-de-langue-e65ncc9kc74q"
         }
       ]
@@ -267,13 +264,14 @@
     {
       "id": "gallery-",
       "keyroute": "art-",
-      "name": "category.gallery",
+      "slotRoute": "home.art.collection",
       "sprite": "/img/icons/icon-gallery.png",
       "slots":[]
     },
     {
       "id": "gallery-",
       "keyroute": "art-",
+      "slotRoute": "home.art.collection",
       "name": "category.gallery",
       "sprite": "/img/icons/icon-gallery.png",
       "slots":[

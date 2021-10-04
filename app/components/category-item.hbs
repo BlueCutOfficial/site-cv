@@ -2,21 +2,24 @@
   {{!-- Header : titre de la catégorie --}}
   <div class="category-container alignleft">
     <img src="{{this.model.sprite}}"
-      alt="{{t "nav.category"}} {{t this.model.name}}"
+      alt="{{t "nav.category"}} {{t (concat "category." this.model.id)}}"
     />
     <div class="category-line">
       <div class="title-container">
-        <div class="category-title">{{t this.model.name}}</div>
+        <div class="category-title">{{t (concat "category." this.model.id)}}</div>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <nav aria-label="{{t "nav.secondary"}} {{t this.model.name}}" class="row">
+    <nav aria-label="{{t "nav.secondary"}} {{t (concat "category." this.model.id)}}" class="row">
       {{!-- Affichage des slots appartenant à la catégorie --}}
       <ul class="category-slots alignleft scrollable widthmax {{this.colClassSlots}}">
         {{#each this.model.slots as |slot|}}
-          {{component (concat "slots/" slot.slotType) slotParams=slot}}
+          <Slots::ProjectSlot
+            @slotParams={{slot}}
+            @slotRoute={{this.model.slotRoute}}
+          />
         {{/each}}
       </ul>
 

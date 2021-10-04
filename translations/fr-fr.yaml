@@ -1,7 +1,8 @@
 category:
   gallery: "Galerie"
   games: "Jeux classiques"
-  homeAutomation: "Domotique"
+  homeAutomation: "Domotique (Fremen Corp)"
+  hr: Dématérialisation de processus RH (PeopleDoc / UKG)
   library: "Bibliothèque"
   serious: "Jeux sérieux"
   slot:
@@ -29,6 +30,7 @@ language:
 nav:
   category: Catégorie
   main: "Menu principal"
+  projectIcon: "Icône du projet {label}"
   secondary: "Menu secondaire"
   cv: "CV"
   apps: "Apps"

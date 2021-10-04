@@ -1,19 +1,25 @@
 <li class="inline widthmax">
   <LinkTo
     class="alignleft widthmax"
-    @route="home.games.game"
-    @model={{@slotParams.projectId}}>
+    @route={{@slotRoute}}
+    @model={{@slotParams.id}}>
     <div class="project-slot custombox">
       <div class="project-slot-info">
-        <img class="project-slot-img"
-          alt={{@slotParams.projectId}}
-          src={{@slotParams.sprite}}
-          width="30px"
-        >
-        <p class="inline">{{@slotParams.text}}</p>
-        {{#each @slotParams.skills as |skill|}}
-          <span class="badge label">{{skill}}</span>
-        {{/each}}
+        {{#if @slotParams.sprite}}
+          <img class="project-slot-img"
+            alt={{t "nav.projectIcon" label=(t (concat "category.slot." @slotParams.id ".label"))}}
+            src={{@slotParams.sprite}}
+            width="30px"
+          >
+        {{/if}}
+        <p class="inline">
+          {{t (concat "category.slot." @slotParams.id ".label")}}
+        </p>
+        {{#if @slotParams.skills}}
+          {{#each @slotParams.skills as |skill|}}
+            <span class="badge label">{{skill}}</span>
+          {{/each}}
+        {{/if}}
       </div>
     </div>
   </LinkTo>

@@ -1,7 +1,8 @@
 category:
   gallery: "Gallery"
   games: "Classic games"
-  homeAutomation: "Home automation"
+  homeAutomation: "Home automation (Fremen Corp)"
+  hr: Paperless HR process (PeopleDoc / UKG)
   library: "Library"
   serious: "Serious games"
   slot:
@@ -27,8 +28,9 @@ language:
   toFR: "Switch the interface to French"
   toEN: "Switch the interface to English"
 nav:
-  category: Category
+  category: "Category"
   main: "Main menu"
+  projectIcon: "Icon for {label} project"
   secondary: "Secondary menu"
   cv: "CV"
   apps: "Apps"
