@@ -2,16 +2,20 @@ category:
   gallery: "Galerie"
   games: "Jeux classiques"
   homeAutomation: "Domotique (Fremen Corp)"
-  hr: Dématérialisation de processus RH (PeopleDoc / UKG)
+  hr: Processus RH (UKG)
   library: "Bibliothèque"
   serious: "Jeux sérieux"
   slot:
+    formidable:
+      label: "Formidable"
     homeplay:
       label: "Homeplay"
       intro: "Homeplay est un projet d'application servant de contrôleur principal pour différents objets connectés de la maison."
       apis: "L'application, prévue pour iOS, était développée en Objective-C. L'interface consistait en une télécommande unique permettant de régler différents types d'objets connectés, il fallait donc faire coexister les différentes API permettant d'enregistrer et contrôler chaque objet. Ainsi, l'application consommait l'API publique de Parrot (pour indiquer les besoins des plantes d'intérieures), celle de Netatmo (dont le capteur communique la température ou encore la qualité de l'air), et intégrait le SDK de Philips Hue (pour créer des ambiances colorées à l'aide de lampes Hue.)"
       limitations: "Les spécifications de Homeplay comprenaient certaines contraintes, qui faisaient de l'application en elle-même un simple proof of concept. Tout d'abord, il s'agissait de voir jusqu'où il était possible d'aller sans l'intervention d'un serveur externe. Cette contrainte a rapidement montré la limite du concept, car il était difficile de programmer des actions à l'avance. En effet, l'iPhone devait capter le wi-fi de la maison pour agir sur les appareils. De plus, la variété des APIs et des SDKs des constructeurs impliquaient une intégration au cas par cas, et certains appareils, comme l'arroseur connecté de Parrot, requieraient un mode de communication particulier comme un Bluetooth bien précis. Un utilisateur intéressé par les possibilités de Homeplay n'aurait donc pas forcément vu d'intérêt à acquérir tous les objets."
       context: "Le projet était porté par la société Ecometering, qui avait chargé FremenCorp de l'implémentation."
+    mypeopledoc:
+      label: "MyPeopleDoc"
     renard:
       label: "L'Académie des Renards"
       intro: "L'Académie des Renards est ma collection de romans fantasy young adult. Découvrez l'ensemble de l'univers sur mon site d'auteure."
