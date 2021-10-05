@@ -8,6 +8,7 @@ category:
   slot:
     bewilderhouse:
       label: "Bewilder House"
+      intro: "You wake up in a strange fun house that plays with your perception and seems determined to keep you trapped. The only way to escape will be to solve spatialization-related puzzles (and stay alive) through an original use of first person controls. \"Good luck, Mister Grown up\"."
     dysd:
       label: "Do You Speak Digital ?"
     ecosmart:
@@ -52,6 +53,8 @@ category:
       intro: "When I am traveling, I like to write all my adventures in a small notebook I bring everywhere."
       japanIntro: "In 2017, I had the chance to spend 16 days in Japan. The first part of my notebook is available online."
       japanNotes: "Discover my travel notes on Panodyssey"
+general:
+  about: "About"
 hoster: "Hosted by"
 language:
   toFR: "Switch the interface to French"

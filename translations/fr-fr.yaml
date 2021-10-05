@@ -8,6 +8,23 @@ category:
   slot:
     bewilderhouse:
       label: "Bewilder House"
+      intro: "Vous vous réveillez dans une étrange funhouse qui joue avec vos repères et semble déterminée à vous garder pris au piège. Le seul moyen de vous échapper sera de venir à bout des énigmes de spatialisation (et de rester en vie) via une utilisation originale des contrôles en première personne. \"Good luck, Mister Grown up\"."
+      trailer: "Trailer de Bewilder House"
+      linkGamejolt: "Bewilder House est gratuit et disponible sur Gamejolt. <strong><a class=\"important\" target=\"_blank\" href=\"{gamejolt}\" rel=\"noopener noreferrer\">Télécharger-le ici</a></strong> et laissez-nous votre avis ! (Si vous avez aimé le jeu, un petit 5/5 sur Gamejolt augmentera notre visibilité sur le site 😄)</strong>"
+      linkFacebook: "N'hésitez pas à laisser un petit like sur notre <strong><a class=\"important\" target=\"_blank\" href=\"{facebook}\" rel=\"noopener noreferrer\">page Facebook</a></strong>."
+      linkMail: "Si vous souhaitez dire un mot à la Minoteam, nous avons aussi une adresse mail : <strong>bewilderhouse@gmail.com</strong>."
+      about: "Comme le veut la tradition à Supinfogame, la dernière année d’étude consiste à produire un prototype de jeu de qualité, dans une équipe de 5 ou 6 étudiants. Mon projet de fin d’étude se nomme Bewilder House. L’auteur du concept d’origine est Robin Vallery. Au fil de l’année, tous les membres de l’équipe se sont appropriés le concept et ont fait de Bewilder House le jeu qu’il est aujourd’hui."
+      trailerUniverseTitle: "Trailer univers"
+      trailerUniverseContent: "Premier trailer univers réalisé avec 3DS Max au cours du développement du projet. L'objectif était de donner une première idée de l'ambiance du prototype final (on peut y voir ce que fut le clown en des temps très anciens ^^)."
+      gd1: "Bewilder House est un puzzle game en première personne qui place la perte de repère et l’observation au coeur du gameplay."
+      gd2: "Le joueur est perdu dans un labyrinthe constitué de salles identiques et dont la sortie est invisible. Il a en sa possession une carte du labyrinthe indiquant deux informations : l’emplacement de la sortie ainsi que des icônes représentant des repères présents dans le labyrinthe; et c'est tout, le joueur ne connait pas sa propre position."
+      gd3: "Le joueur explore donc le labyrinthe à la recherche de ces repères afin de se spatialiser et de comprendre où se trouve la sortie. Il doit alors rejoindre cette sortie invisible et la « révéler » à l’aide d’une touche."
+      gd4: "Cependant, le labyrinthe a un comportement bien étrange : les portes s’ouvrent et se ferment lorsque le joueur ne les regarde pas, il est donc impossible de se repérer à l’aide des chemins précédemment empruntés, puisque ces chemins changent sans cesse."
+      universeIntro: "Notre univers a été défini autour de trois points clés :"
+      universeContent: "<li>Renforcer la perte de repère par le biais d’un environnement qui joue avec les perceptions.</li><li> Renforcer le sentiment d’enfermement en proposant un lieu clos.</li><li>Renforcer le sentiment que le labyrinthe joue avec le joueur en en faisant une entité vivante de par l’utilisation du genre fantastique.</li>"
+      universeConclusion: "Ainsi, dans Bewilder House, le joueur explore une étrange funhouse contenant tapis roulants, mécanismes en mouvement, objets qui changent de place lorsqu’il ne les regarde pas et visages clownesques angoissants."
+      minoteam: "<strong>Pourquoi l'équipe qui a développé Bewilder House s'appelle la Minoteam ?</strong>"
+      minotaure: "Parce que le concept original du jeu s'appelait \"Minotaure\" ! Le nom du jeu a changé au cours du développement, mais l'équipe a conservé le nom Minoteam."
     dysd:
       label: "Do You Speak Digital ?"
     ecosmart:
@@ -52,6 +69,11 @@ category:
       intro: "Quand je voyage, j'aime consigner toutes mes aventures dans un petit carnet que je promène partout avec moi."
       japanIntro: "En 2017, j'ai eu la chance de passer 16 jours au Japon. Une partie de mon carnet de voyage est disponible en ligne."
       japanNotes: "Découvrez mes notes de voyage sur Panosyssey"
+general:
+  about: "À propos"
+  anecdote: "Anecdote"
+  gd: "Game design"
+  universe: "Univers"
 hoster: "Hébergé par"
 language:
   toFR: "Afficher le site en français"
