@@ -33,6 +33,8 @@ category:
       label: "Eco smart"
     eds:
       label: "AXA Esprit de service"
+      intro: "A serious game about customer relations, developed by Fremen Corp with AXA France."
+      about: "Esprit De Service is a serious game deployed on AXA France intranet in 2014. The purpose was to improve customer relations through activities as dialogues mini game. The high rate of employees participation encouraged AXA to develop similar projects, and FremenCorp developed Esprit De Service 2 a few years later."
     energycat:
       label: "Energy Cat"
     formidable:
