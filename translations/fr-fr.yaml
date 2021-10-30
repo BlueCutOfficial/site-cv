@@ -26,6 +26,9 @@ category:
       minotaure: "Parce que le concept original du jeu s'appelait \"Minotaure\" ! Le nom du jeu a changé au cours du développement, mais l'équipe a conservé le nom Minoteam."
     dysd:
       label: "Do You Speak Digital ?"
+      intro: "Un COOC (Corporate Online Open Course) gamifié sur le thème des nouvelles technologies et d'Internet, développé avec AXA Groupe."
+      about: "Do You Speak Digital ? est un COOC gamifié que Fremen Corp a développé pour AXA Groupe. Il porte sur le thème du \"digital\". Les utilisateurs sont invités à s'informer sur des sujets tels que les moteurs de recherche, les données personnelles, les nouvelles technologies... à travers des vidéos et des quiz. Le projet a été déployé chez AXA en 2015 et a eu un très bon taux de participation."
+      tech: "Ce projet court, développé sur deux mois, est le premier véritable projet Web que j'ai mené seule, de A à Z, et à l'aide d'un framework JS. À l'époque (j'étais très junior, je travaillais depuis moins d'un an), j'avais choisi Backbone JS. Les délais étant très serrés, n'ayant jamais utilisé de framework JS, et sans aucun développeur plus expérimenté pour me guider, j'avais besoin d'un framework facile à prendre en main du point de vue de ma seule expérience de développeuse Unity. Or le pattern MVC de Backbone me paraissait bien identifiable et j'y trouvais mes repères. Mon choix devait être le bon, car le projet a été livré dans le temps imparti :)"
     ecosmart:
       label: "Eco smart"
     eds:
