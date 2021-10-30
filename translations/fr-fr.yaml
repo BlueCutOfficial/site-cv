@@ -37,6 +37,10 @@ category:
       about: "Esprit De Service est un serious game qui a été déployé sur l'intranet de AXA France en 2014. Il vise à améliorer la relation client à travers notamment des mini-jeux de dialogue. Le haut taux de participation des salariés au serious game a encouragé AXA à développer d'autres projets du même type, et FremenCorp a par la suite développé un second serious game Esprit De Service 2."
     energycat:
       label: "Energy Cat"
+      intro: Energy Cat rêve de vivre dans la maison du futur. Tout en avançant pas à pas vers son rêve, aidez-le à gérer sa maison et empêcher son humain de gaspiller trop d'énergie.
+      image: Capture d'écran de l'intro de Energy Cat
+      about: EnerGAware est un projet européen porté par l'université de Plymouth. L'un des aspects du projet était la réalisation d'un serious game permettant la prise de conscience de gestes quotidiens simples à réaliser pour économiser l'énergie. Ce serious game est Energy Cat, réalisé par Fremen Corp.
+      link: "Visitez <strong><a class=\"important\" target=\"_blank\" href=\"{energaware}\" rel=\"noopener noreferrer\">le site Web</a></strong> d'EnerGAware pour plus d'informations sur le projet, les partenaires et pour découvrir davantage d'images du jeu."
     formidable:
       label: "Formidable"
     homeplay:
