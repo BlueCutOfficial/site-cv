@@ -95,6 +95,9 @@ nav:
   apps: "Apps"
   games: "Jeux"
   art: "Art"
+cv:
+  object:
+    label: "Intégration du CV anglais au format PDF"
 noPanel: "Je n'ai pas encore écrit la présentation de ce projet. Elle devrait venir un de ces jours 😄"
 me:
   network:
