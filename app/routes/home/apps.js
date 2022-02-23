@@ -9,7 +9,7 @@ export default class AppsRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName.includes('apps.index')) {
-      this.transitionTo('home.apps.app', 'homeplay');
+      this.transitionTo('home.apps.app', 'mypeopledoc');
     }
   }
 }

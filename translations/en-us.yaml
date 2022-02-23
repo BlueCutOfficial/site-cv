@@ -57,6 +57,12 @@ category:
       label: "Linky Game"
     mypeopledoc:
       label: "MyPeopleDoc"
+      intro: "MyPeopleDoc is a personal e-Vault where employees receive all their monthly payslips and various professional documents."
+      about: "Among all products developed by PeopleDoc, MyPeopleDoc has the specificity to be the only one closed to BtoC. The e-vault is a personal vault that follows the employee along their career. The payslips and professional documents remain accessible when the employee gets a new job, and the vault can be used to upload and store documents."
+      title1: "About my assignment to the project"
+      content1: "After the main developments on the e-vault have been achieved (~2016), the team was assigned to other projects. Historical developers sporadically spent time on it to manage the most important maintenances or security-related features. At the end of 2021, the company wanted to put more effort on the e-vault. I chose to be assign on the e-vault as I wanted to work closer to daily users in a more BtoC context."
+      title2: "Accessibility"
+      content2: "Web changes fastly. In 2016, accessibility was not a key issue as it is today, in a way that developers were not as aware of accessibility issues as they seem to be now. For six years, PeopleDoc UX team made an amazing job around accessibility and knowledge transfer. When I arrived on the e-vault whose status was \"Best effort\" for a long time, modernization of the code and templates refactors to provide a more intuitive and accessible DOM was my main concern at frontend level."
     reef:
       label: "Reef"
     renard:

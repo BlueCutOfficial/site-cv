@@ -57,6 +57,12 @@ category:
       label: "Linky Game"
     mypeopledoc:
       label: "MyPeopleDoc"
+      intro: "MyPeopleDoc est un coffre-fort personnel dématérialisé sur lequel les employés reçoivent leurs fiches de paie mensuelles et d'autres documents professionnels."
+      about: "Parmi tous les produits développés par PeopleDoc, MyPeopleDoc a la particularité d'être plus proche d'un BtoC. Le coffre-fort dématérialisé est personnel et a vocation à suivre l'employé durant sa carrière. En effet, les fiches de paie et autres documents doivent rester accessible même si l'employé change d'emploi, et le coffre peut être utilisé pour uploder et conserver des documents."
+      title1: "À propos de mon affectation au projet"
+      content1: "Une fois achevées les pricipales fonctionnalités du coffre-fort dématérialisé (~2016), l'équipe a été assignée à d'autres projets.  Les développeurs historiques pouvaient ponctuellement gérer les maintenances les plus importantes ou l'ajout de fonctionnalités liées à la sécurité. Fin 2021, l'entreprise a souhaité remonter une équipe plus solide pour le coffre-fort. J'ai choisi d'être assignée au frontend car je voulais travailler pour nos utilisateurs dans un contexte davantage BtoC."
+      title2: "Accessibilité"
+      content2: "Le Web change vite. En 2016, l'accessibilité était moins au coeur des préoccupations qu'aujourd'hui, et les développeurs frontend étaient moins sensibilisés à ces problématiques. En six ans, l'équipe UX de PeopleDoc a fait un travail considérable autour de l'accessibilité et sur la transmission de connaissance. En arrivant sur un projet depuis longtemps en \"Best effort\", la modernisation du code et la refactorisation des templates pour un DOM plus intuitif et accessible ont été mon principal angle d'attaque au niveau frontend."
     reef:
       label: "Reef"
     renard:
