@@ -19,7 +19,7 @@ module.exports = function (environment) {
 
     APP: {
       hoster:
-        'PulseHeberg - 55 avenue des champs Pierreux - 92012 Nanterre Cedex - +33 (0) 1 79 73 62 22',
+        'GitHub Inc - 88 Colin P Kelly Jr Street San Francisco, CA 94107 United States - 1-415-448-6673',
     },
   };
 
