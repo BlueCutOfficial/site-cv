@@ -1,0 +1,396 @@
+{
+  "categories":[
+    {
+      "id":1,
+      "keyroute":"skills",
+      "name": "Développement",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
+      "slots":[
+        {
+          "slotType": "skill-slot",
+          "text": "Ember",
+          "type": "framework"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Unity",
+          "type": "engine"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "JavaScript",
+          "type": "language"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "C#",
+          "type": "language"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "JSON",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "HTML",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "CSS",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Saas",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Markdown",
+          "type": "markup"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Unity Cloud Build",
+          "type": "tool"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Git",
+          "type": "tool"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Trello",
+          "type": "tool"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Jira",
+          "type": "tool"
+        }
+      ],
+      "badges": [
+        {
+          "key":"graduate-prog"
+        },
+        {
+          "key":"gameplay-prog"
+        },
+        {
+          "key":"curious-prog"
+        },
+        {
+          "key":"conscientious-prog"
+        }
+      ]
+    },
+    {
+      "id":2,
+      "keyroute":"skills",
+      "name": "Graphisme",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
+      "slots":[
+        {
+          "slotType": "skill-slot",
+          "text": "Krita",
+          "type": "soft2d"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Photoshop",
+          "type": "soft2d"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Inkscape",
+          "type": "soft2d"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Illustrator",
+          "type": "soft2d"
+        }
+      ],
+      "badges":[
+        {
+          "key":"heaven-door"
+        },
+        {
+          "key":"game-artist"
+        },
+        {
+          "key":"clown-story"
+        },
+        {
+          "key":"da-junior"
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "keyroute": "apps",
+      "slotRoute": "home.apps.app",
+      "sprite": "/img/icons/icon-cv-3a582468237b04facde2fdbe7c4accbe.png",
+      "slots": [
+        {
+          "skills": ["Ember","BS3"],
+          "id": "mypeopledoc"
+        },
+        {
+          "skills": ["Ember","Custom Design System"],
+          "id": "formidable"
+        }
+      ]
+    },
+    {
+      "id": "homeAutomation",
+      "keyroute": "apps",
+      "slotRoute": "home.apps.app",
+      "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
+      "slots": [
+        {
+          "skills": ["ObjectiveC","Xcode"],
+          "id": "homeplay"
+        }
+      ]
+    },
+    {
+      "id": "serious",
+      "keyroute": "games",
+      "slotRoute": "home.games.game",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
+      "slots":[
+        {
+          "skills": ["Unity","C#"],
+          "id": "ecosmart"
+        },
+        {
+          "sprite": "/img/icons/projects/energycat-2d21379fa7d6c2627017b8c6be87e893.png",
+          "skills": ["Unity","C#"],
+          "id": "energycat"
+        },
+        {
+          "skills": ["Unity","C#"],
+          "id": "linkygame"
+        },
+        {
+          "skills": ["Backbone","Hbs"],
+          "id": "dysd"
+        },
+        {
+          "skills": ["JS","JQuery"],
+          "id": "eds"
+        },
+        {
+          "sprite": "/img/icons/projects/reef-5742dd764ebbf2f6089f866cab390a2c.png",
+          "skills": ["XNA","C#"],
+          "id": "reef"
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "keyroute": "games",
+      "slotRoute": "home.games.game",
+      "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
+      "slots":[
+        {
+          "sprite": "/img/icons/projects/srg-df3f23568d292070ba1adb7de459a6e8.png",
+          "skills": ["AS3","Scenar"],
+          "id": "srg"
+        },
+        {
+          "sprite": "/img/icons/projects/bewilderhouse-cfd35a4f58c8ad53465de44d85fd7bdb.png",
+          "skills": ["Unity","Art","Scenar"],
+          "id": "bewilderhouse"
+        },
+        {
+          "sprite": "/img/icons/projects/imagana-b8016903f61c6f8997c7c1308639b7e6.png",
+          "skills":["Unity","C#","GD"],
+          "id": "imagana"
+        },
+        {
+          "sprite": "/img/icons/projects/stupidhermitcrab-c3d6d75ae2b218712f38dbc9717e41ac.png",
+          "skills": ["Flash"],
+          "id": "stupidhermitcrabb"
+        },
+        {
+          "skills": ["Flash"],
+          "id": "lepetitspirou"
+        },
+        {
+          "sprite": "/img/icons/projects/skjr-027205a272a245bca34a4961836aec82.png",
+          "skills":["Flash"],
+          "id": "superkoala"
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "keyroute": "art",
+      "slotRoute": "home.art.collection",
+      "sprite": "/img/icons/icon-library-83950862a9217f2501beef5371991897.png",
+      "slots":[
+        {
+          "id": "renard",
+          "link": "http://academie-des-renards.dunstetter.fr/"
+        },
+        {
+          "id": "travel",
+          "link": "https://panodyssey.com/fr/creative/room/l17-la-salle-de-langue-e65ncc9kc74q"
+        }
+      ]
+    },
+    {
+      "id": "gallery-",
+      "keyroute": "art-",
+      "slotRoute": "home.art.collection",
+      "sprite": "/img/icons/icon-gallery-991bca5c05f90351d9b14ea86d12558d.png",
+      "slots":[]
+    },
+    {
+      "id": "gallery-",
+      "keyroute": "art-",
+      "slotRoute": "home.art.collection",
+      "name": "category.gallery",
+      "sprite": "/img/icons/icon-gallery-991bca5c05f90351d9b14ea86d12558d.png",
+      "slots":[
+        {
+          "slotType": "picture-slot",
+          "text": "compagnon",
+          "sprite": "/img/miniatures/compagnon-1472380af8cba6cb4836d04357770f42.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "chwgum-keyposes",
+          "sprite": "/img/miniatures/chwgum-keyposes-7579201693641d8b5e9cc803a898759b.jpg"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "bewilder-stand",
+          "sprite": "/img/miniatures/bewilder-stand-abd608bcce8d46678a49401609b75c62.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "gladys",
+          "sprite": "/img/miniatures/gladys.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "chateau",
+          "sprite": "/img/miniatures/chateau.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "dragon-tigre",
+          "sprite": "/img/miniatures/dragon-tigre-631ed5d8eceb0a426918aee973e9979c.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "logoGW1",
+          "sprite": "/img/miniatures/blue-4c3660cc6a973dac418ad2a88347dd67.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "logoGW2",
+          "sprite": "/img/miniatures/blue-second-340d451b136e10068152fe55fd60b1dd.png"
+        },
+        {
+          "slotType": "picture-slot",
+          "text": "rayman",
+          "sprite": "/img/miniatures/rayman-97d03b9aafdb3aeb2fb0c8cab8c5eb07.png"
+        }
+      ]
+    },
+    {
+      "id":6,
+      "keyroute":"skills",
+      "name": "Centres d'intérêt",
+      "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
+      "slots":[
+        {
+          "slotType": "skill-slot",
+          "text": "Ecriture",
+          "type": "loisir"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Jardinage",
+          "type": "loisir"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Jeux vidéo",
+          "type": "loisir"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Equitation",
+          "type": "sport"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Aïkido",
+          "type": "sport"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Yoga",
+          "type": "sport"
+        },
+        {
+          "slotType": "skill-slot",
+          "text": "Japon",
+          "type": "culture"
+        }
+      ],
+      "badges":[
+        {
+          "key":"veteran-horse-rider"
+        },
+        {
+          "key":"contre-vents-et-marees"
+        },
+        {
+          "key":"japanese-learner"
+        },
+        {
+          "key":"chopper-fan"
+        },
+        {
+          "key":"animals-friend"
+        },
+        {
+          "key":"cat-lover"
+        },
+        {
+          "key":"thinker"
+        },
+        {
+          "key":"you-wont-pass"
+        },
+        {
+          "key":"pokefan"
+        },
+        {
+          "key":"hero-of-time"
+        },
+        {
+          "key":"hunter"
+        },
+        {
+          "key":"poesy"
+        },
+        {
+          "key":"retro-gamer"
+        },
+        {
+          "key":"pro-nintendo"
+        }
+      ]
+    }
+  ]
+}
