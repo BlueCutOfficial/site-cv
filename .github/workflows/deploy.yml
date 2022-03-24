@@ -1,7 +1,7 @@
 name: Test branch
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ master ]
 jobs:
   Call-Test-Branch:
     uses: ./.github/workflows/test-branch.yml
