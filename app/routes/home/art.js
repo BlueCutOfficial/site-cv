@@ -10,10 +10,7 @@ export default class ArtRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName.includes('art.index')) {
-      this.transitionTo(
-        'home.art.collection',
-        config.APP.defaultProjectId.art
-      );
+      this.transitionTo('home.art.collection', config.APP.defaultProjectId.art);
     }
   }
 }

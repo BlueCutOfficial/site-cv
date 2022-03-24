@@ -10,10 +10,7 @@ export default class GamesRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName.includes('games.index')) {
-      this.transitionTo(
-        'home.games.game',
-        config.APP.defaultProjectId.games
-      );
+      this.transitionTo('home.games.game', config.APP.defaultProjectId.games);
     }
   }
 }
