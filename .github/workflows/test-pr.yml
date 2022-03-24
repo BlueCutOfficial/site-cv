@@ -1,0 +1,8 @@
+name: Test PR
+on: [push]
+jobs:
+  Test-PR:
+    runs-on: node-14
+    steps:
+    - run: yarn install
+    - run: yarn test
