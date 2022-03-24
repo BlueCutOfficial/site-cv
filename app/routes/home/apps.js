@@ -10,7 +10,7 @@ export default class AppsRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName.includes('apps.index')) {
-      this.transitionTo('home.apps.app', config.APP.defaultProjectRoute.apps);
+      this.transitionTo('home.apps.app', config.APP.defaultProjectId.apps);
     }
   }
 }

@@ -12,7 +12,7 @@ export default class ArtRoute extends Route {
     if (transition.targetName.includes('art.index')) {
       this.transitionTo(
         'home.art.collection',
-        config.APP.defaultProjectRoute.art
+        config.APP.defaultProjectId.art
       );
     }
   }

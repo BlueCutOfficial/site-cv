@@ -12,7 +12,7 @@ export default class GamesRoute extends Route {
     if (transition.targetName.includes('games.index')) {
       this.transitionTo(
         'home.games.game',
-        config.APP.defaultProjectRoute.games
+        config.APP.defaultProjectId.games
       );
     }
   }

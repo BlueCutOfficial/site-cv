@@ -18,7 +18,7 @@ module.exports = function (environment) {
     },
 
     APP: {
-      defaultProjectRoute: {
+      defaultProjectId: {
         apps: 'mypeopledoc',
         games: 'ecosmart',
         art: 'renard',
