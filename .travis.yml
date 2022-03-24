@@ -1,7 +1,7 @@
 ---
 language: node_js
 node_js:
-  - "12"
+  - "14"
 
 dist: xenial
 
@@ -16,17 +16,9 @@ env:
     # See https://git.io/vdao3 for details.
     - JOBS=1
 
-branches:
-  only:
-    - master
-
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
   - export PATH=$HOME/.yarn/bin:$PATH
 
 script:
   - yarn test
-
-after_success:
-  - yarn build --output-path=marine
-  - find marine/ -type f -exec curl --ftp-create-dirs -T {} ftp://${FTP_USER}:${FTP_PASSWORD}@greatwizard.fr/{} --ftp-ssl -k \;
