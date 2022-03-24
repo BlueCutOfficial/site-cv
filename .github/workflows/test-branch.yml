@@ -1,5 +1,5 @@
 name: Test branch
-on: [push]
+on: workflow_call
 jobs:
   Test-Branch:
     runs-on: ubuntu-latest
