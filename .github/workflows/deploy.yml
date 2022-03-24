@@ -1,0 +1,7 @@
+name: Test branch
+on:
+  push:
+    branches: [ $default-branch ]
+jobs:
+  Call-Test-Branch:
+    uses: ./.github/workflows/test-branch.yml

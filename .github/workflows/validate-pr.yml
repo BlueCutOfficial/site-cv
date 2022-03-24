@@ -1,0 +1,5 @@
+name: Test branch
+on: pull_request
+jobs:
+  Call-Test-Branch:
+    uses: ./.github/workflows/test-branch.yml
