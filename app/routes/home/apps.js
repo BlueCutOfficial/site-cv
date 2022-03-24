@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import config from 'site-cv/config/environment';
 
 export default class AppsRoute extends Route {
   model() {
@@ -9,7 +10,7 @@ export default class AppsRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName.includes('apps.index')) {
-      this.transitionTo('home.apps.app', 'mypeopledoc');
+      this.transitionTo('home.apps.app', config.APP.defaultProjectRoute.apps);
     }
   }
 }

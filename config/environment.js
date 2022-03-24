@@ -18,6 +18,11 @@ module.exports = function (environment) {
     },
 
     APP: {
+      defaultProjectRoute: {
+        apps: 'mypeopledoc',
+        games: 'ecosmart',
+        art: 'renard',
+      },
       hoster:
         'GitHub Inc - 88 Colin P Kelly Jr Street San Francisco, CA 94107 United States - 1-415-448-6673',
     },
