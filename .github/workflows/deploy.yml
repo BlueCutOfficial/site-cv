@@ -1,7 +1,18 @@
-name: Test branch
+name: Deploy
 on:
   push:
     branches: [ master ]
 jobs:
-  Call-Test-Branch:
-    uses: ./.github/workflows/test-branch.yml
+  test-and-deploy:
+    concurrency:
+      group: production
+      cancel-in-progress: true
+    steps:
+    - name: Launch tests
+      uses: ./.github/workflows/test-branch.yml
+    - run: yarn build
+    - name: Deploy to Github Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
