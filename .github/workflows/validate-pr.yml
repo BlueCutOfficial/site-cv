@@ -1,5 +1,5 @@
-name: Test branch
+name: Validate PR
 on: pull_request
 jobs:
-  Call-Test-Branch:
+  call-test-branch:
     uses: ./.github/workflows/test-branch.yml
