@@ -13,6 +13,7 @@ jobs:
       group: production
       cancel-in-progress: true
     steps:
+    - run: ls
     - run: |
         cd site-cv/site-cv
         yarn build
