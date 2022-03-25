@@ -71,6 +71,10 @@ category:
       content2: "Web changes fastly. In 2016, accessibility was not a key issue as it is today, in a way that developers were not as aware of accessibility issues as they seem to be now. For six years, PeopleDoc UX team made an amazing job around accessibility and knowledge transfer. When I arrived on the e-vault whose status was \"Best effort\" for a long time, modernization of the code and templates refactors to provide a more intuitive and accessible DOM was my main concern at frontend level."
     reef:
       label: "Reef"
+      intro: "A relaxing serious game inspired by Biorock technology. Biorock technology aims at encouraging coral reefs development. Reef was selected for the final of the Imagine Cup France 2012 contest, it was among the five best French projects in the category game design."
+      content1: "Reef was imagined in the context of the Imagine Cup 2012, category game design. As this contest was organized by Microsoft, the prototype was developed for Windows Phone 7."
+      content2: "Reef has been initially designed by my teammates, Philippe, Marie and Marc. I offered to join them as they were looking for a developer to materialize their concept."
+      content3: "As Reef was selected for the French final, we had the opportunity to attend the Bootcamp! Microsoft invited us in a huge property, with food and drinks always at hand. We spent the whole night developing the game, supported by Microsoft coaches, then we presented it in English in front of the jury."
     renard:
       label: "L'Académie des Renards"
       intro: "L'Académie des Renards is my collection of young adult fantasy novels (French only). Discover the universe on my author web site."
@@ -94,6 +98,7 @@ general:
   anecdote: "Anecdote"
   gd: "Game design"
   universe: "Universe"
+  trailer: "Trailer"
 hoster: "Hosted by"
 language:
   toFR: "Switch the interface to French"

@@ -71,6 +71,10 @@ category:
       content2: "Le Web change vite. En 2016, l'accessibilité était moins au coeur des préoccupations qu'aujourd'hui, et les développeurs frontend étaient moins sensibilisés à ces problématiques. En six ans, l'équipe UX de PeopleDoc a fait un travail considérable autour de l'accessibilité et sur la transmission de connaissance. En arrivant sur un projet depuis longtemps en \"Best effort\", la modernisation du code et la refactorisation des templates pour un DOM plus intuitif et accessible ont été mon principal angle d'attaque au niveau frontend."
     reef:
       label: "Reef"
+      intro: "Un jeu appaisant destiné à informer le public sur la technologie Biorock, qui encourage le développement de récifs coralliens. Reef a été sélectionné pour la finale de l’Imagine Cup France 2012, et a fait partie des cinq meilleurs projets français dans la catégorie game design."
+      content1: "Reef a été imaginé dans le cadre de la participation à l'Imagine Cup 2012, section game design. Ce concours étant organisé par Microsoft, le prototype a été développé pour Windows Phone 7."
+      content2: "Reef était le projet de mes coéquipiers, Philippe, Marie et Marc. Je me suis proposée de les rejoindre car ils étaient en recherche d'un développeur pour concrétiser leur concept."
+      content3: "Comme Reef a été sélectionné pour la finale française, nous avons participé au Bootcamp ! Microsoft nous a invité dans une immense propriété, avec toujours nourriture et boisson à portée de main. Nous avons passé la nuit à développer, soutenus par les coaches de Microsoft, et nous avons fait des présentations en anglais devant les jury."
     renard:
       label: "L'Académie des Renards"
       intro: "L'Académie des Renards est ma collection de romans fantasy young adult. Découvrez l'ensemble de l'univers sur mon site d'auteure."
@@ -94,6 +98,7 @@ general:
   anecdote: "Anecdote"
   gd: "Game design"
   universe: "Univers"
+  trailer: "Trailer"
 hoster: "Hébergé par"
 language:
   toFR: "Afficher le site en français"
