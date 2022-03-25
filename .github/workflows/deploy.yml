@@ -3,8 +3,6 @@ on:
   push:
     branches: [ master ]
 jobs:
-  call-test-branch:
-    uses: ./.github/workflows/test-branch.yml
   deploy:
     runs-on: ubuntu-latest
     concurrency:
@@ -12,6 +10,8 @@ jobs:
       cancel-in-progress: true
     steps:
     - uses: actions/checkout@v2
+    - name: Launch tests
+      uses: ./.github/workflows/test-branch.yml
     - run: yarn build
     - name: Deploy to Github Pages
       uses: peaceiris/actions-gh-pages@v3
