@@ -4,6 +4,7 @@ on:
     branches: [ master ]
 jobs:
   test-and-deploy:
+    runs-on: ubuntu-latest
     concurrency:
       group: production
       cancel-in-progress: true
