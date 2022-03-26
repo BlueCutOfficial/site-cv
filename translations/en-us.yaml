@@ -98,7 +98,10 @@ general:
   anecdote: "Anecdote"
   gd: "Game design"
   universe: "Universe"
+  links: "Links"
   trailer: "Trailer"
+  executable: "Executable"
+  gameplayVideo: "Gameplay video"
 hoster: "Hosted by"
 language:
   toFR: "Switch the interface to French"
