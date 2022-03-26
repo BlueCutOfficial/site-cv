@@ -59,6 +59,9 @@ category:
       label: "Imagana"
     lepetitspirou:
       label: "Le Petit Sprirou : Le jeu"
+      intro: "A platform game that pays respects to the famous Belgian comic of the same name. The player embodies le Petit Spirou who moves from naughtiness to naughtiness through the windows of a Belgian comic."
+      about1: "This game has been created in the context of a partnership between Supinfogame and Dupuis publishing house. All Supinfogame students, years mixed, were split in different teams to make a game inspired by the universe of a Belgium comic published by Dupuis."
+      about2: "My group had to work out of le Petit Spirou. The first prototype was produced by the team in two weeks and presented to Dupuis publishing house. The directors of Dupuis were very enthousiastic about our work and choose to finalize the project, the game was published on September 10th, 2012 on bandgee.com (the site has been closed by now)."
     linkygame:
       label: "Linky Game"
       intro: "Learn how to recognize energy-consuming and dangerous devices alongside Linky, and save the kilowatt-hour."
