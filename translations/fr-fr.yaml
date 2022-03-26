@@ -102,7 +102,7 @@ category:
     srg:
       label: "Star Runner: Genesis"
       intro: "Dans ce jeu d'aventure spatial, explorez l'univers avec votre vaisseau, commercez pour l'améliorer et combattez pour le camp que vous avez choisi."
-      content1: "Star Runner: Genesis est un jeu Flash auto-publié par FremenCorp sur la plateforme Kongregate. Il se place dans la liste des projets Fremen comme un petit clin d'oeil à l'industrie du jeu vidéo classique, d'où proviennent les différents associés, et surtout à la science fiction, une littérature appréciée des fondateurs de l'entreprise."
+      about: "Star Runner: Genesis est un jeu Flash auto-publié par FremenCorp sur la plateforme Kongregate. Il se place dans la liste des projets Fremen comme un petit clin d'oeil à l'industrie du jeu vidéo classique, d'où proviennent les différents associés, et surtout à la science fiction, une littérature appréciée des fondateurs de l'entreprise."
     stupidhermitcrabb:
       label: "Stupid Hermit Crabb"
       intro: "Une colonie de planctons habite sur un Bernard L’ermite particulièrement stupide. Pour assurer la survie de leur hôte, les planctons créent dans son cerveau des connexions neuronales."
