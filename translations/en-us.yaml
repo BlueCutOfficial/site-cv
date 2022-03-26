@@ -61,6 +61,8 @@ category:
       label: "Le Petit Sprirou : Le jeu"
     linkygame:
       label: "Linky Game"
+      intro: "Learn how to recognize energy-consuming and dangerous devices alongside Linky, and save the kilowatt-hour."
+      about: "Linky Game is a little runner developed by FremenCorp for ERDF Champagne-Ardennes. The player's avatar is a personification of the electric meter Linky, which has to connect to the different energy-consuming devices. Linky Game targets a young public and was realized with the contribution of local schoolchildren. The kids designed the levels of the game during workshops."
     mypeopledoc:
       label: "MyPeopleDoc"
       intro: "MyPeopleDoc is a personal e-Vault where employees receive all their monthly payslips and various professional documents."
