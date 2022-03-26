@@ -91,8 +91,13 @@ category:
       label: "Star Runner: Genesis"
       intro: "On board your ship, explore the universe in this space adventure game, trade to improve your ship and fight for the side you have chosen."
       about: "Star Runner: Genesis is a self-published game developed by FremenCorm on Kongregate platform. In this company that is rather a serious game developer, SRG is a nod to the classic video game industry where the associate made a part of their career, and also to science fiction, a literary genre the directors of the company appreciate."
-    stupidhermitcrabb:
-      label: "Stupid Hermit Crabb"
+    stupidhermitcrab:
+      label: "Stupid Hermit crab"
+      intro: "A colony of plankton lives on an exceptionally dumb hermit crab. To ensure their host survival, the plankton create neuronal connections in its brain."
+      download: "Test Stupid Hermit crab! <strong><a target=\"_blank\" class=\"important\" href=\"{mediafire}\" rel=\"noopener noreferrer\">Download it here</a></strong> with MediaFire and launch the .exe located in the zip."
+      content1: "No time to test Stupid Hermit crab? That's too bad, but you can have a look to this video to make a good picture of the game."
+      content2: "Stupid Hermit Crab is a game I made at Supinfogame. It was designed out of the artistic direction of another student project: Crustacity. The challenge was to appropriate the universe of another group to create a puzzle game. The actual goal behind was to test the efficiency of the different teams formed for the next (final) year. Our group has been efficient. We realized a prototype of nice quality in due time and good agreement. Also, we have got the best mark of the year group."
+      content3: "Did you notice? Stupid Hermit Crab was made by the Minoteam! Indeed the project goal was to test the teams who would work together the whole next year. And this said year, we realized Bewilder House."
     superkoala:
       label: "Super Koala Jetpack Revenge"
       intro: "A koala goes in pursuit of its precious eucalyptus leaves, carried away by humans on board their plane. To get them back, the marsupial provides itself with a vacuum and a jetpack that produces an opaque smoke. His goal: vaccum up as many leaves as possible while avoiding its pursuers, hidden under the jetpack smoke."
