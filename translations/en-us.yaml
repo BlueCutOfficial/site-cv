@@ -95,6 +95,8 @@ category:
       label: "Stupid Hermit Crabb"
     superkoala:
       label: "Super Koala Jetpack Revenge"
+      intro: "A koala goes in pursuit of its precious eucalyptus leaves, carried away by humans on board their plane. To get them back, the marsupial provides itself with a vacuum and a jetpack that produces an opaque smoke. His goal: vaccum up as many leaves as possible while avoiding its pursuers, hidden under the jetpack smoke."
+      content1: "Super Koala Jetpack Revenge is a project realized for the \"intensive week\" during my cursus at Supinfogame. It was also my first try with Flash as an artist. We can tell I made some progress since then ^^ but still I like this quirky little game made with Alexis and Valentin, my teammates from the Minoteam."
     travel:
       label: "Travel notes"
       intro: "When I am traveling, I like to write all my adventures in a small notebook I bring everywhere."
