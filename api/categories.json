@@ -164,6 +164,20 @@
       "sprite": "/img/icons/icon-diploma-73b53344628a607e32f2919a3bc7eef2.png",
       "slots":[
         {
+          "sprite": "/img/icons/projects/imagana-b8016903f61c6f8997c7c1308639b7e6.png",
+          "skills":["Unity","C#","GD"],
+          "id": "imagana"
+        },
+        {
+          "sprite": "/img/icons/projects/reef-5742dd764ebbf2f6089f866cab390a2c.png",
+          "skills": ["XNA","C#"],
+          "id": "reef"
+        },
+        {
+          "skills": ["Unity","C#"],
+          "id": "linkygame"
+        },
+        {
           "skills": ["Unity","C#"],
           "id": "ecosmart"
         },
@@ -173,21 +187,12 @@
           "id": "energycat"
         },
         {
-          "skills": ["Unity","C#"],
-          "id": "linkygame"
-        },
-        {
           "skills": ["Backbone","Hbs"],
           "id": "dysd"
         },
         {
           "skills": ["JS","JQuery"],
           "id": "eds"
-        },
-        {
-          "sprite": "/img/icons/projects/reef-5742dd764ebbf2f6089f866cab390a2c.png",
-          "skills": ["XNA","C#"],
-          "id": "reef"
         }
       ]
     },
@@ -198,24 +203,19 @@
       "sprite": "/img/icons/icon-gamelibrary-e9df0c5f53592ec73abfd062924e9fc5.png",
       "slots":[
         {
-          "sprite": "/img/icons/projects/srg-df3f23568d292070ba1adb7de459a6e8.png",
-          "skills": ["AS3","Scenar"],
-          "id": "srg"
-        },
-        {
           "sprite": "/img/icons/projects/bewilderhouse-cfd35a4f58c8ad53465de44d85fd7bdb.png",
           "skills": ["Unity","Art","Scenar"],
           "id": "bewilderhouse"
         },
         {
-          "sprite": "/img/icons/projects/imagana-b8016903f61c6f8997c7c1308639b7e6.png",
-          "skills":["Unity","C#","GD"],
-          "id": "imagana"
-        },
-        {
           "sprite": "/img/icons/projects/stupidhermitcrab-c3d6d75ae2b218712f38dbc9717e41ac.png",
           "skills": ["Flash"],
-          "id": "stupidhermitcrabb"
+          "id": "stupidhermitcrab"
+        },
+        {
+          "sprite": "/img/icons/projects/srg-df3f23568d292070ba1adb7de459a6e8.png",
+          "skills": ["AS3","Scenar"],
+          "id": "srg"
         },
         {
           "skills": ["Flash"],
