@@ -2,7 +2,7 @@
 import Component from '@glimmer/component';
 
 // Categoies can show slots and/or badges
-export default class CategoryItemComponent extends Component {
+export default class CategoryComponent extends Component {
   get hasBadges() {
     let badges = this.args.model.badges;
     return badges !== undefined && badges.length > 0;
