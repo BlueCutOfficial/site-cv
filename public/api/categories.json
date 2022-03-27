@@ -164,6 +164,20 @@
       "sprite": "/img/icons/icon-diploma.png",
       "slots":[
         {
+          "sprite": "/img/icons/projects/imagana.png",
+          "skills":["Unity","C#","GD"],
+          "id": "imagana"
+        },
+        {
+          "sprite": "/img/icons/projects/reef.png",
+          "skills": ["XNA","C#"],
+          "id": "reef"
+        },
+        {
+          "skills": ["Unity","C#"],
+          "id": "linkygame"
+        },
+        {
           "skills": ["Unity","C#"],
           "id": "ecosmart"
         },
@@ -173,21 +187,12 @@
           "id": "energycat"
         },
         {
-          "skills": ["Unity","C#"],
-          "id": "linkygame"
-        },
-        {
           "skills": ["Backbone","Hbs"],
           "id": "dysd"
         },
         {
           "skills": ["JS","JQuery"],
           "id": "eds"
-        },
-        {
-          "sprite": "/img/icons/projects/reef.png",
-          "skills": ["XNA","C#"],
-          "id": "reef"
         }
       ]
     },
@@ -198,24 +203,19 @@
       "sprite": "/img/icons/icon-gamelibrary.png",
       "slots":[
         {
-          "sprite": "/img/icons/projects/srg.png",
-          "skills": ["AS3","Scenar"],
-          "id": "srg"
-        },
-        {
           "sprite": "/img/icons/projects/bewilderhouse.png",
           "skills": ["Unity","Art","Scenar"],
           "id": "bewilderhouse"
         },
         {
-          "sprite": "/img/icons/projects/imagana.png",
-          "skills":["Unity","C#","GD"],
-          "id": "imagana"
-        },
-        {
           "sprite": "/img/icons/projects/stupidhermitcrab.png",
           "skills": ["Flash"],
-          "id": "stupidhermitcrabb"
+          "id": "stupidhermitcrab"
+        },
+        {
+          "sprite": "/img/icons/projects/srg.png",
+          "skills": ["AS3","Scenar"],
+          "id": "srg"
         },
         {
           "skills": ["Flash"],

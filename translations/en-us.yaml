@@ -57,10 +57,26 @@ category:
       context: "The project was initiated by Ecometering company, who charged FremenCorp to implement it."
     imagana:
       label: "Imagana"
+      intro: "A serious game targetting illiterate people. Embody Mô, a character who owns the power to create objects out of phoneme they are composed of. Use this ability to cross obstacles on your way."
+      trailer: "Imagana trailer"
+      about1: "Imagana was a project carried by Formagraph. I worked on the development for 9 monthes, first as an intern, then as a FremenCorp employee."
+      about2: "It was a clever project and I am proud to have taken part in it. It is a serious game that dares being an \"actual game\", a concept every serious games should tend to. Working on this project was very rewarding."
+      links1: "Unfortunately, the web site that used to host Imagana online has been acquired by another company after Formagraph closed."
+      links2: "Check out <strong><a target=\"_blank\" class=\"important\" href=\"{facebook}\" rel=\"noopener noreferrer\">the Facebook page</a></strong> of the game."
+      gameplay1: "Imagana gameplay video"
+      gameplay2: "This video is quite old, but it shows the state of the game when I was working on it. I implemented a lot of elements you can see on screen:<ul><li>First, I contributed to the design and developed the main phonemes slot system that allows to make the \"artefacts\" (the objects contained in the spheres).</li><li>Phonemes drag and drop, and how they stick to the closest slot.</li><li>Also some FX features, like the slot light, the obstacles blink to highlight the area the artefacts must be dropped, the red gems animation to the UI counter...</li><li>I also wrote the artefact's blue shader.</li></ul>I implemented a lot of features not mentioned here and working on this game was a great experience."
+      universe1: "Imagana universe is colorful and whimsical. Illiterate people sometimes pass through difficult situations in their daily life. Formagraph team didn't want to follow a realistic art direction, that could have reproduced daily life schemas and make the player anxious."
+      universe2: "That's why the choice was made to let the player travel a universe opened to dream so they can learn at their own pace without caring about the real world."
+      anecdote: "During my internship at Formagraph, the pedagogue Danielle Chopinot took me to a few playtest sessions at the IFPA (Institut de Formation et de Promotion des Adultes). There I was able to observe how illiterate people behave with the game mechanics I had implemented, and I got a glimpse of a universe I didn't know about."
     lepetitspirou:
       label: "Le Petit Sprirou : Le jeu"
+      intro: "A platform game that pays respects to the famous Belgian comic of the same name. The player embodies le Petit Spirou who moves from naughtiness to naughtiness through the windows of a Belgian comic."
+      about1: "This game has been created in the context of a partnership between Supinfogame and Dupuis publishing house. All Supinfogame students, years mixed, were split in different teams to make a game inspired by the universe of a Belgium comic published by Dupuis."
+      about2: "My group had to work out of le Petit Spirou. The first prototype was produced by the team in two weeks and presented to Dupuis publishing house. The directors of Dupuis were very enthousiastic about our work and choose to finalize the project, the game was published on September 10th, 2012 on bandgee.com (the site has been closed by now)."
     linkygame:
       label: "Linky Game"
+      intro: "Learn how to recognize energy-consuming and dangerous devices alongside Linky, and save the kilowatt-hour."
+      about: "Linky Game is a little runner developed by FremenCorp for ERDF Champagne-Ardennes. The player's avatar is a personification of the electric meter Linky, which has to connect to the different energy-consuming devices. Linky Game targets a young public and was realized with the contribution of local schoolchildren. The kids designed the levels of the game during workshops."
     mypeopledoc:
       label: "MyPeopleDoc"
       intro: "MyPeopleDoc is a personal e-Vault where employees receive all their monthly payslips and various professional documents."
@@ -84,10 +100,19 @@ category:
       iconInstragram: "Instagram logo"
     srg:
       label: "Star Runner: Genesis"
-    stupidhermitcrabb:
-      label: "Stupid Hermit Crabb"
+      intro: "On board your ship, explore the universe in this space adventure game, trade to improve your ship and fight for the side you have chosen."
+      about: "Star Runner: Genesis is a self-published game developed by FremenCorm on Kongregate platform. In this company that is rather a serious game developer, SRG is a nod to the classic video game industry where the associate made a part of their career, and also to science fiction, a literary genre the directors of the company appreciate."
+    stupidhermitcrab:
+      label: "Stupid Hermit crab"
+      intro: "A colony of plankton lives on an exceptionally dumb hermit crab. To ensure their host survival, the plankton create neuronal connections in its brain."
+      download: "Test Stupid Hermit crab! <strong><a target=\"_blank\" class=\"important\" href=\"{mediafire}\" rel=\"noopener noreferrer\">Download it here</a></strong> with MediaFire and launch the .exe located in the zip."
+      content1: "No time to test Stupid Hermit crab? That's too bad, but you can have a look to this video to make a good picture of the game."
+      content2: "Stupid Hermit Crab is a game I made at Supinfogame. It was designed out of the artistic direction of another student project: Crustacity. The challenge was to appropriate the universe of another group to create a puzzle game. The actual goal behind was to test the efficiency of the different teams formed for the next (final) year. Our group has been efficient. We realized a prototype of nice quality in due time and good agreement. Also, we have got the best mark of the year group."
+      content3: "Did you notice? Stupid Hermit Crab was made by the Minoteam! Indeed the project goal was to test the teams who would work together the whole next year. And this said year, we realized Bewilder House."
     superkoala:
       label: "Super Koala Jetpack Revenge"
+      intro: "A koala goes in pursuit of its precious eucalyptus leaves, carried away by humans on board their plane. To get them back, the marsupial provides itself with a vacuum and a jetpack that produces an opaque smoke. His goal: vaccum up as many leaves as possible while avoiding its pursuers, hidden under the jetpack smoke."
+      content1: "Super Koala Jetpack Revenge is a project realized for the \"intensive week\" during my cursus at Supinfogame. It was also my first try with Flash as an artist. We can tell I made some progress since then ^^ but still I like this quirky little game made with Alexis and Valentin, my teammates from the Minoteam."
     travel:
       label: "Travel notes"
       intro: "When I am traveling, I like to write all my adventures in a small notebook I bring everywhere."
@@ -98,7 +123,10 @@ general:
   anecdote: "Anecdote"
   gd: "Game design"
   universe: "Universe"
+  links: "Links"
   trailer: "Trailer"
+  executable: "Executable"
+  gameplayVideo: "Gameplay video"
 hoster: "Hosted by"
 language:
   toFR: "Switch the interface to French"

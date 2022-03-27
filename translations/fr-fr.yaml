@@ -57,10 +57,26 @@ category:
       context: "Le projet était porté par la société Ecometering, qui avait chargé FremenCorp de l'implémentation."
     imagana:
       label: "Imagana"
+      intro: "Un serious game à destination des personnes en situation d’illettrisme. Incarnez Mô, un personnage possédant le pouvoir de créer des objets à partir des phonèmes qui les composent. Utilisez cette capacité afin de franchir des obstacles."
+      trailer: "Cinematique d'introduction de Imagana"
+      about1: "Imagana est un projet porté par la société Formagraph et sur lequel j'ai travaillé pendant 9 mois au cours de son développement, d'abord en tant que stagiaire de Formagraph, puis en tant que salariée de FremenCorp."
+      about2: "Il s'agit d'un projet intelligent auquel je suis fière d'avoir participé. C'est un serious game qui ose être \"un vrai jeu\", un concept vers lequel tout serious game devrait tendre. Travailler sur ce projet a été très enrichissant."
+      links1: "Malheureusement, le site qui hébergeait la version en ligne d'Imagana a été racheté, suite à la fermeture de Formagraph."
+      links2: "Consultez <strong><a target=\"_blank\" class=\"important\" href=\"{facebook}\" rel=\"noopener noreferrer\">la page Facebook</a></strong> du jeu."
+      gameplay1: "Video de gameplay de Imagana"
+      gameplay2: "Cette vidéo de gameplay est ancienne, mais elle montre l'état du projet à l'époque où je travaillais dessus. J'ai implémenté de nombreux éléments que vous voyez à l'écran :<ul><li>Tout d'abord le système principal de slot de phonèmes qui permet de faire apparaître les \"artéfacts\" (objets contenus dans les sphères), et dont j'ai participé au design.</li><li>Le drag and drop des phonèmes, qui viennent se fixer au slot le plus proche.</li><li>Egalement de nombreux FX comme la lumière des slots, le clignotement des obstacles sur lesquels poser les artéfacts, l'animation des gemmes rouges vers le compteur de l'UI...</li><li>J'ai également écris le shader bleuté utilisé pour les artéfacts.</li></ul>J'ai implémenté encore bien d'autres fonctionnalités sur Imagana, et travailler sur ce projet était un réel bonheur."
+      universe1: "L'univers d'Imagana se veut coloré et fantaisiste. Les personnes en situation d'illettrisme vivent parfois des moments difficiles au quotidien. L'équipe de Formagraph ne souhaitait pas se diriger vers une direction artistique réaliste, qui aurait pu reproduire des schémas de tous les jours, plaçant le joueur dans un état d'anxiété."
+      universe2: "Ainsi, le choix a été fait de placer le joueur dans un univers qui lui permet de rêver, et d'apprendre à son rythme sans se soucier du monde réel."
+      anecdote: "Pendant mon stage chez Formagraph, la pédagogue Danielle Chopinot m'a emmenée à quelques sessions de playtest à l'IFPA (Institut de Formation et de Promotion des Adultes). J'ai pu observer comment des joueurs en situation d'illettrisme se comportaient avec les mécaniques que j'avais implémentées, et j'ai entrevu un univers qui m'était jusqu'alors inconnu."
     lepetitspirou:
       label: "Le Petit Sprirou : Le jeu"
+      intro: "Un jeu de plateforme rendant hommage à la célèbre bande dessinée du même nom. Le joueur incarne le Petit Spirou et se déplace de bêtise en bêtise par les fenêtres d'une bande dessinée."
+      about1: "Ce jeu est issu d'un partenariat entre Supinfogame et les éditions Dupuis. Toutes les promotions confondues de Supinfogame ont été réparties en quelques groupes qui devaient réaliser un jeu à partir de l'univers d'une bande dessinée publiée par Dupuis."
+      about2: "Mon groupe a donc travaillé à partir du Petit Spirou. Le premier prototype a été produit par l’équipe en deux semaines et proposé aux éditions Dupuis. Enthousiasmée par notre travail, la direction de Dupuis a choisi de mener le projet à son terme, et le jeu a été publié le 10 Septembre 2012 sur bandgee.com (le site a fini par être fermé)."
     linkygame:
       label: "Linky Game"
+      intro: "Apprenez à reconnaître les objets énergivores et dangereux aux côtés de Linky, et sauvez les kilowatt-heure."
+      about: "Linky Game est un petit runner développé par FremenCorp pour ERDF Champagne-Ardennes. L'avatar du joueur est une personnification du compteur Linky, qui doit se connecter aux différents objets énergivores. Linky Game s'adresse à un public jeune et a été réalisé avec la participation de classes élémentaires et moyennes d'écoles de la région. Les enfants ont conçu les niveaux de jeu lors d'ateliers."
     mypeopledoc:
       label: "MyPeopleDoc"
       intro: "MyPeopleDoc est un coffre-fort personnel dématérialisé sur lequel les employés reçoivent leurs fiches de paie mensuelles et d'autres documents professionnels."
@@ -84,10 +100,19 @@ category:
       iconInstragram: "Logo Instagram"
     srg:
       label: "Star Runner: Genesis"
-    stupidhermitcrabb:
-      label: "Stupid Hermit Crabb"
+      intro: "Dans ce jeu d'aventure spatial, explorez l'univers avec votre vaisseau, commercez pour l'améliorer et combattez pour le camp que vous avez choisi."
+      about: "Star Runner: Genesis est un jeu Flash auto-publié par FremenCorp sur la plateforme Kongregate. Il se place dans la liste des projets Fremen comme un petit clin d'oeil à l'industrie du jeu vidéo classique, d'où proviennent les différents associés, et surtout à la science fiction, une littérature appréciée des fondateurs de l'entreprise."
+    stupidhermitcrab:
+      label: "Stupid Hermit crab"
+      intro: "Une colonie de planctons habite sur un Bernard L’ermite particulièrement stupide. Pour assurer la survie de leur hôte, les planctons créent dans son cerveau des connexions neuronales."
+      download: "Testez Stupid Hermit Crab ! <strong><a target=\"_blank\" class=\"important\" href=\"{mediafire}\" rel=\"noopener noreferrer\">Téléchargez-le ici</a></strong> avec MediaFire et lancez le .exe qui se trouve dans le zip."
+      content1: "Pas le temps de tester Stupid Hermit Crab ? C'est bien dommage, mais vous pouvez jeter un coup d'oeil à cette vidéo pour vous faire une petite idée du jeu."
+      content2: "Stupid Hermit Crab est un projet auquel j'ai participé à Supinfogame. Il a été réalisé à partir de la direction artistique d’un autre projet étudiant : Crustacity. La consigne donnée était de s’approprier l’univers d’un autre groupe afin de créer un puzzle game. L’objectif véritable du projet était de tester l’efficacité des équipes constituées pour l’année suivante. Notre groupe s’est révélé efficace. Nous avons réalisé un prototype de bonne qualité dans le temps imparti et dans la bonne entente. Ainsi, la meilleure note de la promotion nous a été attribuée."
+      content3: "Avez-vous remarqué ? Stupid Hermit Crab a été réalisé par la Minoteam ! En effet, le but du projet était de tester les équipes qui travailleraient ensemble toute l'année suivante. Et l'année suivante, nous avons réalisé Bewilder House."
     superkoala:
       label: "Super Koala Jetpack Revenge"
+      intro: "Un Koala part à la poursuite de ses précieuses feuilles d’eucalyptus, emportées par les humains à bord d’un avion. Pour les récupérer, le marsupial se munit d’un aspirateur et d’un jetpack produisant une fumée opaque. Son but : aspirer le plus de feuilles possible en évitant ses poursuivants, dissimulés sous la fumée du jetpack."
+      content1: "Super Koala Jetpack Revenge est un projet réalisé pendant la seconde \"semaine intensive\" de mon cursus à Supinfogame, il s'agit également de mon premier essai avec Flash en tant que graphiste... On peut dire que j'ai bien progressé depuis ^^, mais je suis quand même contente de ce petit jeu décalé réalisé avec Alexis et Valentin, mes coéquipiers de la Minoteam."
     travel:
       label: "Carnets de voyage"
       intro: "Quand je voyage, j'aime consigner toutes mes aventures dans un petit carnet que je promène partout avec moi."
@@ -98,7 +123,10 @@ general:
   anecdote: "Anecdote"
   gd: "Game design"
   universe: "Univers"
-  trailer: "Trailer"
+  links: "Liens"
+  trailer: "Cinématique d'introduction"
+  executable: "Exécutable"
+  gameplayVideo: "Vidéo de gameplay"
 hoster: "Hébergé par"
 language:
   toFR: "Afficher le site en français"
