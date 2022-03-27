@@ -235,12 +235,10 @@
       "sprite": "/img/icons/icon-library-83950862a9217f2501beef5371991897.png",
       "slots":[
         {
-          "id": "renard",
-          "link": "http://academie-des-renards.dunstetter.fr/"
+          "id": "renard"
         },
         {
-          "id": "travel",
-          "link": "https://panodyssey.com/fr/creative/room/l17-la-salle-de-langue-e65ncc9kc74q"
+          "id": "travel"
         }
       ]
     },

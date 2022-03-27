@@ -1,84 +1,52 @@
 {
   "projects":[
     {
-      "id":"energycat",
-      "type":"project-panel",
-      "name":"Energy Cat"
+      "id":"energycat"
     },
     {
-      "id":"linkygame",
-      "type":"project-panel",
-      "name":"Linky Game"
+      "id":"linkygame"
     },
     {
-      "id":"dysd",
-      "type":"project-panel",
-      "name":"Do You Speak Digital ?"
+      "id":"dysd"
     },
     {
-      "id":"srg",
-      "type":"project-panel",
-      "name":"Star Runner: Genesis"
+      "id":"srg"
     },
     {
-      "id":"homeplay",
-      "type":"project-panel",
-      "name":"Homeplay"
+      "id":"homeplay"
     },
     {
-      "id":"formidable",
-      "type":"project-panel",
-      "name":"Formidable"
+      "id":"formidable"
     },
     {
-      "id":"mypeopledoc",
-      "type":"project-panel",
-      "name":"MyPeopleDoc"
+      "id":"mypeopledoc"
     },
     {
-      "id":"eds",
-      "type":"project-panel",
-      "name":"AXA Esprit de service"
+      "id":"eds"
     },
     {
-      "id":"bewilderhouse",
-      "type":"project-panel",
-      "name":"Bewilder House"
+      "id":"bewilderhouse"
     },
     {
-      "id":"imagana",
-      "type":"project-panel",
-      "name":"Imagana"
+      "id":"imagana"
     },
     {
-      "id":"travel",
-      "type":"project-panel",
-      "name":"Carnets de voyage : Japon"
+      "id":"travel"
     },
     {
-      "id":"lepetitspirou",
-      "type":"project-panel",
-      "name":"Le Petit Sprirou : Le jeu"
+      "id":"lepetitspirou"
     },
     {
-      "id":"reef",
-      "type":"project-panel",
-      "name":"Reef"
+      "id":"reef"
     },
     {
-      "id":"renard",
-      "type":"project-panel",
-      "name":"L'Académie des Renards"
+      "id":"renard"
     },
     {
-      "id":"superkoala",
-      "type":"project-panel",
-      "name":"Super Koala Jetpack Revenge"
+      "id":"superkoala"
     },
     {
-      "id":"stupidhermitcrab",
-      "type":"project-panel",
-      "name":"Stupid Hermit crab"
+      "id":"stupidhermitcrab"
     }
   ]
 }
