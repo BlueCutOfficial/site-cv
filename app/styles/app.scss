@@ -171,13 +171,13 @@ h2 {
 }
 
 // Equipment bar
-.equipment-bar-item {
+.menu-bar-categories {
   border-bottom-style:solid;
   border-bottom-width:$border-width;
   border-bottom-color:$item-color2;
 }
 
-.equipment-item {
+.menu-bar-item {
   min-width: 150px;
   border-right-style:solid;
   border-right-width:$border-width;
@@ -215,11 +215,11 @@ h2 {
   padding-left: 0px;
 }
 
-.equipment-item:hover, .equipment-item:focus {
+.menu-bar-item:hover, .menu-bar-item:focus {
   background-color: $item-color2;
 }
 
-a.active .equipment-item  {
+a.active .menu-bar-item  {
   background-color: $item-color2;
 }
 

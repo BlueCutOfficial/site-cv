@@ -1,7 +1,7 @@
 <nav aria-label={{t "nav.main"}} class="padding-side" ...attributes>
-  <ul class="equipment-bar-item">
+  <ul class="menu-bar-categories">
     {{#each this.thumbs as |thumb|}}
-      <EquipmentItem
+      <MenuBarItem
         @keyroute={{thumb.keyroute}}
         @name={{thumb.name}}
         @sprite={{thumb.sprite}}
