@@ -49,6 +49,7 @@ category:
       link: "Visitez <strong><a class=\"important\" target=\"_blank\" href=\"{energaware}\" rel=\"noopener noreferrer\">le site Web</a></strong> d'EnerGAware pour plus d'informations sur le projet, les partenaires et pour découvrir davantage d'images du jeu."
     formidable:
       label: "Formidable"
+      intro: "Formidable est un puissant éditeur de formulaires. Il permet aux administrateurs RH de créer leurs propres formulaires, puis il les affiche en tant que formulaire à remplir par un employé. Formidable gère des cas d'usage métier très complexes qui seraient très difficiles à mettre en oeuvre avec une solution externe."
     homeplay:
       label: "Homeplay"
       intro: "Homeplay est un projet d'application servant de contrôleur principal pour différents objets connectés de la maison."

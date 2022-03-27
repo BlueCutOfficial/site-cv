@@ -49,6 +49,7 @@ category:
       link: "Visit EnerGAware <strong><a class=\"important\" target=\"_blank\" href=\"{energaware}\" rel=\"noopener noreferrer\">Website</a></strong> to get more information regarding the project, partners, and to see more screens of Energy Cat."
     formidable:
       label: "Formidable"
+      intro: "Formidable is a powerful form editor. It allows HR administrators to build their own forms, then it displays them as forms to fill for an employee. Formidable manages complex use cases related to HR job that would be very difficult to handle with an external solution."
     homeplay:
       label: "Homeplay"
       intro: "Homeplay project is an application consiting in a main remote controller allowing a user to configure different connected devices in their house."
