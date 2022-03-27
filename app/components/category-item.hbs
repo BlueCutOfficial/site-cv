@@ -1,5 +1,5 @@
 <div class="category-item">
-  {{!-- Header : titre de la catégorie --}}
+  {{!-- Header : category title --}}
   <div class="category-container alignleft">
     <img src="{{this.model.sprite}}"
       alt="{{t "nav.category"}} {{t (concat "category." this.model.id)}}"
@@ -13,7 +13,7 @@
 
   <div class="container">
     <nav aria-label="{{t "nav.secondary"}} {{t (concat "category." this.model.id)}}" class="row">
-      {{!-- Affichage des slots appartenant à la catégorie --}}
+      {{!-- Show category' slots --}}
       <ul class="category-slots alignleft scrollable widthmax {{this.colClassSlots}}">
         {{#each this.model.slots as |slot|}}
           <Slots::ProjectSlot
@@ -23,7 +23,7 @@
         {{/each}}
       </ul>
 
-      {{!-- Affichage des badges appartenant à la catégorie --}}
+      {{!-- Show category badges --}}
       <div class="category-slots alignleft scrollable inline {{this.colClassBadge}}">
         {{#each this.model.badges as |badge|}}
           <Slots::BadgeSlot @slotParams={{badge}} />
