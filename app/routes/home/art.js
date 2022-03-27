@@ -1,16 +1,6 @@
-import Route from '@ember/routing/route';
-import config from 'site-cv/config/environment';
+import CategoryRoute from 'site-cv/routing/category-route';
 
-export default class ArtRoute extends Route {
-  model() {
-    return this.store.peekAll('category').filter(function (category) {
-      return category.get('keyroute') === 'art';
-    });
-  }
-
-  afterModel(_, transition) {
-    if (transition.targetName.includes('art.index')) {
-      this.transitionTo('home.art.collection', config.APP.defaultProjectId.art);
-    }
-  }
+export default class ArtRoute extends CategoryRoute {
+  keyRoute = 'art';
+  transitionRoute = 'home.art.collection';
 }
