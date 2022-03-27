@@ -20,7 +20,7 @@ module.exports = function (environment) {
     APP: {
       defaultProjectId: {
         apps: 'mypeopledoc',
-        games: 'ecosmart',
+        games: 'imagana',
         art: 'renard',
       },
       hoster:
