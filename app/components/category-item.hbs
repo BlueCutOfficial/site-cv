@@ -1,31 +1,31 @@
 <div class="category-item">
   {{!-- Header : category title --}}
   <div class="category-container alignleft">
-    <img src="{{this.model.sprite}}"
-      alt="{{t "nav.category"}} {{t (concat "category." this.model.id)}}"
+    <img src={{@model.sprite}}
+      alt="{{t "nav.category"}} {{t (concat "category." @model.id)}}"
     />
     <div class="category-line">
       <div class="title-container">
-        <div class="category-title">{{t (concat "category." this.model.id)}}</div>
+        <div class="category-title">{{t (concat "category." @model.id)}}</div>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <nav aria-label="{{t "nav.secondary"}} {{t (concat "category." this.model.id)}}" class="row">
+    <nav aria-label="{{t "nav.secondary"}} {{t (concat "category." @model.id)}}" class="row">
       {{!-- Show category' slots --}}
       <ul class="category-slots alignleft scrollable widthmax {{this.colClassSlots}}">
-        {{#each this.model.slots as |slot|}}
+        {{#each @model.slots as |slot|}}
           <Slots::ProjectSlot
             @slotParams={{slot}}
-            @slotRoute={{this.model.slotRoute}}
+            @slotRoute={{@model.slotRoute}}
           />
         {{/each}}
       </ul>
 
       {{!-- Show category badges --}}
       <div class="category-slots alignleft scrollable inline {{this.colClassBadge}}">
-        {{#each this.model.badges as |badge|}}
+        {{#each @model.badges as |badge|}}
           <Slots::BadgeSlot @slotParams={{badge}} />
         {{/each}}
       </div>
