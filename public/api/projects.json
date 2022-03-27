@@ -26,6 +26,16 @@
       "name":"Homeplay"
     },
     {
+      "id":"formidable",
+      "type":"project-panel",
+      "name":"Formidable"
+    },
+    {
+      "id":"mypeopledoc",
+      "type":"project-panel",
+      "name":"MyPeopleDoc"
+    },
+    {
       "id":"eds",
       "type":"project-panel",
       "name":"AXA Esprit de service"

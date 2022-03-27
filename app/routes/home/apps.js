@@ -1,16 +1,6 @@
-import Route from '@ember/routing/route';
-import config from 'site-cv/config/environment';
+import CategoryRoute from 'site-cv/routing/category-route';
 
-export default class AppsRoute extends Route {
-  model() {
-    return this.store.peekAll('category').filter(function (category) {
-      return category.get('keyroute') === 'apps';
-    });
-  }
-
-  afterModel(_, transition) {
-    if (transition.targetName.includes('apps.index')) {
-      this.transitionTo('home.apps.app', config.APP.defaultProjectId.apps);
-    }
-  }
+export default class AppsRoute extends CategoryRoute {
+  keyRoute = 'apps';
+  transitionRoute = 'home.apps.app';
 }
