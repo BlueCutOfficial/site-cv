@@ -15,7 +15,7 @@ jobs:
       with:
         node-version: 16
     - run: yarn install
-    - run: yarn test
+    - run: COVERAGE=true yarn test
     - name: Coverage Diff
       uses: greatwizard/coverage-diff-action@v1
       with:
