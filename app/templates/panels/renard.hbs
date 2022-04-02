@@ -1,26 +1,24 @@
-<div class="project-template borderleft">
-  <h1>{{t "category.slot.renard.label"}}</h1>
-  <p>{{t "category.slot.renard.intro"}}</p>
+<ProjectTemplate @projectId="renard" as |tkey|>
   <a href="http://academie-des-renards.dunstetter.fr/"
     target="_blank"
     rel="noopener noreferrer"
   >
     <img class="shadowbox"
-      alt={{t "category.slot.renard.site"}}
+      alt={{t (concat tkey "site")}}
       src="/img/banners/banner-adr.png"
     />
   </a>
-  <div class="project-part t1 aligncenter">
-    <p>{{t "category.slot.renard.drawings"}}</p>
+  <div class="project-part aligncenter">
+    <p>{{t (concat tkey "drawings")}}</p>
     <a href="https://instagram.com/academiedesrenards/"
       target="_blank"
       rel="noopener noreferrer"
     >
-      {{t "category.slot.renard.checkInstragram"}} &#8594;
+      {{t (concat tkey "checkInstragram")}} &#8594;
       <img class="logo"
-        alt={{t "category.slot.renard.iconInstragram"}}
+        alt={{t (concat tkey "iconInstragram")}}
         src="/img/logos/instagram.png"
       />
     </a>
   </div>
-</div>
+</ProjectTemplate>

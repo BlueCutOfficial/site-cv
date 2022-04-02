@@ -1,8 +1,5 @@
-<div class="project-template borderleft">
-  <h1>{{t "category.slot.eds.label"}}</h1>
-  <p>{{t "category.slot.eds.intro"}}</p>
-
-  <div class="project-part t1">
-    <p>{{t "category.slot.eds.about"}}</p>
+<ProjectTemplate @projectId="eds" as |tkey|>
+  <div class="project-part">
+    <p>{{t (concat tkey "about")}}</p>
   </div>
-</div>
+</ProjectTemplate>

@@ -1,12 +1,9 @@
-<div class="project-template borderleft">
-  <h1>{{t "category.slot.imagana.label"}}</h1>
-  <p>{{t "category.slot.imagana.intro"}}</p>
-
-  <div class="project-part t2">
+<ProjectTemplate @projectId="imagana" as |tkey|>
+  <div class="project-part">
     <h2><h2>{{t "general.trailer"}}</h2></h2>
     <div class="video">
       <iframe
-        title={{t "category.slot.imagana.trailer"}}
+        title={{t (concat tkey "trailer")}}
         width="640"
         height="360"
         src="https://www.youtube.com/embed/JGfgdKd0yrU"
@@ -16,46 +13,45 @@
     </div>
   </div>
 
-  <div class="project-part t1">
+  <div class="project-part">
     <h2>{{t "general.about"}}</h2>
-    <p>{{t "category.slot.imagana.about1"}}</p>
-    <p>{{t "category.slot.imagana.about2"}}</p>
+    <p>{{t (concat tkey "about1")}}</p>
+    <p>{{t (concat tkey "about2")}}</p>
   </div>
 
-  <div class="project-part t2">
+  <div class="project-part">
     <h2>{{t "general.links"}}</h2>
-    <p>{{t "category.slot.imagana.links1"}}</p>
-    <p>{{t "category.slot.imagana.links2"
+    <p>{{t (concat tkey "links1")}}</p>
+    <p>{{t (concat tkey "links2")
       htmlSafe=true
       facebook="http://www.facebook.com/imaganalejeu"
     }}</p>
   </div>
 
-  <div class="project-part t1">
+  <div class="project-part">
     <h2>{{t "general.gameplayVideo"}}</h2>
     <div class="video">
       <iframe
-        title={{t "category.slot.imagana.gameplay1"}}
+        title={{t (concat tkey "gameplay1")}}
         width="640"
         height="360"
         src="https://www.youtube.com/embed/yhXU5FAoBwU"
         frameborder="0" allowfullscreen>
       </iframe>
     </div>
-    <p>{{t "category.slot.imagana.gameplay2"
+    <p>{{t (concat tkey "gameplay2")
       htmlSafe=true
     }}</p>
   </div>
 
-  <div class="project-part t2">
+  <div class="project-part">
     <h2>{{t "general.universe"}}</h2>
-    <p>{{t "category.slot.imagana.universe1"}}</p>
-    <p>{{t "category.slot.imagana.universe2"}}</p>
+    <p>{{t (concat tkey "universe1")}}</p>
+    <p>{{t (concat tkey "universe2")}}</p>
   </div>
 
-  <div class="project-part t1">
+  <div class="project-part">
     <h2>{{t "general.anecdote"}}</h2>
-    <p>{{t "category.slot.imagana.anecdote"}}</p>
+    <p>{{t (concat tkey "anecdote")}}</p>
   </div>
-
-</div>
+</ProjectTemplate>

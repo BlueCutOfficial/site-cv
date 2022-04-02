@@ -1,16 +1,14 @@
-<div class="project-template borderleft">
-  <h1>{{t "category.slot.travel.label"}}</h1>
-  <p>{{t "category.slot.travel.intro"}}</p>
-  <div class="project-part t1">
-    <p>{{t "category.slot.travel.japanIntro"}}</p>
+<ProjectTemplate @projectId="travel" as |tkey|>
+  <div class="project-part">
+    <p>{{t (concat tkey "japanIntro")}}</p>
     <a href="https://panodyssey.com/fr/creative/room/les-carnets-du-japon-e65ncc9kc74q"
       target="_blank"
       rel="noopener noreferrer"
     >
       <img class="shadowbox"
-        alt={{t "category.slot.travel.japanNotes"}}
+        alt={{t (concat tkey "japanNotes")}}
         src="/img/banners/banner-himeji.JPG"
       />
     </a>
   </div>
-</div>
+</ProjectTemplate>

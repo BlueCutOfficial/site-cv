@@ -1,10 +1,6 @@
-<div class="project-template borderleft">
-  <h1>{{t "category.slot.superkoala.label"}}</h1>
-  <p>{{t "category.slot.superkoala.intro"}}</p>
-
-  <div class="project-part t2">
+<ProjectTemplate @projectId="superkoala" as |tkey|>
+  <div class="project-part">
     <h2>{{t "general.about"}}</h2>
-    <p>{{t "category.slot.superkoala.content1"}}</p>
+    <p>{{t (concat tkey "content1")}}</p>
   </div>
-
-</div>
+</ProjectTemplate>

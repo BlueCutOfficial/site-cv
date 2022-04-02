@@ -465,7 +465,7 @@ a.active .menu-bar-item  {
       text-align: justify;
     }
 
-    &.t1 {
+    &:nth-child(odd) {
       background-color: $item-color2;
     }
 
