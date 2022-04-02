@@ -1,0 +1,16 @@
+<ProjectTemplate @projectId="selfsite" as |tkey|>
+  <div class="project-part">
+    <p>{{t (concat tkey "repo")
+      htmlSafe=true
+      github="https://github.com/BlueCutOfficial/site-cv"
+    }}</p>
+  </div>
+  <div class="project-part">
+    <h2>{{t (concat tkey "emberTitle")}}</h2>
+    {{t (concat tkey "emberContent") htmlSafe=true}}
+  </div>
+  <div class="project-part">
+    <h2>{{t (concat tkey "gpTitle")}}</h2>
+    {{t (concat tkey "gpContent") htmlSafe=true}}
+  </div>
+</ProjectTemplate>
