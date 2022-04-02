@@ -1,11 +1,11 @@
-<ProjectTemplate @projectId="homeplay">
+<ProjectTemplate @projectId="homeplay" as |tkey|>
   <div class="project-part">
-    <p>{{t "category.slot.homeplay.apis"}}</p>
+    <p>{{t (concat tkey "apis")}}</p>
   </div>
   <div class="project-part">
-    <p>{{t "category.slot.homeplay.limitations"}}</p>
+    <p>{{t (concat tkey "limitations")}}</p>
   </div>
   <div class="project-part">
-    <p>{{t "category.slot.homeplay.context"}}</p>
+    <p>{{t (concat tkey "context")}}</p>
   </div>
 </ProjectTemplate>

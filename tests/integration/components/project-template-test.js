@@ -23,4 +23,13 @@ module('Integration | Component | project-template', function (hooks) {
     assert.dom('p').exists({ count: 2 });
     assert.dom('.desc').hasText('Project custom description.');
   });
+
+  test('it provides a positional param for translation key', async function (assert) {
+    await render(hbs`
+      <ProjectTemplate @projectId="reef" as |tkey|>
+        <p class="key">{{tkey}}</p>
+      </ProjectTemplate>
+    `);
+    assert.dom('.key').hasText('category.slot.reef.');
+  });
 });

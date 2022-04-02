@@ -1,9 +1,9 @@
-<ProjectTemplate @projectId="bewilderhouse">
+<ProjectTemplate @projectId="bewilderhouse" as |tkey|>
   <div class="project-part">
     <h2>{{t "general.trailer"}}</h2>
     <div class="video">
       <iframe
-        title={{t "category.slot.bewilderhouse.trailer"}}
+        title={{t (concat tkey "trailer")}}
         width="640"
         height="360"
         src="https://www.youtube.com/embed/H49-RM41b4I"
@@ -14,20 +14,20 @@
   </div>
 
   <div class="project-part">
-    <p>{{t "category.slot.bewilderhouse.linkGamejolt"
+    <p>{{t (concat tkey "linkGamejolt")
         htmlSafe=true
         gamejolt="http://gamejolt.com/games/puzzle/bewilder-house/17297"
       }}</p>
-    <p>{{t "category.slot.bewilderhouse.linkFacebook"
+    <p>{{t (concat tkey "linkFacebook")
         htmlSafe=true
         facebook="https://www.facebook.com/Bewilder-House-official-255616847933869"
       }}</p>
-    <p>{{t "category.slot.bewilderhouse.linkMail" htmlSafe=true}}</p>
+    <p>{{t (concat tkey "linkMail") htmlSafe=true}}</p>
   </div>
 
   <div class="project-part">
     <h2>{{t "general.about"}}</h2>
-    <p>{{t "category.slot.bewilderhouse.about"}}</p>
+    <p>{{t (concat tkey "about")}}</p>
   </div>
 
   <div class="project-part">
@@ -38,27 +38,27 @@
         height="360">
       </video>
     </div>
-    <p>{{t "category.slot.bewilderhouse.trailerUniverse"}}</p>
+    <p>{{t (concat tkey "trailerUniverse")}}</p>
   </div>
 
   <div class="project-part">
     <h2>{{t "general.gd"}}</h2>
-    <p>{{t "category.slot.bewilderhouse.gd1"}}</p>
-    <p>{{t "category.slot.bewilderhouse.gd2"}}</p>
-    <p>{{t "category.slot.bewilderhouse.gd3"}}</p>
-    <p>{{t "category.slot.bewilderhouse.gd4"}}</p>
+    <p>{{t (concat tkey "gd1")}}</p>
+    <p>{{t (concat tkey "gd2")}}</p>
+    <p>{{t (concat tkey "gd3")}}</p>
+    <p>{{t (concat tkey "gd4")}}</p>
   </div>
 
   <div class="project-part">
     <h2>{{t "general.universe"}}</h2>
-    <p>{{t "category.slot.bewilderhouse.universeIntro"}}</p>
-    <ul>{{t "category.slot.bewilderhouse.universeContent" htmlSafe=true}}</ul>
-    <p>{{t "category.slot.bewilderhouse.universeConclusion"}}</p>
+    <p>{{t (concat tkey "universeIntro")}}</p>
+    <ul>{{t (concat tkey "universeContent") htmlSafe=true}}</ul>
+    <p>{{t (concat tkey "universeConclusion")}}</p>
   </div>
 
   <div class="project-part">
     <h2>{{t "general.anecdote"}}</h2>
-    <p>{{t "category.slot.bewilderhouse.minoteam" htmlSafe=true}}</p>
-    <p>{{t "category.slot.bewilderhouse.minotaure"}}</p>
+    <p>{{t (concat tkey "minoteam") htmlSafe=true}}</p>
+    <p>{{t (concat tkey "minotaure")}}</p>
   </div>
 </ProjectTemplate>

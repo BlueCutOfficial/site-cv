@@ -1,5 +1,7 @@
 <div class="project-template borderleft">
-  <h1>{{t (concat "category.slot." @projectId ".label")}}</h1>
-  <p>{{t (concat "category.slot." @projectId ".intro")}}</p>
-  {{yield}}
+  {{#let (concat "category.slot." @projectId ".") as |tkey|}}
+    <h1>{{t (concat tkey "label")}}</h1>
+    <p>{{t (concat tkey "intro")}}</p>
+    {{yield tkey}}
+  {{/let}}
 </div>

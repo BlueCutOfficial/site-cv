@@ -1,6 +1,6 @@
-<ProjectTemplate @projectId="srg">
+<ProjectTemplate @projectId="srg" as |tkey|>
   <div class="project-part">
     <h2>{{t "general.about"}}</h2>
-    <p>{{t "category.slot.srg.about"}}</p>
+    <p>{{t (concat tkey "about")}}</p>
   </div>
 </ProjectTemplate>

@@ -1,12 +1,12 @@
-<ProjectTemplate @projectId="travel">
+<ProjectTemplate @projectId="travel" as |tkey|>
   <div class="project-part">
-    <p>{{t "category.slot.travel.japanIntro"}}</p>
+    <p>{{t (concat tkey "japanIntro")}}</p>
     <a href="https://panodyssey.com/fr/creative/room/les-carnets-du-japon-e65ncc9kc74q"
       target="_blank"
       rel="noopener noreferrer"
     >
       <img class="shadowbox"
-        alt={{t "category.slot.travel.japanNotes"}}
+        alt={{t (concat tkey "japanNotes")}}
         src="/img/banners/banner-himeji.JPG"
       />
     </a>

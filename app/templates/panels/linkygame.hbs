@@ -1,6 +1,6 @@
-<ProjectTemplate @projectId="linkygame">
+<ProjectTemplate @projectId="linkygame" as |tkey|>
   <div class="project-part">
     <h2>{{t "general.about"}}</h2>
-    <p>{{t "category.slot.linkygame.about"}}</p>
+    <p>{{t (concat tkey "about")}}</p>
   </div>
 </ProjectTemplate>
