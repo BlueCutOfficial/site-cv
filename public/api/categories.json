@@ -130,6 +130,18 @@
       ]
     },
     {
+      "id": "personal",
+      "keyroute": "apps",
+      "slotRoute": "home.apps.app",
+      "sprite": "/img/icons/icon-cv.png",
+      "slots": [
+        {
+          "skills": ["Ember","BS3"],
+          "id": "selfsite"
+        }
+      ]
+    },
+    {
       "id": "hr",
       "keyroute": "apps",
       "slotRoute": "home.apps.app",

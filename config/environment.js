@@ -19,7 +19,7 @@ module.exports = function (environment) {
 
     APP: {
       defaultProjectId: {
-        apps: 'mypeopledoc',
+        apps: 'selfsite',
         games: 'imagana',
         art: 'renard',
       },
