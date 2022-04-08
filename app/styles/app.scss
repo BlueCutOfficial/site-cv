@@ -85,10 +85,6 @@ h2 {
   color: $color2;
 }
 
-.sub-h1 {
-  padding-left:20px;
-}
-
 // Align and paddings
 .aligncenter {
   text-align: center;
@@ -156,8 +152,11 @@ h2 {
 
 // Specific
 
-.main-title {
+.profile-header {
   display: inline-flex;
+  h2 {
+    padding-left:20px;
+  }
 }
 
 .language-bar {
