@@ -1,5 +1,4 @@
 @import "ember-bootstrap/bootstrap";
-@import "font-awesome";
 
 // Surcharge bootstrap
 .container {
@@ -262,26 +261,6 @@ a.active .menu-bar-item  {
         padding-left: 20px;
         margin-top: 10px;
       }
-    }
-  }
-
-  .fa {
-    //--- Version collée---
-    // font-size: 3.3em;
-    // margin-left: -2px;
-    // margin-top: 30%;
-
-    //--- Version espacée---
-    font-size: 3.3em;
-    margin-left: 4px;
-    margin-top: 24%;
-  }
-
-  .fa-dark {
-    margin-left: -228px;
-
-    .fa {
-      color: $item-color1;
     }
   }
 }

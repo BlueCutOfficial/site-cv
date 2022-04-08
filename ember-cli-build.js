@@ -9,9 +9,6 @@ module.exports = function (defaults) {
       importBootstrapFont: false,
       importBootstrapCSS: true,
     },
-    'ember-font-awesome': {
-      useScss: true,
-    },
     fingerprint: {
       replaceExtensions: ['html', 'css', 'js', 'json'],
     },
