@@ -5,14 +5,14 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  ansi-html: ^0.0.8
-  clean-css: ^4.1.11
-  chokidar: ^3.5.3
-  fast-glob: ^3.2.11
-  glob-parent: ^5.1.2
-  markdown-it: ^12.3.2
+  ansi-html: ^0.0.9
+  chokidar: ^3.6.0
+  clean-css: ^5.3.0
+  fast-glob: ^3.3.0
+  glob-parent: ^6.0.0
+  markdown-it: ^14.1.0
   micromatch: ^4.0.4
-  minimist: ^1.2.6
+  minimist: ^1.2.8
 
 devDependencies:
   '@ember/optional-features':
@@ -114,9 +114,6 @@ devDependencies:
   ember-test-selectors:
     specifier: ^6.0.0
     version: 6.0.0
-  ember-welcome-page:
-    specifier: ^4.1.0
-    version: 4.1.0(@babel/core@7.24.9)
   eslint:
     specifier: ^7.32.0
     version: 7.32.0
@@ -148,13 +145,13 @@ devDependencies:
     specifier: ^2.17.2
     version: 2.21.1
   qunit-dom:
-    specifier: ^1.6.0
-    version: 1.6.0
+    specifier: ^2.0.0
+    version: 2.0.0
   sass:
-    specifier: ^1.22.9
+    specifier: ^1.77.0
     version: 1.77.8
   webpack:
-    specifier: ^5.76.0
+    specifier: ^5.93.0
     version: 5.93.0
 
 packages:
@@ -2817,8 +2814,8 @@ packages:
       type-fest: 0.21.3
     dev: true
 
-  /ansi-html@0.0.8:
-    resolution: {integrity: sha512-QROYz1I1Kj+8bTYgx0IlMBpRSCIU+7GjbE0oH+KF7QKc+qSF8YAlIutN59Db17tXN70Ono9upT9Ht0iG93W7ug==}
+  /ansi-html@0.0.9:
+    resolution: {integrity: sha512-ozbS3LuenHVxNRh/wdnN16QapUHzauqSomAl1jwwJRRsGwFwtj644lIhxfWu0Fy0acCij2+AEgHvjscq3dlVXg==}
     engines: {'0': node >= 0.8.0}
     hasBin: true
     dev: true
@@ -4248,7 +4245,7 @@ packages:
     resolution: {integrity: sha512-BK8aPhQpOLsHWiftrqXQr84XsvzUqeaN4PlCQOYg5yM0M+WKAHtX2WFXmicSQZOVgKDyh5aeoNTFkHjBAEBzwQ==}
     engines: {node: 6.* || 8.* || >= 10.*}
     dependencies:
-      ansi-html: 0.0.8
+      ansi-html: 0.0.9
       handlebars: 4.7.8
       has-ansi: 3.0.0
       mime-types: 2.1.35
@@ -4524,7 +4521,7 @@ packages:
       '@types/chai': 4.3.16
       '@types/chai-as-promised': 7.1.8
       '@types/express': 4.17.21
-      ansi-html: 0.0.8
+      ansi-html: 0.0.9
       broccoli-node-info: 2.2.0
       broccoli-slow-trees: 3.1.0
       broccoli-source: 3.0.1
@@ -4807,7 +4804,7 @@ packages:
     dependencies:
       anymatch: 3.1.3
       braces: 3.0.3
-      glob-parent: 5.1.2
+      glob-parent: 6.0.2
       is-binary-path: 2.1.0
       is-glob: 4.0.3
       normalize-path: 3.0.0
@@ -4853,13 +4850,13 @@ packages:
     resolution: {integrity: sha512-tzWkANXMD70ETa/wAu2TXAAxYWS0ZjVUFM2dVik8RQBoAbGMFJv4iVluz3RpcoEbo++fX4RV/BXfgGoOjp8o3Q==}
     dependencies:
       array-to-error: 1.1.1
-      clean-css: 4.2.4
+      clean-css: 5.3.3
       pinkie-promise: 2.0.1
     dev: true
 
-  /clean-css@4.2.4:
-    resolution: {integrity: sha512-EJUDT7nDVFDvaQgAo2G/PJvxmp1o/c6iXLbswsBbUFXi1Nr+AjA2cKmfbKDMjMvzEe75g3P6JkaDDAKk96A85A==}
-    engines: {node: '>= 4.0'}
+  /clean-css@5.3.3:
+    resolution: {integrity: sha512-D5J+kHaVb/wKSFcyyV75uCn8fiY4sV38XJoe4CUyGQ+mOU/fMVYUdH1hJC+CJQ5uY3EnW27SbJYS4X8BiLrAFg==}
+    engines: {node: '>= 10.0'}
     dependencies:
       source-map: 0.6.1
     dev: true
@@ -6315,7 +6312,7 @@ packages:
       json-stable-stringify: 1.1.1
       leek: 0.0.24
       lodash.template: 4.5.0
-      markdown-it: 12.3.2
+      markdown-it: 14.1.0
       markdown-it-terminal: 0.2.1
       minimatch: 3.1.2
       morgan: 1.10.0
@@ -6498,13 +6495,6 @@ packages:
   /ember-export-application-global@2.0.1:
     resolution: {integrity: sha512-B7wiurPgsxsSGzJuPFkpBWnaeuCu2PGpG2BjyrfA1VcL7//o+5RSnZqiCEY326y7qmxb2GoCgo0ft03KBU0rRw==}
     engines: {node: '>= 4'}
-    dev: true
-
-  /ember-factory-for-polyfill@1.3.1:
-    resolution: {integrity: sha512-y3iG2iCzH96lZMTWQw6LWNLAfOmDC4pXKbZP6FxG8lt7GGaNFkZjwsf+Z5GAe7kxfD7UG4lVkF7x37K82rySGA==}
-    engines: {node: ^4.5 || 6.* || >= 7.*}
-    dependencies:
-      ember-cli-version-checker: 2.2.0
     dev: true
 
   /ember-fetch@8.1.2:
@@ -6887,19 +6877,6 @@ packages:
       - supports-color
     dev: true
 
-  /ember-welcome-page@4.1.0(@babel/core@7.24.9):
-    resolution: {integrity: sha512-+itRRxfHnuaaLptQhivzSuEwLxLM9rg6LVsQFRb/1+PlSzirpuqp/lrfX4f02HGR9W5aZzhd7j1GQwIsEZf38g==}
-    engines: {node: 10.* || >= 12}
-    dependencies:
-      ember-cli-babel: 7.26.11
-      ember-cli-htmlbars: 5.7.2
-      ember-compatibility-helpers: 1.2.7(@babel/core@7.24.9)
-      ember-factory-for-polyfill: 1.3.1
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
-    dev: true
-
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
     dev: true
@@ -6974,12 +6951,13 @@ packages:
     resolution: {integrity: sha512-VWU0/zXzVbeJNXvME/5EmLuEj2TauvoaTz6aFYK1Z92JCBlDlZ3Gu0tuGR42kpW1754ywTs+QB0g5TP0oj9Zaw==}
     dev: true
 
-  /entities@2.1.0:
-    resolution: {integrity: sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==}
-    dev: true
-
   /entities@2.2.0:
     resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
+    dev: true
+
+  /entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
+    engines: {node: '>=0.12'}
     dev: true
 
   /errlop@2.2.0:
@@ -7272,7 +7250,7 @@ packages:
       fast-deep-equal: 3.1.3
       file-entry-cache: 6.0.1
       functional-red-black-tree: 1.0.1
-      glob-parent: 5.1.2
+      glob-parent: 6.0.2
       globals: 13.24.0
       ignore: 4.0.6
       import-fresh: 3.3.0
@@ -7531,7 +7509,7 @@ packages:
     dependencies:
       '@nodelib/fs.stat': 2.0.5
       '@nodelib/fs.walk': 1.2.8
-      glob-parent: 5.1.2
+      glob-parent: 6.0.2
       merge2: 1.4.1
       micromatch: 4.0.7
     dev: true
@@ -8117,9 +8095,9 @@ packages:
     engines: {node: '>= 4.0'}
     dev: true
 
-  /glob-parent@5.1.2:
-    resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
-    engines: {node: '>= 6'}
+  /glob-parent@6.0.2:
+    resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
+    engines: {node: '>=10.13.0'}
     dependencies:
       is-glob: 4.0.3
     dev: true
@@ -9111,10 +9089,10 @@ packages:
       isobject: 2.1.0
     dev: true
 
-  /linkify-it@3.0.3:
-    resolution: {integrity: sha512-ynTsyrFSdE5oZ/O9GEf00kPngmOfVwazR5GKDq6EYfhlpFug3J2zybX56a2PRRpc9P+FuSoGNAwjlbDs9jJBPQ==}
+  /linkify-it@5.0.0:
+    resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
     dependencies:
-      uc.micro: 1.0.6
+      uc.micro: 2.1.0
     dev: true
 
   /livereload-js@3.4.1:
@@ -9433,18 +9411,19 @@ packages:
       cardinal: 1.0.0
       cli-table: 0.3.11
       lodash.merge: 4.6.2
-      markdown-it: 12.3.2
+      markdown-it: 14.1.0
     dev: true
 
-  /markdown-it@12.3.2:
-    resolution: {integrity: sha512-TchMembfxfNVpHkbtriWltGWc+m3xszaRD0CZup7GFFhzIgQqxIfn3eGj1yZpfuflzPvfkt611B2Q/Bsk1YnGg==}
+  /markdown-it@14.1.0:
+    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
-      entities: 2.1.0
-      linkify-it: 3.0.3
-      mdurl: 1.0.1
-      uc.micro: 1.0.6
+      entities: 4.5.0
+      linkify-it: 5.0.0
+      mdurl: 2.0.0
+      punycode.js: 2.3.1
+      uc.micro: 2.1.0
     dev: true
 
   /matcher-collection@1.1.2:
@@ -9473,8 +9452,8 @@ packages:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
     dev: true
 
-  /mdurl@1.0.1:
-    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
+  /mdurl@2.0.0:
+    resolution: {integrity: sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==}
     dev: true
 
   /media-typer@0.3.0:
@@ -10552,6 +10531,11 @@ packages:
       pump: 2.0.1
     dev: true
 
+  /punycode.js@2.3.1:
+    resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
+    engines: {node: '>=6'}
+    dev: true
+
   /punycode@1.4.1:
     resolution: {integrity: sha512-jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==}
     dev: true
@@ -10592,9 +10576,9 @@ packages:
       underscore.string: 3.3.6
     dev: true
 
-  /qunit-dom@1.6.0:
-    resolution: {integrity: sha512-YwSqcLjQcRI0fUFpaSWwU10KIJPFW5Qh+d3cT5DOgx81dypRuUSiPkKFmBY/CDs/R1KdHRadthkcXg2rqAon8Q==}
-    engines: {node: 10.* || >= 12.*}
+  /qunit-dom@2.0.0:
+    resolution: {integrity: sha512-mElzLN99wYPOGekahqRA+mq7NcThXY9c+/tDkgJmT7W5LeZAFNyITr2rFKNnCbWLIhuLdFw88kCBMrJSfyBYpA==}
+    engines: {node: 12.* || 14.* || >= 16.*}
     dependencies:
       broccoli-funnel: 3.0.8
       broccoli-merge-trees: 4.2.0
@@ -12223,8 +12207,8 @@ packages:
     resolution: {integrity: sha512-GQ90TcKpIH4XxYTI2F98yEQYZgjNMOGPpOgdjIBhaLaWji5HPWlRnZ4AeA1hfBxtY7bCGDJsqDDHk/KaHOl5bA==}
     dev: true
 
-  /uc.micro@1.0.6:
-    resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
+  /uc.micro@2.1.0:
+    resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
     dev: true
 
   /uglify-js@3.19.0:
