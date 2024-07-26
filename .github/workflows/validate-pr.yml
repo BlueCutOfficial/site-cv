@@ -4,17 +4,24 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
-    - name: Setup node
-      uses: actions/setup-node@v2
+    - name: Install pnpm
+      uses: pnpm/action-setup@v2.4.1
+      with:
+        version: 8
+
+    - name: Install Node
+      uses: actions/setup-node@v4
       with:
         node-version: 16
+        cache: pnpm
 
-    - run: yarn install
+    - name: Install Dependencies
+      run: pnpm install
 
     - name: Launch tests
-      run: yarn test
+      run: pnpm test
       env:
         COVERAGE: true
 
