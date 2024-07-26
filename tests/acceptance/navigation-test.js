@@ -9,13 +9,13 @@ module('Acceptance | navigation', function (hooks) {
 
   test('it redirects to /cv when visiting /', async function (assert) {
     await visit('/');
-    assert.equal(currentURL(), '/cv');
+    assert.strictEqual(currentURL(), '/cv');
     assert.dom('[data-test-menu-item="home.cv"] a').hasClass('active');
   });
 
   test('it visits /cv', async function (assert) {
     await visit('/cv');
-    assert.equal(currentURL(), '/cv');
+    assert.strictEqual(currentURL(), '/cv');
     assert.dom('[data-test-menu-item="home.cv"] a').hasClass('active');
   });
 

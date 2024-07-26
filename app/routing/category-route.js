@@ -1,7 +1,10 @@
 import Route from '@ember/routing/route';
 import config from 'site-cv/config/environment';
+import { inject as service } from '@ember/service';
 
 export default class CategoryRoute extends Route {
+  @service store;
+
   keyRoute = '';
   transitionRoute = '';
 
