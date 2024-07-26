@@ -1,17 +1,10 @@
 import Route from '@ember/routing/route';
-import { getOwner } from '@ember/application';
+import { inject as service } from '@ember/service';
 
 export default class ProjectRoute extends Route {
-  model(params) {
-    this.templateName = params.id;
-    return this.store.peekRecord('project', params.id);
-  }
+  @service store;
 
-  renderTemplate() {
-    let panelName = `panels.${this.templateName}`;
-    if (getOwner(this).lookup(`template:${panelName}`) === undefined) {
-      panelName = 'panels.default';
-    }
-    this.render(panelName);
+  model(params) {
+    return this.store.peekRecord('project', params.id);
   }
 }

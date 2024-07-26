@@ -4,6 +4,7 @@ import { inject as service } from '@ember/service';
 
 export default class HomeController extends Controller {
   @service intl;
+  @service store;
 
   get cvSlots() {
     return this.store.peekRecord('category', 1).get('slots');

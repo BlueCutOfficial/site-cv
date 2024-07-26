@@ -4,6 +4,7 @@ import { inject as service } from '@ember/service';
 
 export default class HomeRoute extends Route {
   @service intl;
+  @service store;
 
   beforeModel() {
     this.intl.setLocale(['en-us']);

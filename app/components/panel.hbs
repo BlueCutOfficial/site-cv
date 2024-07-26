@@ -1,0 +1,5 @@
+{{#if (is-component (concat "panels/" @id))}}
+  {{component (concat "panels/" @id)}}
+{{else}}
+  {{component (concat "panels/default")}}
+{{/if}}
