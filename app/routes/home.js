@@ -4,6 +4,7 @@ import { inject as service } from '@ember/service';
 
 export default class HomeRoute extends Route {
   @service intl;
+  @service router;
   @service store;
 
   beforeModel() {
@@ -21,7 +22,7 @@ export default class HomeRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName === 'home.index') {
-      this.transitionTo('home.cv');
+      this.router.transitionTo('home.cv');
     }
   }
 }

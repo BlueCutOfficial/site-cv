@@ -1,55 +1,71 @@
+/* stylelint-disable no-descending-specificity -- reworking the cascading now is no priority work */
+
 @import "ember-bootstrap/bootstrap";
 
-// Surcharge bootstrap
+// ---- Surcharge bootstrap ----
 .container {
   width: 100%;
 }
 
-.col-md-1,.col-md-2,.col-md-10,.col-md-11 {
-  padding-left:0px;
-  padding-right:0px;
+.col-md-1,
+.col-md-2,
+.col-md-10,
+.col-md-11 {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
-}
-@media (min-width: 576px) {
+@media (width >= 992px) {
   .container {
     max-width: 100%;
   }
 }
 
-//---- Variables ----
+@media (width >= 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
 
+@media (width >= 576px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+// ---- Variables ----
 // Texte par défaut
-$color1: #cccccc;
+$color1: #ccc;
+
 // Texte coloré pour mise en valeur
 $color2: #7f7abc;
+
 // Couleur de fond
-$item-color1:#232323;
+$item-color1: #232323;
+
 // Couleur de hover proche du fond
-$item-color2:#333;
+$item-color2: #333;
+
 // Padding standard pour les éléments dans les box
 $padding-box-large: 20px;
 $padding-box: 10px;
+
 // Petit padding standard entre les éléments proches
 $small-padding: 5px;
+
 // Border with standard pour tous les éléments en border-style solid
 $border-width: 2px;
+
 // Taille des images sur les headers de catégorie
 $category-sprite-size: 60px;
+
 // Taille des images dans la galerie
 $size-img-gallery: 70px;
+
 // Delta de taille sup des images de la galerie en hover
 $marge-img-gallery: 5px;
-// Taille des images dans la bibliothèque (21x29,7)*3
+
+// Taille des images dans la bibliothèque (21x29,7) * 3
 $size-img-book-w: 63px;
 $size-img-book-h: 89.1px;
 
@@ -67,7 +83,9 @@ footer {
   font-size: 0.8em;
 }
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
   text-decoration: none;
   color: $color1;
 }
@@ -88,41 +106,48 @@ h2 {
 .aligncenter {
   text-align: center;
 }
+
 .alignleft {
   text-align: left;
 }
+
 .alignjustify {
   text-align: justify;
 }
+
 .inline {
   display: inline-block;
   margin: 0;
 }
+
 .padding-side {
-  padding-left:$padding-box;
-  padding-right:$padding-box;
+  padding-left: $padding-box;
+  padding-right: $padding-box;
 }
-.custombox--large {
-  padding:$padding-box-large;
+
+.custombox-large {
+  padding: $padding-box-large;
 }
+
 .custombox {
-  padding:$padding-box;
+  padding: $padding-box;
 }
+
 .borderbox {
-  border-style:solid;
-  border-width:$border-width;
-  border-color:$item-color2;
+  border-style: solid;
+  border-width: $border-width;
+  border-color: $item-color2;
 }
 
 .borderleft {
-  border-left-style:solid;
-  border-left-width:$border-width;
-  border-left-color:$item-color2;
+  border-left: $border-width solid $item-color2;
 }
 
 .shadowbox {
   box-shadow: 8px 8px 12px #111;
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     box-shadow: -4px -4px 12px $item-color2;
   }
 }
@@ -142,9 +167,9 @@ h2 {
 }
 
 .label {
-  background-color:$color2;
-  border-radius:6px;
-  padding:3px;
+  background-color: $color2;
+  border-radius: 6px;
+  padding: 3px;
   margin-right: 3px;
   margin-bottom: 3px;
 }
@@ -153,14 +178,16 @@ h2 {
 
 .profile-header {
   display: inline-flex;
+
   h2 {
-    padding-left:20px;
+    padding-left: 20px;
   }
 }
 
 .language-bar {
   float: right;
   display: inline-table;
+
   button {
     color: $color1;
     background: none;
@@ -170,16 +197,12 @@ h2 {
 
 // Equipment bar
 .menu-bar-categories {
-  border-bottom-style:solid;
-  border-bottom-width:$border-width;
-  border-bottom-color:$item-color2;
+  border-bottom: $border-width solid $item-color2;
 }
 
 .menu-bar-item {
   min-width: 150px;
-  border-right-style:solid;
-  border-right-width:$border-width;
-  border-right-color:$item-color1;
+  border-right: $border-width solid $item-color1;
 }
 
 .links-buttons {
@@ -190,8 +213,9 @@ h2 {
 
     a {
       cursor: pointer;
+
       img {
-        width:40px;
+        width: 40px;
         padding-left: $small-padding;
       }
     }
@@ -202,22 +226,20 @@ h2 {
       margin-left: 0;
       margin-bottom: 0;
       display: inline-block;
+
       button {
-        margin-bottom:0;
+        margin-bottom: 0;
       }
     }
   }
 }
 
-.category-slots {
-  padding-left: 0px;
-}
-
-.menu-bar-item:hover, .menu-bar-item:focus {
+.menu-bar-item:hover,
+.menu-bar-item:focus {
   background-color: $item-color2;
 }
 
-a.active .menu-bar-item  {
+a.active .menu-bar-item {
   background-color: $item-color2;
 }
 
@@ -236,7 +258,7 @@ a.active .menu-bar-item  {
   }
 }
 
-//Category header
+// Category header
 .category-container {
   width: 100%;
   display: inline-flex;
@@ -254,8 +276,8 @@ a.active .menu-bar-item  {
       width: 100%;
 
       .category-title {
-        background-color:white;
-        color:$item-color1;
+        background-color: white;
+        color: $item-color1;
         font-weight: bold;
         padding: 4px;
         padding-left: 20px;
@@ -265,8 +287,9 @@ a.active .menu-bar-item  {
   }
 }
 
-//Category slots
+// Category slots
 .category-slots {
+  padding-left: 0;
 
   li {
     background-color: $item-color1;
@@ -276,7 +299,8 @@ a.active .menu-bar-item  {
       border-color: $color2;
     }
 
-    a:focus, a.active {
+    a:focus,
+    a.active {
       .project-slot {
         background-color: $item-color2;
         border-color: $color2;
@@ -291,11 +315,10 @@ a.active .menu-bar-item  {
 
   // Sur les picture slot, les img sont dans des div plus grandes que leur taille pour que la ligne ne bouge pas au hover
   .picture-slot {
-
     // La taille du conteneur est celle de l'image taille max + les border-width de chaque côté
     vertical-align: middle;
-    width: $size-img-gallery + $marge-img-gallery + ($border-width*2);
-    height: $size-img-gallery + $marge-img-gallery + ($border-width*2);
+    width: $size-img-gallery + $marge-img-gallery + ($border-width * 2);
+    height: $size-img-gallery + $marge-img-gallery + ($border-width * 2);
     margin: 2px;
 
     img {
@@ -315,9 +338,8 @@ a.active .menu-bar-item  {
 
     // Si l'image est celle d'un book-slot au lieu d'un picture slot, on change juste les tailles de base et on gère le p
     &.book-slot {
-
-      width: $size-img-book-w + $marge-img-gallery + ($border-width*2);
-      height: $size-img-book-h + $marge-img-gallery + ($border-width*2) + 22px;
+      width: $size-img-book-w + $marge-img-gallery + ($border-width * 2);
+      height: $size-img-book-h + $marge-img-gallery + ($border-width * 2) + 22px;
 
       img {
         width: $size-img-book-w;
@@ -327,13 +349,12 @@ a.active .menu-bar-item  {
       // Le bloc p pour le titre ne doit pas bouger, de base margin-top correspond au delta de taille sup total pour l'img
       p {
         height: 22px;
-        margin-top: $marge-img-gallery + ($border-width*2);
+        margin-top: $marge-img-gallery + ($border-width * 2);
         margin-bottom: 0;
       }
 
-      // Set fois on prend le hover sur toute la div (on a besoin d'agir sur le p hors img quand img est agrandi)
+      // Cette fois on prend le hover sur toute la div (on a besoin d'agir sur le p hors img quand img est agrandi)
       &:hover {
-
         img {
           width: $size-img-book-w + $marge-img-gallery;
           height: $size-img-book-h + $marge-img-gallery;
@@ -341,29 +362,26 @@ a.active .menu-bar-item  {
 
         // Quand l'image est sélectionnée, on supprime le delta ajouté à l'image, les boders ne sont pas pris en compte
         p {
-          margin-top: $border-width*2;
+          margin-top: $border-width * 2;
         }
       }
-
     }
   }
 
   .project-slot {
-
     &:hover {
       background: $item-color2;
     }
 
     p {
-      margin: 0px;
+      margin: 0;
     }
 
     button {
-      padding: $small-padding*1.5;
-
-      border-top-style:none;
-      border-left-style:none;
-      border-right-style:none;
+      padding: $small-padding * 1.5;
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
 
       .project-slot-img {
         width: 50px;
@@ -380,28 +398,34 @@ a.active .menu-bar-item  {
   }
 
   .skill-slot {
-
     margin-top: $small-padding;
-    margin-bottom: $small-padding*2;
+    margin-bottom: $small-padding * 2;
 
     // Surcharge de label : on veut une police plus grande et plus d'espace
     .label {
       font-size: 100%;
-      padding:$small-padding;
-      padding-left:$small-padding*1.5;
-      padding-right:$small-padding*1.5;
+      padding: $small-padding;
+      padding-left: $small-padding * 1.5;
+      padding-right: $small-padding * 1.5;
 
       // On va également intégrer d'autres couleurs pour différencier les labels
-      &.framework, &.anim {
+      &.framework,
+      &.anim {
         background-color: #2087af;
       }
-      &.markup, &.soft3d {
+
+      &.markup,
+      &.soft3d {
         background-color: #1dab3c;
       }
-      &.tool, &.sport {
+
+      &.tool,
+      &.sport {
         background-color: #cc6c07;
       }
-      &.language, &.culture {
+
+      &.language,
+      &.culture {
         background-color: #e23c3c;
       }
     }
@@ -430,6 +454,7 @@ a.active .menu-bar-item  {
 
   img {
     width: 100%;
+
     &.logo {
       width: 60px;
       text-align: center;
@@ -439,7 +464,8 @@ a.active .menu-bar-item  {
   .project-part {
     padding: $padding-box;
 
-    p, li {
+    p,
+    li {
       text-align: justify;
     }
 
