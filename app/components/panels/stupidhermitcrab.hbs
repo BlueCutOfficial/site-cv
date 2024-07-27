@@ -15,7 +15,14 @@
   <div class="project-part">
     <h2>{{t "general.gameplayVideo"}}</h2>
     <p>{{t (concat tkey "content1")}}</p>
-    <div class="video"><video controls src="/video/shc_gameplay.avi" width="640" height="360"></video></div>
+    <div class="video">
+      <video controls src="/video/shc_gameplay.avi" width="640" height="360">
+        <track 
+          kind="captions"
+          src="background music only" 
+        />
+      </video>
+    </div>
   </div>
 
   <div class="project-part">

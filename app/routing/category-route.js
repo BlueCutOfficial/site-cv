@@ -3,6 +3,7 @@ import config from 'site-cv/config/environment';
 import { inject as service } from '@ember/service';
 
 export default class CategoryRoute extends Route {
+  @service router;
   @service store;
 
   keyRoute = '';
@@ -16,7 +17,7 @@ export default class CategoryRoute extends Route {
 
   afterModel(_, transition) {
     if (transition.targetName.includes(`${this.keyRoute}.index`)) {
-      this.transitionTo(
+      this.router.transitionTo(
         this.transitionRoute,
         config.APP.defaultProjectId[this.keyRoute]
       );
