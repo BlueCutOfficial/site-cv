@@ -19,7 +19,7 @@ export default class CategoryRoute extends Route {
     if (transition.targetName.includes(`${this.keyRoute}.index`)) {
       this.router.transitionTo(
         this.transitionRoute,
-        config.APP.defaultProjectId[this.keyRoute]
+        config.APP.defaultProjectId[this.keyRoute],
       );
     }
   }

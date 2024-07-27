@@ -31,7 +31,7 @@ module('Acceptance | navigation', function (hooks) {
       assert
         .dom(`[data-test-project-menu-item="${defaultProjectId}"] a`)
         .hasClass('active');
-    }
+    },
   );
 
   cases([
@@ -49,6 +49,6 @@ module('Acceptance | navigation', function (hooks) {
       assert
         .dom(`[data-test-project-menu-item="${projectId}"] a`)
         .hasClass('active');
-    }
+    },
   );
 });

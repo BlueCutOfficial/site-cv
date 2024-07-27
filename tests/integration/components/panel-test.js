@@ -11,7 +11,7 @@ module('Integration | Component | panel', function (hooks) {
     assert
       .dom(this.element)
       .hasText(
-        "I haven't written the presentation for this project yet. It should come some day 😄"
+        "I haven't written the presentation for this project yet. It should come some day 😄",
       );
   });
 
@@ -20,7 +20,7 @@ module('Integration | Component | panel', function (hooks) {
     assert
       .dom(this.element)
       .hasText(
-        "I haven't written the presentation for this project yet. It should come some day 😄"
+        "I haven't written the presentation for this project yet. It should come some day 😄",
       );
   });
 
