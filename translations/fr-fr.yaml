@@ -153,6 +153,7 @@ nav:
 cv:
   object:
     label: "Intégration du CV anglais au format PDF"
+  lastUpdate: "Dernière mise à jour: 2020 (ça commence à dater un peu, n'est-ce pas ?)"
 noPanel: "Je n'ai pas encore écrit la présentation de ce projet. Elle devrait venir un de ces jours 😄"
 me:
   network:

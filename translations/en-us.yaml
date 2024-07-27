@@ -153,6 +153,7 @@ nav:
 cv:
   object:
     label: "PDF English CV integration"
+  lastUpdate: "Last update: 2020 (it starts to be a bit old, isn't it?)"
 noPanel: "I haven't written the presentation for this project yet. It should come some day 😄"
 me:
   me:
