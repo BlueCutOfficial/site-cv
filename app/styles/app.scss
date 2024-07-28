@@ -35,7 +35,7 @@
 
 // ---- Variables ----
 // Texte par défaut
-$color1: #ccc;
+$color1: #fff;
 
 // Texte coloré pour mise en valeur
 $color2: #7f7abc;
@@ -284,14 +284,14 @@ a.active .menu-bar-item {
         top: -8px;
         left: -18px;
         aspect-ratio: 1/1;
-        background-color: #232323;
+        background-color: $item-color1;
         transform: translate(10px) rotate(45deg);
         height: 14px;
       }
 
       .category-title {
         position: relative;
-        background-color: white;
+        background-color: $color1;
         color: $item-color1;
         font-weight: bold;
         margin-top: 10px;
