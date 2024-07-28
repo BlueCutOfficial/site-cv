@@ -1,5 +1,5 @@
 <div class="custombox-large">
-  <span class="language-bar">
+  <span class="language-bar custombox-large">
     <button type="button"
       aria-label={{t "language.toFR"}}
       {{on "click" (fn this.updateLanguage "fr-fr")}}
@@ -14,6 +14,7 @@
       EN
     </button>
   </span>
+  <LinksButtons @model={{@model}} @cvSlots={{@cvSlots}} />
   <ProfileHeader @me={{this.model}} />
 </div>
 <MenuBar class="menu-bar" @model={{this.model}} @cvSlots={{this.cvSlots}} />

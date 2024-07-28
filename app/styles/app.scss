@@ -215,16 +215,12 @@ h2 {
 .links-buttons {
   float: right;
 
-  .custombox {
-    padding-top: $padding-small;
+  a {
+    cursor: pointer;
 
-    a {
-      cursor: pointer;
-
-      img {
-        width: 40px;
-        padding-left: $padding-small;
-      }
+    img {
+      width: 40px;
+      padding-left: $padding-small;
     }
   }
 
