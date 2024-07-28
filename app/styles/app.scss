@@ -46,12 +46,10 @@ $item-color1: #232323;
 // Couleur de hover proche du fond
 $item-color2: #333;
 
-// Padding standard pour les éléments dans les box
-$padding-box-large: 20px;
-$padding-box: 10px;
-
-// Petit padding standard entre les éléments proches
-$small-padding: 5px;
+// Paddings
+$padding-small: 5px;
+$padding-medium: 10px;
+$padding-large: 20px;
 
 // Border with standard pour tous les éléments en border-style solid
 $border-width: 2px;
@@ -78,7 +76,7 @@ body {
 }
 
 footer {
-  padding: $padding-box-large;
+  padding: $padding-large;
   color: $color2;
   font-size: 0.8em;
 }
@@ -120,17 +118,22 @@ h2 {
   margin: 0;
 }
 
-.padding-side {
-  padding-left: $padding-box;
-  padding-right: $padding-box;
+.padding-side-medium {
+  padding-left: $padding-medium;
+  padding-right: $padding-medium;
+}
+
+.padding-side-large {
+  padding-left: $padding-large;
+  padding-right: $padding-large;
 }
 
 .custombox-large {
-  padding: $padding-box-large;
+  padding: $padding-large;
 }
 
 .custombox {
-  padding: $padding-box;
+  padding: $padding-medium;
 }
 
 .borderbox {
@@ -213,14 +216,14 @@ h2 {
   float: right;
 
   .custombox {
-    padding-top: $small-padding;
+    padding-top: $padding-small;
 
     a {
       cursor: pointer;
 
       img {
         width: 40px;
-        padding-left: $small-padding;
+        padding-left: $padding-small;
       }
     }
   }
@@ -249,15 +252,15 @@ a.active .menu-bar-item {
 
 // CV route
 .cv {
-  margin-top: $padding-box;
+  margin-top: $padding-medium;
 
   .category-slots {
     margin-left: 0;
     margin-top: 0;
 
     button {
-      padding: $small-padding;
-      margin-bottom: $padding-box;
+      padding: $padding-small;
+      margin-bottom: $padding-medium;
     }
   }
 }
@@ -382,7 +385,7 @@ a.active .menu-bar-item {
     }
 
     button {
-      padding: $small-padding * 1.5;
+      padding: $padding-small * 1.5;
       border-top-style: none;
       border-left-style: none;
       border-right-style: none;
@@ -390,7 +393,7 @@ a.active .menu-bar-item {
       .project-slot-img {
         width: 50px;
         height: 50px;
-        margin-right: $padding-box;
+        margin-right: $padding-medium;
       }
 
       .project-slot-info {
@@ -402,15 +405,15 @@ a.active .menu-bar-item {
   }
 
   .skill-slot {
-    margin-top: $small-padding;
-    margin-bottom: $small-padding * 2;
+    margin-top: $padding-small;
+    margin-bottom: $padding-small * 2;
 
     // Surcharge de label : on veut une police plus grande et plus d'espace
     .label {
       font-size: 100%;
-      padding: $small-padding;
-      padding-left: $small-padding * 1.5;
-      padding-right: $small-padding * 1.5;
+      padding: $padding-small;
+      padding-left: $padding-small * 1.5;
+      padding-right: $padding-small * 1.5;
 
       // On va également intégrer d'autres couleurs pour différencier les labels
       &.framework,
@@ -443,16 +446,16 @@ a.active .menu-bar-item {
 
 // Panels
 .project-template {
-  padding: $padding-box;
+  padding: $padding-medium;
 
   h2 {
     font-size: 1.1em;
-    margin-bottom: $padding-box;
+    margin-bottom: $padding-medium;
   }
 
   h3 {
     font-size: 1.1em;
-    margin-bottom: $small-padding;
+    margin-bottom: $padding-small;
     margin-top: 0;
   }
 
@@ -466,7 +469,7 @@ a.active .menu-bar-item {
   }
 
   .project-part {
-    padding: $padding-box;
+    padding: $padding-medium;
 
     p,
     li {
