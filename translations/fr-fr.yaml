@@ -1,12 +1,17 @@
 category:
+  consulting: "Consulting"
+  ember: "Ember"
   gallery: "Galerie"
   games: "Jeux classiques"
   homeAutomation: "Domotique (Fremen Corp)"
   hr: Processus RH (UKG)
   library: "Bibliothèque"
   personal: "Projets perso"
+  projectDevelopment: "Project Development"
   serious: "Jeux sérieux"
   slot:
+    addons:
+      label: "Addons"
     bewilderhouse:
       label: "Bewilder House"
       intro: "Vous vous réveillez dans une étrange funhouse qui joue avec vos repères et semble déterminée à vous garder pris au piège. Le seul moyen de vous échapper sera de venir à bout des énigmes de spatialisation (et de rester en vie) via une utilisation originale des contrôles en première personne. \"Good luck, Mister Grown up\"."
@@ -30,6 +35,8 @@ category:
       intro: "Un COOC (Corporate Online Open Course) gamifié sur le thème des nouvelles technologies et d'Internet, développé avec AXA Groupe."
       about: "Do You Speak Digital ? est un COOC gamifié que Fremen Corp a développé pour AXA Groupe. Il porte sur le thème du \"digital\". Les utilisateurs sont invités à s'informer sur des sujets tels que les moteurs de recherche, les données personnelles, les nouvelles technologies... à travers des vidéos et des quiz. Le projet a été déployé chez AXA en 2015 et a eu un très bon taux de participation."
       tech: "Ce projet court, développé sur deux mois, est le premier véritable projet Web que j'ai mené seule, de A à Z, et à l'aide d'un framework JS. À l'époque (j'étais très junior, je travaillais depuis moins d'un an), j'avais choisi Backbone JS. Les délais étant très serrés, n'ayant jamais utilisé de framework JS, et sans aucun développeur plus expérimenté pour me guider, j'avais besoin d'un framework facile à prendre en main du point de vue de ma seule expérience de développeuse Unity. Or le pattern MVC de Backbone me paraissait bien identifiable et j'y trouvais mes repères. Mon choix devait être le bon, car le projet a été livré dans le temps imparti :)"
+    ecometering:
+      label: "Ecometering"
     ecosmart:
       label: "Eco smart"
       intro: "Eco, un mignon petit robot, est envoyé chez les humains par son créateur, afin de les aider à faire des économies d'énergie."
@@ -42,6 +49,10 @@ category:
       label: "AXA Esprit de service"
       intro: "Un serious game sur le thème de la relation client, développé par Fremen Corp avec AXA France."
       about: "Esprit De Service est un serious game qui a été déployé sur l'intranet de AXA France en 2014. Il vise à améliorer la relation client à travers notamment des mini-jeux de dialogue. Le haut taux de participation des salariés au serious game a encouragé AXA à développer d'autres projets du même type, et FremenCorp a par la suite développé un second serious game Esprit De Service 2."
+    emberGuides:
+      label: "Ember Guides FR"
+    embroider:
+      label: "Embroider"
     energycat:
       label: "Energy Cat"
       intro: Energy Cat rêve de vivre dans la maison du futur. Tout en avançant pas à pas vers son rêve, aidez-le à gérer sa maison et empêcher son humain de gaspiller trop d'énergie.
@@ -79,6 +90,8 @@ category:
       label: "Linky Game"
       intro: "Apprenez à reconnaître les objets énergivores et dangereux aux côtés de Linky, et sauvez les kilowatt-heure."
       about: "Linky Game est un petit runner développé par FremenCorp pour ERDF Champagne-Ardennes. L'avatar du joueur est une personnification du compteur Linky, qui doit se connecter aux différents objets énergivores. Linky Game s'adresse à un public jeune et a été réalisé avec la participation de classes élémentaires et moyennes d'écoles de la région. Les enfants ont conçu les niveaux de jeu lors d'ateliers."
+    mainmatter:
+      label: "Mainmatter"
     mypeopledoc:
       label: "MyPeopleDoc"
       intro: "MyPeopleDoc est un coffre-fort personnel dématérialisé sur lequel les employés reçoivent leurs fiches de paie mensuelles et d'autres documents professionnels."
@@ -87,6 +100,8 @@ category:
       content1: "Une fois achevées les pricipales fonctionnalités du coffre-fort dématérialisé (~2016), l'équipe a été assignée à d'autres projets.  Les développeurs historiques pouvaient ponctuellement gérer les maintenances les plus importantes ou l'ajout de fonctionnalités liées à la sécurité. Fin 2021, l'entreprise a souhaité remonter une équipe plus solide pour le coffre-fort. J'ai choisi d'être assignée au frontend car je voulais travailler pour nos utilisateurs dans un contexte davantage BtoC."
       title2: "Accessibilité"
       content2: "Le Web change vite. En 2016, l'accessibilité était moins au coeur des préoccupations qu'aujourd'hui, et les développeurs frontend étaient moins sensibilisés à ces problématiques. En six ans, l'équipe UX de PeopleDoc a fait un travail considérable autour de l'accessibilité et sur la transmission de connaissance. En arrivant sur un projet depuis longtemps en \"Best effort\", la modernisation du code et la refactorisation des templates pour un DOM plus intuitif et accessible ont été mon principal angle d'attaque au niveau frontend."
+    qonto:
+      label: Qonto
     reef:
       label: "Reef"
       intro: "Un jeu appaisant destiné à informer le public sur la technologie Biorock, qui encourage le développement de récifs coralliens. Reef a été sélectionné pour la finale de l’Imagine Cup France 2012, et a fait partie des cinq meilleurs projets français dans la catégorie game design."
@@ -128,6 +143,8 @@ category:
       intro: "Quand je voyage, j'aime consigner toutes mes aventures dans un petit carnet que je promène partout avec moi."
       japanIntro: "En 2017, j'ai eu la chance de passer 16 jours au Japon. Une partie de mon carnet de voyage est disponible en ligne."
       japanNotes: "Découvrez mes notes de voyage sur Panosyssey"
+    ukg:
+      label: "UKG"
 general:
   about: "À propos"
   anecdote: "Anecdote"
@@ -147,7 +164,8 @@ nav:
   projectIcon: "Icône du projet {label}"
   secondary: "Menu secondaire"
   cv: "CV"
-  apps: "Apps"
+  apps: "Business Apps"
+  opensource: "Open source"
   games: "Jeux"
   art: "Art"
 cv:

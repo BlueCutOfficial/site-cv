@@ -16,7 +16,8 @@ module.exports = function (environment) {
 
     APP: {
       defaultProjectId: {
-        apps: 'selfsite',
+        apps: 'mainmatter',
+        opensource: 'embroider',
         games: 'imagana',
         art: 'renard',
       },

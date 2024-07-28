@@ -208,7 +208,7 @@ h2 {
 }
 
 .menu-bar-item {
-  min-width: 150px;
+  min-width: 164px;
   border-right: $border-width solid $item-color1;
 }
 
@@ -278,8 +278,8 @@ a.active .menu-bar-item {
     .title-container {
       width: 100%;
 
-      .category-title:before {
-        content: '';
+      .category-title::before {
+        content: "";
         position: absolute;
         top: -8px;
         left: -18px;
@@ -297,9 +297,9 @@ a.active .menu-bar-item {
         margin-top: 10px;
       }
 
-      .category-title:after {
+      .category-title::after {
         position: absolute;
-        content: '';
+        content: "";
         top: 10px;
         right: 5px;
         aspect-ratio: 1/1;
