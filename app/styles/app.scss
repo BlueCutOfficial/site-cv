@@ -282,13 +282,34 @@ a.active .menu-bar-item {
     .title-container {
       width: 100%;
 
+      .category-title:before {
+        content: '';
+        position: absolute;
+        top: -8px;
+        left: -18px;
+        aspect-ratio: 1/1;
+        background-color: #232323;
+        transform: translate(10px) rotate(45deg);
+        height: 14px;
+      }
+
       .category-title {
+        position: relative;
         background-color: white;
         color: $item-color1;
         font-weight: bold;
-        padding: 4px;
-        padding-left: 20px;
         margin-top: 10px;
+      }
+
+      .category-title:after {
+        position: absolute;
+        content: '';
+        top: 10px;
+        right: 5px;
+        aspect-ratio: 1/1;
+        background-color: $color2;
+        transform: translate(10px) rotate(45deg);
+        height: 10px;
       }
     }
   }
