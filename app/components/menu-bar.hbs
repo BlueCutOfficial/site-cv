@@ -1,4 +1,4 @@
-<nav aria-label={{t "nav.main"}} class="padding-side" ...attributes>
+<nav aria-label={{t "nav.main"}} class="padding-side-large" ...attributes>
   <ul class="menu-bar-categories">
     {{#each this.thumbs as |thumb|}}
       <MenuBarItem
@@ -7,6 +7,5 @@
         @sprite={{thumb.sprite}}
       />
     {{/each}}
-    <LinksButtons @model={{@model}} @cvSlots={{@cvSlots}} />
   </ul>
 </nav>

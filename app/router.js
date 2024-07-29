@@ -12,6 +12,9 @@ Router.map(function () {
     this.route('apps', function () {
       this.route('app', { path: ':id' });
     });
+    this.route('opensource', function () {
+      this.route('contrib', { path: ':id' });
+    });
     this.route('games', function () {
       this.route('game', { path: ':id' });
     });

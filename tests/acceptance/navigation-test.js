@@ -19,7 +19,7 @@ module('Acceptance | navigation', function (hooks) {
     assert.dom('[data-test-menu-item="home.cv"] a').hasClass('active');
   });
 
-  cases(['apps', 'games', 'art']).test(
+  cases(['apps', 'opensource', 'games', 'art']).test(
     'it redirects to the default project route when visiting a parent route',
     async function (parentRoute, assert) {
       let defaultProjectId = config.APP.defaultProjectId[parentRoute];
@@ -35,7 +35,8 @@ module('Acceptance | navigation', function (hooks) {
   );
 
   cases([
-    { parentRoute: 'apps', projectId: 'formidable' },
+    { parentRoute: 'apps', projectId: 'qonto' },
+    { parentRoute: 'opensource', projectId: 'addons' },
     { parentRoute: 'games', projectId: 'reef' },
     { parentRoute: 'art', projectId: 'travel' },
   ]).test(

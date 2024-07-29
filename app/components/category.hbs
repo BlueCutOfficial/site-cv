@@ -1,4 +1,4 @@
-<div class="category">
+<div class="category" data-test-category={{@model.id}}>
   {{!-- Header : category title --}}
   <div class="category-container alignleft">
     <img src={{@model.sprite}}
@@ -6,7 +6,7 @@
     />
     <div class="category-line">
       <div class="title-container">
-        <div class="category-title">{{t (concat "category." @model.id)}}</div>
+        <div class="category-title padding-side-large">{{t (concat "category." @model.id)}}</div>
       </div>
     </div>
   </div>

@@ -1,0 +1,13 @@
+{{page-title (concat @pageTitle " | Marine Dunstetter")}}
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      {{#each @model as |category|}}
+        <Category @model={{category}} />
+      {{/each}}
+    </div>
+    <div class="col-md-9" data-test-content>
+      {{yield}}
+    </div>
+  </div>
+</div>

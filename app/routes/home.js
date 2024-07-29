@@ -11,7 +11,6 @@ export default class HomeRoute extends Route {
     this.intl.setLocale(['en-us']);
     return Promise.all([
       this.store.findAll('category'),
-      this.store.findAll('project'),
       this.store.findAll('me'),
     ]);
   }

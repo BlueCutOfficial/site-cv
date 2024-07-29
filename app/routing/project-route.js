@@ -5,6 +5,6 @@ export default class ProjectRoute extends Route {
   @service store;
 
   model(params) {
-    return this.store.peekRecord('project', params.id);
+    return params;
   }
 }

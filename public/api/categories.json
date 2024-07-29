@@ -1,171 +1,66 @@
 {
   "categories":[
     {
-      "id":1,
-      "keyroute":"skills",
-      "name": "Développement",
+      "id": "consulting",
+      "keyroute": "apps",
+      "slotRoute": "home.apps.app",
       "sprite": "/img/icons/icon-diploma.png",
-      "slots":[
+      "slots": [
         {
-          "slotType": "skill-slot",
-          "text": "Ember",
-          "type": "framework"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Unity",
-          "type": "engine"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "JavaScript",
-          "type": "language"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "C#",
-          "type": "language"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "JSON",
-          "type": "markup"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "HTML",
-          "type": "markup"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "CSS",
-          "type": "markup"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Saas",
-          "type": "markup"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Markdown",
-          "type": "markup"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Unity Cloud Build",
-          "type": "tool"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Git",
-          "type": "tool"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Trello",
-          "type": "tool"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Jira",
-          "type": "tool"
-        }
-      ],
-      "badges": [
-        {
-          "key":"graduate-prog"
-        },
-        {
-          "key":"gameplay-prog"
-        },
-        {
-          "key":"curious-prog"
-        },
-        {
-          "key":"conscientious-prog"
+          "skills": ["Ember", "Web apps"],
+          "id": "mainmatter"
         }
       ]
     },
     {
-      "id":2,
-      "keyroute":"skills",
-      "name": "Graphisme",
-      "sprite": "/img/icons/icon-diploma.png",
-      "slots":[
+      "id": "projectDevelopment",
+      "keyroute": "apps",
+      "slotRoute": "home.apps.app",
+      "sprite": "/img/icons/icon-cv.png",
+      "slots": [
         {
-          "slotType": "skill-slot",
-          "text": "Krita",
-          "type": "soft2d"
+          "skills": ["Ember", "PDCA", "payment cards"],
+          "id": "qonto"
         },
         {
-          "slotType": "skill-slot",
-          "text": "Photoshop",
-          "type": "soft2d"
+          "skills": ["Ember", "Design Sys.", "HR"],
+          "id": "ukg"
         },
         {
-          "slotType": "skill-slot",
-          "text": "Inkscape",
-          "type": "soft2d"
-        },
-        {
-          "slotType": "skill-slot",
-          "text": "Illustrator",
-          "type": "soft2d"
+          "skills": ["iOS", "connected home"],
+          "id": "ecometering"
         }
-      ],
-      "badges":[
+      ]
+    },
+    {
+      "id": "ember",
+      "keyroute": "opensource",
+      "slotRoute": "home.opensource.contrib",
+      "sprite": "/img/icons/icon-diploma.png",
+      "slots": [
         {
-          "key":"heaven-door"
+          "skills": ["Build pipeline"],
+          "id": "embroider"
         },
         {
-          "key":"game-artist"
+          "skills": ["NPM publishing"],
+          "id": "addons"
         },
         {
-          "key":"clown-story"
-        },
-        {
-          "key":"da-junior"
+          "skills": ["tooling", "Node"],
+          "id": "emberGuides"
         }
       ]
     },
     {
       "id": "personal",
-      "keyroute": "apps",
-      "slotRoute": "home.apps.app",
-      "sprite": "/img/icons/icon-cv.png",
+      "keyroute": "opensource",
+      "slotRoute": "home.opensource.contrib",
+      "sprite": "/img/icons/icon-gallery.png",
       "slots": [
         {
           "skills": ["Ember","BS3"],
           "id": "selfsite"
-        }
-      ]
-    },
-    {
-      "id": "hr",
-      "keyroute": "apps",
-      "slotRoute": "home.apps.app",
-      "sprite": "/img/icons/icon-cv.png",
-      "slots": [
-        {
-          "skills": ["Ember","BS3"],
-          "id": "mypeopledoc"
-        },
-        {
-          "skills": ["Ember","Custom Design System"],
-          "id": "formidable"
-        }
-      ]
-    },
-    {
-      "id": "homeAutomation",
-      "keyroute": "apps",
-      "slotRoute": "home.apps.app",
-      "sprite": "/img/icons/icon-gamelibrary.png",
-      "slots": [
-        {
-          "skills": ["ObjectiveC","Xcode"],
-          "id": "homeplay"
         }
       ]
     },
