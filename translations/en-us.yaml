@@ -37,6 +37,10 @@ category:
       tech: "This short project, developed within two monthes, is the very first Web project I lead on my own, from A to Z, using a JS framework. At this time (I was a junior, I had started to work for less than a year), I had chosen Backbone JS. Delays were very short, I had never used a JS framework before and no experienced developer was there to guide me, so I needed a framework easy to adopt from my small experience as a Unity developer. Backbone's MVC pattern looked well identifiable to me, I found my marks. My choice must have been right as the project was delivered in time :)"
     ecometering:
       label: "Ecometering"
+      intro: "Homeplay project is an application consiting in a main remote controller allowing a user to configure different connected devices in their house."
+      apis: "The application targetted iOS and was developed with Objective-C. The interface consisted in a uniq remote controller allowing to configure different type of devices. On the technical side, different APIs had to work in parallel in order to register and control each device. For instance, the application consumed Parrot's public API (to indicate house plants needs), Netatmo's API (whose sensor communicate the temperature or the quality of the air), and integrated Philips Hue' SDK (to create colored atmospheres with a couple of Hue lamps.)"
+      limitations: "Homeplay' specifications went with constraints, making the application itself a simple proof of concept. First, it was about checking how far it could go without using an external server. This constraint quickly reached limitations, as it was impossible to preprogram actions (for example at work, before going home). Indeed, the iPhone had to receive house's wi-fi to control devices. Besides, the diversity of providers APIs and SDKs implied case by case integration, and some devices as Parrot connected sprinkler required a specific communication like a given type of Bluetooth. A user interested in what Homeplay offers would not necessarily see any interest in purchasing new devices."
+      context: "The project was initiated by Ecometering company, who charged FremenCorp to implement it."
     ecosmart:
       label: "Eco smart"
       intro: "Eco, a cute little robot, is sent to humanity by its inventor to help saving energy."
@@ -62,12 +66,6 @@ category:
     formidable:
       label: "Formidable"
       intro: "Formidable is a powerful form editor. It allows HR administrators to build their own forms, then it displays them as forms to fill for an employee. Formidable manages complex use cases related to HR job that would be very difficult to handle with an external solution."
-    homeplay:
-      label: "Homeplay"
-      intro: "Homeplay project is an application consiting in a main remote controller allowing a user to configure different connected devices in their house."
-      apis: "The application targetted iOS and was developed with Objective-C. The interface consisted in a uniq remote controller allowing to configure different type of devices. On the technical side, different APIs had to work in parallel in order to register and control each device. For instance, the application consumed Parrot's public API (to indicate house plants needs), Netatmo's API (whose sensor communicate the temperature or the quality of the air), and integrated Philips Hue' SDK (to create colored atmospheres with a couple of Hue lamps.)"
-      limitations: "Homeplay' specifications went with constraints, making the application itself a simple proof of concept. First, it was about checking how far it could go without using an external server. This constraint quickly reached limitations, as it was impossible to preprogram actions (for example at work, before going home). Indeed, the iPhone had to receive house's wi-fi to control devices. Besides, the diversity of providers APIs and SDKs implied case by case integration, and some devices as Parrot connected sprinkler required a specific communication like a given type of Bluetooth. A user interested in what Homeplay offers would not necessarily see any interest in purchasing new devices."
-      context: "The project was initiated by Ecometering company, who charged FremenCorp to implement it."
     imagana:
       label: "Imagana"
       intro: "A serious game targetting illiterate people. Embody Mô, a character who owns the power to create objects out of phoneme they are composed of. Use this ability to cross obstacles on your way."
